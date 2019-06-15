@@ -16,11 +16,19 @@ highlighter: pygments
 timezone: America/Los_Angeles
 locale: "en-US"
 
+header_pages:
+  - welcome.md
+#  - work.md
+#  - audio.md
+#  - diving.md
+  
 author: "Simon Johnston"
 email: johnstonskj@gmail.com
+avatar: "/assets/images/bio-photo.jpg"
 github_username: johnstonskj
-avatar   : "/assets/images/bio-photo.jpg"
-bio      : "My awesome biography constrained to a sentence or two goes here."
+linkedin_username: simonkjohnston
+facebook_username: simonkjohnston
+instagram_username: johnston4250
 
 social:
   type:  Person
@@ -29,13 +37,6 @@ social:
     - "https://instagram.com/johnston4250"
     - "https://www.linkedin.com/in/simonkjohnston"
     - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
-    
-minima:
-  social_links:
-    github: johnstonskj
-    facebook: simonkjohnston
-    instagram: johnston4250
-    linkedin: simonkjohnston
     
 defaults:
   -
