@@ -6,6 +6,7 @@ url: https://johnstonskj.github.io
 repository: johnstonskj/johnstonskj.github.io
 
 theme: minima # jekyll-theme-slate
+# https://github.com/jekyll/minima/tree/v2.5.0
 title_separator: "|"
 breadcrumbs: true  # disabled by default
 search: true
@@ -17,10 +18,11 @@ timezone: America/Los_Angeles
 locale: "en-US"
 
 header_pages:
-  - welcome.md
-#  - work.md
-#  - audio.md
-#  - diving.md
+  - index.md
+  - work.md
+  - fun.md
+  - audio.md
+  - diving.md
   
 author: "Simon Johnston"
 email: johnstonskj@gmail.com
