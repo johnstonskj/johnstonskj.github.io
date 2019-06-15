@@ -1,9 +1,10 @@
-title: "Simon Johnston"
-description: "Thoughts, Projects, and More"
-url: "https://johnstonskj.github.io"
-show_downloads: false
-
 name: "Simon Johnston"
+description: "Thoughts, Projects, and More"
+url: https://johnstonskj.github.io
+repository: https://github.com/johnstonskj/johnstonskj.github.io
+show_downloads: false
+timezone: America/Los_Angeles
+
 email: johnstonskj@gmail.com
 github_username: johnstonskj
 
@@ -16,3 +17,6 @@ defaults:
     values:
       layout: "default"
       author: "Simon Johnston"
+
+exclude:
+- .gitignore
