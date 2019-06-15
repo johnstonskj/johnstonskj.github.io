@@ -1,6 +1,11 @@
 title: "Simon Johnston"
-description: "Thoughts, Projects and More"
+description: "Thoughts, Projects, and More"
+url: "https://johnstonskj.github.io"
 show_downloads: false
+
+name: "Simon Johnston"
+email: johnstonskj@gmail.com
+github_username: johnstonskj
 
 theme: jekyll-theme-slate
 
