@@ -1,23 +1,59 @@
 title: "Simon Johnston"
 description: "Thoughts, Projects, and More"
+# logo: "/assets/images/88x88.png" # displays before title
+
 url: https://johnstonskj.github.io
 repository: https://github.com/johnstonskj/johnstonskj.github.io
-show_downloads: false
-timezone: America/Los_Angeles
-
 name: "Simon Johnston"
 email: johnstonskj@gmail.com
 github_username: johnstonskj
 
 theme: jekyll-theme-slate
+title_separator: "|"
+breadcrumbs: true  # disabled by default
+search: true
+show_downloads: false
 
+timezone: America/Los_Angeles
+locale: "en-US"
+
+social:
+  type:  Person
+  links:
+    - "https://facebook.com/"
+    - "https://instagram.com/"
+    - "https://www.linkedin.com/in/simonkjohnston"
+
+author:
+  name: "Simon Johnston"
+#  avatar: ""
+  bio: "Software Geek"
+  location: "Bellevue, WA"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/johnstonskj"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/simonkjohnston"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://facebook.com/simonkjohnston"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/johnston4250"
+      
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      author: "Simon Johnston"
-
+      author_profile: false
+      read_time: true
+      comments: false
+      
 exclude:
 - .gitignore
