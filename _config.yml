@@ -1,57 +1,48 @@
-title: "Simon Johnston"
+title: "Randomizer"
 description: "Thoughts, Projects, and More"
 # logo: "/assets/images/88x88.png" # displays before title
 
 url: https://johnstonskj.github.io
-repository: https://github.com/johnstonskj/johnstonskj.github.io
-name: "Simon Johnston"
-email: johnstonskj@gmail.com
-github_username: johnstonskj
+repository: johnstonskj/johnstonskj.github.io
 
-theme: jekyll-theme-slate
+theme: minima # jekyll-theme-slate
 title_separator: "|"
 breadcrumbs: true  # disabled by default
 search: true
+share: true
 show_downloads: false
+highlighter: pygments
 
 timezone: America/Los_Angeles
 locale: "en-US"
 
+author: "Simon Johnston"
+email: johnstonskj@gmail.com
+github_username: johnstonskj
+avatar   : "/assets/images/bio-photo.jpg"
+bio      : "My awesome biography constrained to a sentence or two goes here."
+
 social:
   type:  Person
   links:
-    - "https://facebook.com/"
-    - "https://instagram.com/"
+    - "https://facebook.com/simonkjohnston"
+    - "https://instagram.com/johnston4250"
     - "https://www.linkedin.com/in/simonkjohnston"
-
-author:
-  name: "Simon Johnston"
-#  avatar: ""
-  bio: "Software Geek"
-  location: "Bellevue, WA"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/johnstonskj"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/simonkjohnston"
-    - label: "Scholar"
-      icon: "fab fa-fw fa-google"
-      url: "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/simonkjohnston"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/johnston4250"
-      
+    - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
+    
+minima:
+  social_links:
+    github: johnstonskj
+    facebook: simonkjohnston
+    instagram: johnston4250
+    linkedin: simonkjohnston
+    
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      author_profile: false
       read_time: true
       comments: false
       
