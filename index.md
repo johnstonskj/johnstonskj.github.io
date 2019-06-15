@@ -1,5 +1,5 @@
 ---
-title: Simon Johnston
+title: Welcome
 ---
 
 # Welcome
