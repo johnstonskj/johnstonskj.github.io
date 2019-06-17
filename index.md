@@ -16,9 +16,9 @@ My work environment is predominantly primarily [macOS](https://www.apple.com/mac
 with [Homebrew](https://brew.sh/), although Amazon systems run on 
 [Linux](https://aws.amazon.com/amazon-linux-2/) and I have an 
 [Ubuntu](https://ubuntu.com/) machine at home for Machine Learning 
-development. I keep the development environment across these machines 
-approximately in sync using a [dotfiles](https://github.com/johnstonskj/dotfiles)
-repository in GitHub.
+development. I keep the [development environment](dev-env.md) across 
+these machines approximately in sync using a 
+[dotfiles](https://github.com/johnstonskj/dotfiles) repository in GitHub.
 
 With my wife I love to [SCUBA dive](diving.md) and love music, especially
 live. I might also be considered an [audiophile](audio.md) at home.

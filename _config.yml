@@ -1,6 +1,6 @@
 title: "Randomizer"
 description: "Thoughts, Projects, and More"
-# logo: "/assets/images/88x88.png" # displays before title
+logo: "/assets/img/avatars/hell_drib.jpg"
 
 url: https://johnstonskj.github.io
 repository: johnstonskj/johnstonskj.github.io
@@ -31,7 +31,7 @@ header_pages:
   
 author: "Simon Johnston"
 email: johnstonskj@gmail.com
-avatar: "/assets/images/bio-photo.jpg"
+avatar: "/assets/img/avatars/hell_drib.jpg"
 github_username: johnstonskj
 linkedin_username: simonkjohnston
 facebook_username: simonkjohnston
