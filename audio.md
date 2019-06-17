@@ -51,7 +51,7 @@ All of the above in a [NavePoint Performance 22U enclosure](https://www.navepoin
 
 * Sources
   * Clearaudio [Emotion](https://clearaudio.de/en/products/turntables-emotion_se.php) turntable ([Satisfy](https://clearaudio.de/de/_archive/tonearms-satisfy.php) tonearm and Audio Technica [AT-OC9/III](https://eu.audio-technica.com/AT-OC9III) cartridge)
-  * Clearaudio [Basic Plus](https://clearaudio.de/en/_archive/electronics-basic+.php), phono stage with [Accu](https://clearaudio.de/en/products/electronics-accu_power_supply+.php)
+  * Clearaudio [Basic Plus](https://clearaudio.de/en/_archive/electronics-basic+.php), phono stage with [Accu](https://clearaudio.de/en/products/electronics-accu_power_supply+.php) power supply
   * Naim [DAC-V1](https://www.naimaudio.com/product/dac-v1), Schiit [Wyrd](https://www.schiit.com/products/wyrd), and Audioquest [Cinnamon](https://www.audioquest.com/cables/digital-cables/usb-a-to-b/cinnamon) USB cables
 * Amplifier
   * Naim [Nait XS-2](https://www.naimaudio.com/product/nait-xs-2) integrated amp

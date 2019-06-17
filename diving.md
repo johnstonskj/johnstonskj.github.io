@@ -3,13 +3,22 @@ title: Diving
 layout: page
 ---
 
-TBD
+I have been seriously diving now since February 2016, and convinced my wife to start in 
+March. We have both certified to advanced open water and love to be in the water as much 
+as we can. Although I would prefer warm water there is a pleasure in diving locally even 
+if it masochistic -- dry suits are a pain!. We had the great pleasure of a wonderful
+trip to Bonaire and spent a week aboard the [Bonaire from the sea](http://bonairefromthesea.org/index.html) 
+AMORAY with Sue, Richard, and Rob. The diving was great, as well as finishing our
+advanced certification we also complete the wreck certification on the
+[Hilma Hooker](https://en.wikipedia.org/wiki/Hilma_Hooker). 
 
-although I would prefer warm water there is a pleasure in diving locally even if it masochistic.
+I do try and remember to upload dives to [Dive Logs](https://en.divelogs.de/profile/johnstonskj)
+but it's not always as up to date as it should be. I use [DiveLogDT](http://www.moremobilesoftware.com/DiveLogDT/)
+as my primary log, syncing from my Atomic Aquatics [Cobalt II](https://www.atomicaquatics.com/computer.html) 
+computer.
 
-[Dive Log](https://en.divelogs.de/profile/johnstonskj) -- not always up to date
-
-[Aggressor](https://aggressor.com/) Live-aboards
+Our next adventure, an [Aggressor](https://aggressor.com/) live-aboard trip to the Derawan 
+Islands (Kepulauan Derawan), stay tuned for a trip report.
 
 ## Certifications
 
