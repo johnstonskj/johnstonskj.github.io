@@ -17,7 +17,7 @@ AMORAY with Sue, Richard, and Rob. The diving was great, as well as finishing ou
 advanced certification we also complete the wreck certification on the
 [Hilma Hooker](https://en.wikipedia.org/wiki/Hilma_Hooker).
 
-![Sandi and Sue](assets/img/diving/dive-sandi-sue.JPG)
+![Sandi and Sue](assets/img/diving/dive-sandi-sue.jpg)
 
 I have slowly worked up to an expensive camera setup as I found that the GoPro I was
 using (HERO6, with Super Suit housing and filters) was fun as a record of the dive
@@ -26,7 +26,7 @@ saw they expected pictures not hours of video. I started taking stills from the 
 but they were never quite as clear as I hoped and so I skipped the smaller dive
 cameras and decided to build myself a nice rig.
 
-![Sony and ikelite](assets/img/diving/dive-camera-1.JPG)
+![Sony and ikelite](assets/img/diving/dive-camera-1.jpg)
 
 I do try and remember to upload dives to [Dive Logs](https://en.divelogs.de/profile/johnstonskj)
 but it's not always as up to date as it should be. I use [DiveLogDT](http://www.moremobilesoftware.com/DiveLogDT/)
