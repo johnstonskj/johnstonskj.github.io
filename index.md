@@ -23,6 +23,6 @@ these machines approximately in sync using a
 With my wife I love to [SCUBA dive](diving.md) and love music, especially
 live. I might also be considered an [audiophile](audio.md) at home.
 
-Please excuse the TBDs sprinkled through the site as I add content.
+> Please excuse the TBDs sprinkled through the site as I add content.
 
 Thanks.
