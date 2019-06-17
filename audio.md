@@ -3,7 +3,11 @@ title: Audio
 layout: page
 ---
 
-TBD
+When not working I love music, both recorded and live. That involves traveling near 
+and far to see bands play as well as collecting a rather nice audio system at home, 
+and in my office. Musical tastes range from Baroque classical to Scandinavian melodic 
+death metal, although the latter tends to have more representation in t-shirt choice 
+than the former. 
 
 ## Stuff Links
 

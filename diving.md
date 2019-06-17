@@ -9,6 +9,15 @@ TBD
 
 [Aggressor](https://aggressor.com/) Live-aboards
 
+## Certifications
+
+* Open Water (Seattle)
+* Dry Suit (Seattle)
+* Advanced Open Water (Seattle, Bonaire)
+* Nitrox (Bonaire)
+* Wreck (Bonaire)
+* Full-face mask (Bonaire)
+
 ## Stuff Links
 
 * [mares](https://www.mares.com/us-US/home/) -- BC, boots, fins, regulators, and back-up computer
