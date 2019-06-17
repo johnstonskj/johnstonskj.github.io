@@ -8,6 +8,8 @@ it never seemed to be the right time. In 2014 on honeymoon I got the chance to d
 guided dive in Bora Bora and was hooked, I loved it. It still took a year and a half 
 to get myself enrolled in a class in Seattle and get certified.
 
+![Bora Bora](assets/img/diving/dive-bora-bora.jpg)
+
 I have been seriously diving now since February 2016, and convinced my wife to start in 
 March. We have both certified to advanced open water and love to be in the water as much 
 as we can. Although I would prefer warm water there is a pleasure in diving locally even 
