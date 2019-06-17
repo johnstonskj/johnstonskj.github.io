@@ -41,13 +41,15 @@ social:
     - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
     
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      read_time: true
       comments: false
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
       
 exclude:
 - .gitignore
