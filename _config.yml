@@ -12,8 +12,13 @@ breadcrumbs: true  # disabled by default
 search: true
 share: true
 show_downloads: false
-highlighter: rouge # required for GitHub pages :(
+highlighter: rouge
+markdown: kramdown
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
 timezone: America/Los_Angeles
 locale: "en-US"
 
