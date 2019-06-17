@@ -12,7 +12,7 @@ breadcrumbs: true  # disabled by default
 search: true
 share: true
 show_downloads: false
-highlighter: pygments
+highlighter: rouge # required for GitHub pages :(
 
 timezone: America/Los_Angeles
 locale: "en-US"
