@@ -5,6 +5,8 @@ layout: home
 
 Welcome to my first real attempt at a collection of personal things. 
 
+Please excuse the TBDs sprinkled through the site as I add content.
+
 Mostly, I'll keep track of interesting things I am working on -- I am a 
 software geek @ Amazon during the day ([work stuff](work.md)), or having 
 fun with -- I also code for fun ([fun stuff](fun.md)) at other times. I

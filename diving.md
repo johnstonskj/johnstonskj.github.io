@@ -5,7 +5,9 @@ layout: page
 
 TBD
 
-[Dive Log](https://en.divelogs.de/profile/johnstonskj)
+[Dive Log](https://en.divelogs.de/profile/johnstonskj) -- not always up to date
+
+[Aggressor](https://aggressor.com/) Live-aboards
 
 ## Stuff Links
 
