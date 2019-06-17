@@ -25,7 +25,8 @@ University continued the VAX experience but with the addition of a new language,
 even though it really isn't fashionable to say so out loud.
 
 My first full-time job was with the now defunct
-[ICL](https://en.wikipedia.org/wiki/International_Computers_Limited) Retail Systems.
+[ICL](https://en.wikipedia.org/wiki/International_Computers_Limited) Retail Systems
+(when looking for something from the ICL days I found [this](icl-sig.md) embarressment).
 Mostly this was C and C++ ([Glockenspiel](http://www.edm2.com/index.php/Glockenspiel_C%2B%2B)
 and [Zortec](http://www.edm2.com/index.php/Zortech_C%2B%2B) on 
 [OS/2](https://en.wikipedia.org/wiki/OS/2)) although some tools were written in
@@ -46,9 +47,14 @@ a lot of fun with some really super-smart people!
 
 I have been at Amazon now since 2009 and currently I am a Senior Principal 
 Engineer in the consumer side with particular focus on 
-[Amazon Fashion](https://www.amazon.com/amazon-fashion/b?node=7141123011). I have
+[Amazon Fashion](https://www.amazon.com/amazon-fashion/b?node=7141123011). 
+
+![Amazon Fashion Offsite](assets/img/work/amazon-sl-offsite.jpg)
+
+I have
 also worked on various parts of the back-end of the retail web site as well as the
 migration of Amazon Fresh into the amazon.com site. 
+
 
 ## Not-a-Resume
 
@@ -70,3 +76,19 @@ find references to that work online now. Here's what does remain.
   * [SPARQL WG](https://www.w3.org/2009/sparql/wiki/Main_Page) update specification
 * RosettaNet (now at [GS1](https://resources.gs1us.org/rosettanet))
 * Collaborate Planning, Forecasting, and Replenishment (CPFR)
+
+## Footnotes
+
+ICL was a really fun place to work at that time, their [VME](https://en.wikipedia.org/wiki/ICL_VME)
+systems were doing well, they had a range of Unix systems and a big commitment to open
+systems. However, they never saw an engineering problem they couldn't develop an 
+expensive and over-engineered solution for! My personal favorite was the 
+[DRS 300](https://en.wikipedia.org/wiki/ICL_DRS#DRS_300), a machine that came in modules, 
+each one in a solid chassis that you could use as a step-stool, you strung them together
+using SCSI cables (even though none of the inner components were ever actually SCSI. They
+clipped together side by side and you put a blanking plate on each end.
+
+![DRS 300](assets/img/work/icl-drs-300-1.jpg)
+
+The result was people with 5' of these damn things across the top of book cases and
+honestly it ran a version of SVR4 sucky slow.

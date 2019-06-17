@@ -1,7 +1,12 @@
 ---
-title: Mail Signature
+title: ICL EMail Signature
 layout: page
 ---
+
+Well, this was a blast from the past, when email sigs tended to be overly ostentatious --
+or pretentious depending on your point of view!
+
+Oh, and "OP Mail" refers to ICL's proprietary Office Power system which sucked so bad.
 
 ```modula-2
 MODULE Sig;

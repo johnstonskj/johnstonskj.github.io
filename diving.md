@@ -17,3 +17,26 @@ TBD
 * [ikelite](https://www.ikelite.com/) -- dive housing for camera, with arms, and strobe
 * [Sony (cameras)](https://www.sony.com/electronics/interchangeable-lens-camera-products/t/interchangeable-lens-cameras) -- primary dive camera
 * [GoPro](https://gopro.com/en/us/) -- secondary dive camera (attached to the ikelite housing)
+
+## Photos
+
+In our happy place, Isla Mujeres MX.
+
+![Simon and Sandi, Isla Mujeres](assets/img/diving/dive-isla-us.JPG)
+
+![Simon, Isla Mujeres](assets/img/diving/dive-isla-simon.jpg)
+
+Although, cenotes with francisco (at [Dive Life](http://divelife.mx/en/) Playa del Carmen)
+comes a pretty close second.
+
+![Sandi, Cenote The Pit](assets/img/diving/dive-pit-sandi.png)
+
+We also dive in the cold, a lot more work but it can be really rewarding. This year we 
+took part in a community clean-up dive as part of Earth Day under the docks at the 
+Kirkland, WA waterfront.
+
+![Simon and Sandi, Kirkland](assets/img/diving/dive-cleanup.jpg)
+
+Apparently at some point I took a rest...
+
+![Simon resting, Kirkland](assets/img/diving/dive-cleanup-simon.jpg)
