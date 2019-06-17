@@ -5,6 +5,8 @@ layout: page
 
 TBD
 
+although I would prefer warm water there is a pleasure in diving locally even if it masochistic.
+
 [Dive Log](https://en.divelogs.de/profile/johnstonskj) -- not always up to date
 
 [Aggressor](https://aggressor.com/) Live-aboards

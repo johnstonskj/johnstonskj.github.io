@@ -9,15 +9,71 @@ and in my office. Musical tastes range from Baroque classical to Scandinavian me
 death metal, although the latter tends to have more representation in t-shirt choice 
 than the former. 
 
+## Systems
+
+**Home System (Primary)**
+
+* Sources
+  * Linn [Sondek LP12 Majik](https://www.linn.co.uk/sources/turntables/complete#majik-lp12) (Pro-Ject 9xx Carbon arm and Linn [Adikt](https://www.linn.co.uk/sources/turntables/cartridges#adikt) MM cartridge) with [Trampoline](https://www.linn.co.uk/sources/turntables/baseboards) base, [Kore](https://www.linn.co.uk/sources/turntables/sub-chassis#kore] chassis, and Lingo 3 power supply
+  * Linn [Akurate DSM](https://www.linn.co.uk/sources/network-music-players/akurate) (as pre-amp and streamer)
+  * Marantz [HD-CD1](https://www.us.marantz.com/us/products/pages/productdetails.aspx?catid=hificomponents&productid=hdcd1) CD Player
+  * Transparent [PowerBank 6](http://transparentcable.com/products/show_product.php?recID=68&catID=6&modCAT=1)
+  * QNAP [TVS-671 NAS](https://www.qnap.com/en/product/tvs-671)
+* Crossovers/Amplifiers
+  * Linn [Exaktbox](https://www.linn.co.uk/speakers-and-amps/upgrades/exaktbox#akurate-exaktbox) 6-channel digital crossover
+  * 3 x Linn [Akurate 2200](https://www.linn.co.uk/speakers-and-amps/power-amps/akurate) 200W power amps, Transparent [MusicLink](http://transparentcable.com/products/show_product.php?recID=58&catID=1&perfID=4&modCAT=1) interconnects
+  * Linn [Exaktbox Sub](https://www.linn.co.uk/speakers-and-amps/upgrades/exaktbox#exaktbox-sub) digital crossover
+  * [Panamax M5400-PM](https://www.panamax.com/product/max-5400-power-management-w-voltage-regulation-2ru-11-outlets-M5400-PM) conditioner and Pangea [AC-14SE MkII](http://pangeaaudio.com/products.html) and [AC-9](http://pangeaaudio.com/products.html) power cables
+* Output
+  * Linn [AV5140](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) speakers (aktiv), Linn K600 cables
+  * Linn [AV5150](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) subwoofer, Transparent [MusicLink](http://transparentcable.com/products/show_product.php?recID=58&catID=1&perfID=4&modCAT=1) RCA interconnects and Pangea [AC-14SE MkII](http://pangeaaudio.com/products.html) power cable
+  * Sennheiser [HD 660 S](https://en-us.sennheiser.com/headphones-audiophile-high-end-hd-660-s) headphones (with [HDV 820](https://en-us.sennheiser.com/digital-headphones-amplifier-hdv-820) DAC/amplifier and Schiit [Wyrd](https://www.schiit.com/products/wyrd) at my desk)
+
+NAS Details:
+* Running both [Roon Core](https://kb.roonlabs.com/Roon_Server_on_NAS) and Linn [Kazoo Server](https://www.linn.co.uk/software)
+* 1x256Gb SSD for Roon catalog
+* 4x8Tb Seagate IronWolf drives for RAID storage
+* 1x8Tb Seagate IronWolf drives for Roon backup
+
+**Home System (Secondary)**
+
+* Source
+  * Linn [Sekrit DSM](http://docs.linn.co.uk/wiki/index.php/Sekrit_DSM) (as pre-amp and streamer)
+* Amplifiers
+  * 3 x Linn [LK140](http://docs.linn.co.uk/wiki/images/3/39/Lk85_lk140_info.pdf) power amps (aktiv), Linn [blac](https://www.linn.co.uk/speakers-and-amps/accessories/interconnect-cables#black-interconnects) RCA interconnects
+  * Panamax [M3500-PM](https://www.panamax.com/product/max-5300-power-management-2ru-11-outlets-M5300-PM) conditioner
+* Output
+  * Linn [Keilidh](http://www.highfidelityreview.com/linn-keilidhs-compact-tower-speakers.html) speakers (aktiv), Transparent [custom](http://transparentcable.com/products/show_product.php?recID=92&catID=4&perfID=1&modCAT=1) cables
+
+All of the above in a [NavePoint Performance 22U enclosure](https://www.navepoint.com/navepoint-22u-600mm-depth-networking-cabinet-performance-series.html), along with living room A/V equipment, in a closet using [AC Infinity](https://www.acinfinity.com/quiet-cabinet-fans/) temperature controlled cooling fans.
+
+**Office at Work System**
+
+* Sources
+  * Clearaudio [Emotion](https://clearaudio.de/en/products/turntables-emotion_se.php) turntable ([Satisfy](https://clearaudio.de/de/_archive/tonearms-satisfy.php) tonearm and Audio Technica [AT-OC9/III](https://eu.audio-technica.com/AT-OC9III) cartridge)
+  * Clearaudio [Basic Plus](https://clearaudio.de/en/_archive/electronics-basic+.php), phono stage with [Accu](https://clearaudio.de/en/products/electronics-accu_power_supply+.php)
+  * Naim [DAC-V1](https://www.naimaudio.com/product/dac-v1), Schiit [Wyrd](https://www.schiit.com/products/wyrd), and Audioquest [Cinnamon](https://www.audioquest.com/cables/digital-cables/usb-a-to-b/cinnamon) USB cables
+* Amplifier
+  * Naim [Nait XS-2](https://www.naimaudio.com/product/nait-xs-2) integrated amp
+  * Naim [FlatCap XS](https://www.naimaudio.com/product/flatcap-xs) dual-rail power supply
+  * Panamax [MR4300](https://www.panamax.com/product/mr4300-power-management-MR4300) power conditioner and Pangea [AC-14SE MkII](http://pangeaaudio.com/products.html) power cables
+* Speakers
+  * Sonus Faber [Venere 2.0](https://www.sonusfaber.com/en/products/venere-20/) piano black speakers, Linn [K20](https://www.linn.co.uk/speakers-and-amps/accessories/speaker-cable#k20) cables
+  * Shure [SE846](https://www.shure.com/americas/products/earphones/se-earphones/se846-sound-isolating-earphones-state-of-the-art) in-ear monitors, with [Dragonfly Red](https://www.audioquest.com/dacs/dragonfly/dragonfly-red) for travel.
+
 ## Stuff Links
 
+* [Audioquest](https://www.audioquest.com/)
+* [clearaudio](https://clearaudio.de/en/direct/index.php)
+* [Definitive Audio](https://definitive.com/)
 * [Linn](https://www.linn.co.uk/)
 * [naim](https://www.naimaudio.com/)
-* [Transparent Cable](https://www.transparentcable.com/)
-* [Sonus Faber](https://www.sonusfaber.com/en/)
-* [Sennheiser](https://en-us.sennheiser.com/)
-* [clearaudio](https://clearaudio.de/en/direct/index.php)
 * [QNAP](https://www.qnap.com/en-us/)
-* [TIDAL](https://tidal.com/)
 * [roon](https://roonlabs.com/)
-* [Definitive Audio](https://definitive.com/)
+* [Schiit](https://www.schiit.com/)
+* [Sennheiser](https://en-us.sennheiser.com/)
+* [Sonus Faber](https://www.sonusfaber.com/en/)
+* [TIDAL](https://tidal.com/)
+* [Transparent Cable](https://www.transparentcable.com/)
+
+Also, check out [Audiogon](https://www.audiogon.com/) and [Hawthorne Stereo](http://hawthornestereo.com/) for deals on used equipment.

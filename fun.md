@@ -5,11 +5,13 @@ layout: page
 
 TBD
 
-[GitHub Repositories](https://github.com/johnstonskj?tab=repositories)
+* [Racket](https://racket-lang.org/) Language
 
 ## Interesting Links
 
-* [Racket](https://racket-lang.org/) Language
+* [Reading List](reading.md)
+* [Quotes for Software Geeks](quotes.md)
+* [GitHub Repositories](https://github.com/johnstonskj?tab=repositories)
 
 ## Programming Languages I Have Known
 
@@ -41,7 +43,7 @@ TBD
 * SNOBOL
 * Smalltalk, including Squeak
 
-** Because someone paid me to**
+**Because someone paid me to**
 
 * Ada 83/95
 * BASIC Family
