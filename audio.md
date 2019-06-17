@@ -31,16 +31,16 @@ than the former.
 
 NAS Details:
 * Running both [Roon Core](https://kb.roonlabs.com/Roon_Server_on_NAS) and Linn [Kazoo Server](https://www.linn.co.uk/software)
-* 1x256Gb SSD for Roon catalog
-* 4x8Tb Seagate IronWolf drives for RAID storage
-* 1x8Tb Seagate IronWolf drives for Roon backup
+* 1 x 256Gb SSD for Roon catalog
+* 4 x 8Tb Seagate IronWolf drives for RAID storage
+* 1 x 8Tb Seagate IronWolf drives for Roon backup
 
 **Home System (Secondary)**
 
 * Source
   * Linn [Sekrit DSM](http://docs.linn.co.uk/wiki/index.php/Sekrit_DSM) (as pre-amp and streamer)
 * Amplifiers
-  * 3 x Linn [LK140](http://docs.linn.co.uk/wiki/images/3/39/Lk85_lk140_info.pdf) power amps (aktiv), Linn [blac](https://www.linn.co.uk/speakers-and-amps/accessories/interconnect-cables#black-interconnects) RCA interconnects
+  * 3 x Linn [LK140](http://docs.linn.co.uk/wiki/images/3/39/Lk85_lk140_info.pdf) power amps (aktiv), Linn [black](https://www.linn.co.uk/speakers-and-amps/accessories/interconnect-cables#black-interconnects) RCA interconnects
   * Panamax [M3500-PM](https://www.panamax.com/product/max-5300-power-management-2ru-11-outlets-M5300-PM) conditioner
 * Output
   * Linn [Keilidh](http://www.highfidelityreview.com/linn-keilidhs-compact-tower-speakers.html) speakers (aktiv), Transparent [custom](http://transparentcable.com/products/show_product.php?recID=92&catID=4&perfID=1&modCAT=1) cables
