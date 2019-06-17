@@ -3,6 +3,11 @@ title: Diving
 layout: page
 ---
 
+Diving is something I have wanted to try off and on since I was young, unfortunately
+it never seemed to be the right time. In 2014 on honeymoon I got the chance to do a 
+guided dive in Bora Bora and was hooked, I loved it. It still took a year and a half 
+to get myself enrolled in a class in Seattle and get certified.
+
 I have been seriously diving now since February 2016, and convinced my wife to start in 
 March. We have both certified to advanced open water and love to be in the water as much 
 as we can. Although I would prefer warm water there is a pleasure in diving locally even 
@@ -10,7 +15,18 @@ if it masochistic -- dry suits are a pain!. We had the great pleasure of a wonde
 trip to Bonaire and spent a week aboard the [Bonaire from the sea](http://bonairefromthesea.org/index.html) 
 AMORAY with Sue, Richard, and Rob. The diving was great, as well as finishing our
 advanced certification we also complete the wreck certification on the
-[Hilma Hooker](https://en.wikipedia.org/wiki/Hilma_Hooker). 
+[Hilma Hooker](https://en.wikipedia.org/wiki/Hilma_Hooker).
+
+![Sandi and Sue](assets/img/diving/dive-sandi-sue.JPG)
+
+I have slowly worked up to an expensive camera setup as I found that the GoPro I was
+using (HERO6, with Super Suit housing and filters) was fun as a record of the dive
+and the 4K video it took could be truly spectacular, but... when people asked what we 
+saw they expected pictures not hours of video. I started taking stills from the video
+but they were never quite as clear as I hoped and so I skipped the smaller dive
+cameras and decided to build myself a nice rig.
+
+![Sony and ikelite](assets/img/diving/dive-camera-1.JPG)
 
 I do try and remember to upload dives to [Dive Logs](https://en.divelogs.de/profile/johnstonskj)
 but it's not always as up to date as it should be. I use [DiveLogDT](http://www.moremobilesoftware.com/DiveLogDT/)
@@ -18,7 +34,7 @@ as my primary log, syncing from my Atomic Aquatics [Cobalt II](https://www.atomi
 computer.
 
 Our next adventure, an [Aggressor](https://aggressor.com/) live-aboard trip to the Derawan 
-Islands (Kepulauan Derawan), stay tuned for a trip report.
+Islands (Kepulauan Derawan) in Indonesia, stay tuned for a trip report.
 
 ## Certifications
 
