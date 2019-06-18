@@ -11,7 +11,7 @@ melodic death metal, although the latter tends to have more representation in t-
 than the former. The following are a few recent shows.
 
 | Show                       | When      | Where                      |
-| :------------------------: | :-------: | :------------------------: |
+|----------------------------|-----------|----------------------------|
 | Great British Alt. Weekend | Oct 2018  | Skegness, UK               |
 | Trombone Shorty, and more  | Sept 2018 | Seattle, Woodland Park Zoo |
 | The Mavericks & Los Lobos  | Sept 2018 | Seattle, St. Michelle      |
