@@ -26,7 +26,9 @@ using (HERO6, with Super Suit housing and filters) was fun as a record of the di
 and the 4K video it took could be truly spectacular, but... when people asked what we 
 saw they expected pictures not hours of video. I started taking stills from the video
 but they were never quite as clear as I hoped and so I skipped the smaller dive
-cameras and decided to build myself a nice rig.
+cameras and decided to build myself a nice rig. A shout out to 
+[Annie Crawley](https://www.anniecrawley.com/) who runs a really good underwater 
+photography course, thanks!
 
 ![Sony and ikelite](assets/img/diving/dive-camera-1.jpg)
 
