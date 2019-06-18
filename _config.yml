@@ -58,3 +58,4 @@ defaults:
       
 exclude:
 - .gitignore
+- jekyllx
