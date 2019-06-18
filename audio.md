@@ -3,7 +3,7 @@ title: Audio
 layout: page
 ---
 
-When not [working](work.md) or [underwater](diving.md] I love music, both recorded and live. We 
+When not [working](work.md) or [underwater](diving.md) I love music, both recorded and live. We 
 hang out in local venues as well as travel to see live shows and festivals. We also have a pretty
 big collection of recorded music as well as heavy use of [Spotify](https://www.spotify.com/us/) 
 and [TIDAL](https://tidal.com/). My personal tastes range from Baroque classical to Scandinavian 
