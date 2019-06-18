@@ -2,12 +2,12 @@ title: "Randomizer"
 description: "Thoughts, Projects, and More"
 logo: "/assets/img/avatars/hell_drib.jpg"
 
-url: https://johnstonskj.github.io
+url: https://simonkjohnston.life
 repository: johnstonskj/johnstonskj.github.io
 
 theme: minima # jekyll-theme-slate
 # https://github.com/jekyll/minima/tree/v2.5.0
-title_separator: "|"
+title_separator: "⟫"
 breadcrumbs: true  # disabled by default
 search: true
 share: true
