@@ -1,0 +1,81 @@
+#!/usr/bin/env zsh
+
+usage() {
+    echo "NAME"
+    echo "\t$0"
+    echo "SYNOPSIS"
+    echo "\t$0 [init|new|post] ARGS"
+    echo "DESCRIPTION"
+    echo "\tinit\t- Initialize the new project with useful stuff"
+    echo "\tnew FILENAME [layout] [title]"
+    echo "\t\t- create a new page with optional layout/title"
+    echo "\tpost TITLE"
+    echo "\t\t- create a new post with the required title"
+}
+
+init() {
+    mkdir -p _posts
+    mkdir -p _assets/img/avatars
+    mkdir -p _assets/img/posts
+    cat <<EOF >> .gitignore
+tmp/
+\#*\#
+*~
+EOF
+}
+
+post() {
+    if [[ ${#@} == 0 ]] ; then
+	echo "Error: must supply file name"
+	usage
+    else
+	#    YEAR-MONTH-DAY-title.MARKUP
+	DATE=$(date "+%Y-%m-%d")
+	FILE=$(echo $1 | sed -e "s/ /-/g")
+	echo "_posts/$DATE-$FILE.md"
+ 	cat <<EOF > "_posts/$DATE-$FILE.md"
+---
+layout: post
+title: $1
+---
+
+TBD
+
+EOF
+    fi
+}
+
+new_file() {
+    if [[ ${#@} == 0 ]] ; then
+	echo "Error: must supply file name"
+	usage
+    else
+	FILE=$(basename -- $1)
+	if [[ "${FILE##*.}" != "md" ]] ; then
+	    FILE="$1.md"
+	fi
+	LAYOUT=${2:-default}
+	TITLE=${3:-"New Page"}
+	echo "Writing to $FILE"
+ 	cat <<EOF > $FILE
+---
+layout: $LAYOUT
+title: $TITLE
+---
+
+TBD
+
+EOF
+    fi
+}
+
+case $1
+in
+    init)  init ;;
+    new)   shift ;
+	   new_file $@ ;;
+    post)  shift ;
+	   post $@ ;;
+    help)  usage ;;
+    *)     usage ;;
+esac
