@@ -3,22 +3,24 @@ title: Audio
 layout: page
 ---
 
-When not working I love music, both recorded and live. That involves traveling near 
-and far to see bands play as well as collecting a rather nice audio system at home, 
-and in my office. Musical tastes range from Baroque classical to Scandinavian melodic 
-death metal, although the latter tends to have more representation in t-shirt choice 
+When not [working](work.md) or [underwater](diving.md] I love music, both recorded and live. We 
+hang out in local venues as well as travel to see live shows and festivals. We also have a pretty
+big collection of recorded music as well as heavy use of [Spotify](https://www.spotify.com/us/) 
+and [TIDAL](https://tidal.com/). My personal tastes range from Baroque classical to Scandinavian 
+melodic death metal, although the latter tends to have more representation in t-shirt choice 
 than the former. 
 
-## Systems
+After years of wishing I could afford to build a great audio setup, I started with a beautiful
+Linn Sondek LP12 (with help from Definitive Audio in Bellevue, WA), which has grown over time
+into the [home system](#primary-home-system)  below.
 
-**Home System (Primary)**
+## Primary Home System
 
 * Sources
   * Linn [Sondek LP12 Majik](https://www.linn.co.uk/sources/turntables/complete#majik-lp12) (Pro-Ject 9xx Carbon arm and Linn [Adikt](https://www.linn.co.uk/sources/turntables/cartridges#adikt) MM cartridge) with [Trampoline](https://www.linn.co.uk/sources/turntables/baseboards) base, [Kore](https://www.linn.co.uk/sources/turntables/sub-chassis#kore] chassis, and Lingo 3 power supply
   * Linn [Akurate DSM](https://www.linn.co.uk/sources/network-music-players/akurate) (as pre-amp and streamer)
   * Marantz [HD-CD1](https://www.us.marantz.com/us/products/pages/productdetails.aspx?catid=hificomponents&productid=hdcd1) CD Player
   * Transparent [PowerBank 6](http://transparentcable.com/products/show_product.php?recID=68&catID=6&modCAT=1)
-  * QNAP [TVS-671 NAS](https://www.qnap.com/en/product/tvs-671)
 * Crossovers/Amplifiers
   * Linn [Exaktbox](https://www.linn.co.uk/speakers-and-amps/upgrades/exaktbox#akurate-exaktbox) 6-channel digital crossover
   * 3 x Linn [Akurate 2200](https://www.linn.co.uk/speakers-and-amps/power-amps/akurate) 200W power amps, Transparent [MusicLink](http://transparentcable.com/products/show_product.php?recID=58&catID=1&perfID=4&modCAT=1) interconnects
@@ -27,15 +29,9 @@ than the former.
 * Output
   * Linn [AV5140](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) speakers (aktiv), Linn K600 cables
   * Linn [AV5150](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) subwoofer, Transparent [MusicLink](http://transparentcable.com/products/show_product.php?recID=58&catID=1&perfID=4&modCAT=1) RCA interconnects and Pangea [AC-14SE MkII](http://pangeaaudio.com/products.html) power cable
-  * Sennheiser [HD 660 S](https://en-us.sennheiser.com/headphones-audiophile-high-end-hd-660-s) headphones (with [HDV 820](https://en-us.sennheiser.com/digital-headphones-amplifier-hdv-820) DAC/amplifier and Schiit [Wyrd](https://www.schiit.com/products/wyrd) at my desk)
+  * Sennheiser [HD 660 S](https://en-us.sennheiser.com/headphones-audiophile-high-end-hd-660-s) headphones (with [HDV 820](https://en-us.sennheiser.com/digital-headphones-amplifier-hdv-820) DAC/amplifier and Schiit [Wyrd](https://www.schiit.com/products/wyrd)) at my desk
 
-NAS Details:
-* Running both [Roon Core](https://kb.roonlabs.com/Roon_Server_on_NAS) and Linn [Kazoo Server](https://www.linn.co.uk/software)
-* 1 x 256Gb SSD for Roon catalog
-* 4 x 8Tb Seagate IronWolf drives for RAID storage
-* 1 x 8Tb Seagate IronWolf drives for Roon backup
-
-**Home System (Secondary)**
+## Secondary Home System
 
 * Source
   * Linn [Sekrit DSM](http://docs.linn.co.uk/wiki/index.php/Sekrit_DSM) (as pre-amp and streamer)
@@ -45,9 +41,17 @@ NAS Details:
 * Output
   * Linn [Keilidh](http://www.highfidelityreview.com/linn-keilidhs-compact-tower-speakers.html) speakers (aktiv), Transparent [custom](http://transparentcable.com/products/show_product.php?recID=92&catID=4&perfID=1&modCAT=1) cables
 
-All of the above in a [NavePoint Performance 22U enclosure](https://www.navepoint.com/navepoint-22u-600mm-depth-networking-cabinet-performance-series.html), along with living room A/V equipment, in a closet using [AC Infinity](https://www.acinfinity.com/quiet-cabinet-fans/) temperature controlled cooling fans.
+All of the above in a [NavePoint Performance 22U enclosure](https://www.navepoint.com/navepoint-22u-600mm-depth-networking-cabinet-performance-series.html), along with the NAS and living room A/V equipment, in a closet using [AC Infinity](https://www.acinfinity.com/quiet-cabinet-fans/) temperature controlled cooling fans.
 
-**Office at Work System**
+### Home NAS
+
+* QNAP [TVS-671 NAS](https://www.qnap.com/en/product/tvs-671)
+  * Running both [Roon Core](https://kb.roonlabs.com/Roon_Server_on_NAS) and Linn [Kazoo Server](https://www.linn.co.uk/software)
+  * 1 x 256Gb SSD for Roon catalog
+  * 4 x 8Tb Seagate IronWolf drives for RAID storage
+  * 1 x 8Tb Seagate IronWolf drives for Roon backup
+
+## Work Office System**
 
 * Sources
   * Clearaudio [Emotion](https://clearaudio.de/en/products/turntables-emotion_se.php) turntable ([Satisfy](https://clearaudio.de/de/_archive/tonearms-satisfy.php) tonearm and Audio Technica [AT-OC9/III](https://eu.audio-technica.com/AT-OC9III) cartridge)
@@ -76,4 +80,4 @@ All of the above in a [NavePoint Performance 22U enclosure](https://www.navepoin
 * [TIDAL](https://tidal.com/)
 * [Transparent Cable](https://www.transparentcable.com/)
 
-Also, check out [Audiogon](https://www.audiogon.com/) and [Hawthorne Stereo](http://hawthornestereo.com/) for deals on used equipment.
+Also, check out [Audiogon](https://www.audiogon.com/) and [Hawthorne Stereo](http://hawthornestereo.com/) -- local to Seattle -- for deals on used equipment.

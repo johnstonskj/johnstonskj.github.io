@@ -5,10 +5,9 @@ logo: "/assets/img/avatars/hell_drib.jpg"
 url: https://simonkjohnston.life
 repository: johnstonskj/johnstonskj.github.io
 
-theme: minima # jekyll-theme-slate
-# https://github.com/jekyll/minima/tree/v2.5.0
+theme: minima # https://github.com/jekyll/minima/tree/v2.5.0
 title_separator: "⟫"
-breadcrumbs: true  # disabled by default
+breadcrumbs: true
 search: true
 share: true
 show_downloads: false
@@ -17,6 +16,7 @@ markdown: kramdown
 
 kramdown:
   input: GFM
+  auto_ids: true
   syntax_highlighter: rouge
   
 timezone: America/Los_Angeles
