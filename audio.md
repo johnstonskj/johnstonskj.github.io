@@ -73,7 +73,7 @@ An all digital setup to use my MacBook Pro as the source.
 
 * Sennheiser [HD 660 S](https://en-us.sennheiser.com/headphones-audiophile-high-end-hd-660-s) headphones
 * Sennheiser [HDV 820](https://en-us.sennheiser.com/digital-headphones-amplifier-hdv-820) DAC/amplifier 
-* Schiit [Wyrd](https://www.schiit.com/products/wyrd)) USB _decrapifier_
+* Schiit [Wyrd](https://www.schiit.com/products/wyrd) USB _decrapifier_
 
 ## Work Office System
 
