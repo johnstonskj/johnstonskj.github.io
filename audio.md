@@ -8,8 +8,10 @@ hang out in local venues as well as travel to see live shows and festivals. We a
 big collection of recorded music as well as heavy use of [Spotify](https://www.spotify.com/us/) 
 and [TIDAL](https://tidal.com/). My personal tastes range from Baroque classical to Scandinavian 
 melodic death metal, although the latter tends to have more representation in t-shirt choice 
-than the former. The following are a few recent shows (the Rammstein show was New Years eve, on the 
-beach to an only 4,000 person crowd).
+than the former. 
+
+The following are a few recent shows; the Rammstein show was New Years eve, on the beach to an 
+only 4,000 person crowd.
 
 | Show                       | When      | Where                      |
 |----------------------------|-----------|----------------------------|
@@ -18,10 +20,10 @@ beach to an only 4,000 person crowd).
 | Children of Bodom          | Nov 2018  | Seattle, El Corazon        |
 | MC50                       | Oct 2018  | Seattle, Showbox Downtown  |
 | Great British Alt. Weekend | Oct 2018  | Skegness, UK               |
-| Trombone Shorty, and more  | Sept 2018 | Seattle, Woodland Park Zoo |
-| The Mavericks & Los Lobos  | Sept 2018 | Seattle, St. Michelle      |
-| Helloween                  | Sept 2018 | Las Vegas, House of Blues  |
-| Iron Maiden with Sabaton   | July 2018 | Madrid, ES                 |
+| Trombone Shorty, and more  | Sep 2018 | Seattle, Woodland Park Zoo |
+| The Mavericks & Los Lobos  | Sep 2018 | Seattle, St. Michelle      |
+| Helloween                  | Sep 2018 | Las Vegas, House of Blues  |
+| Iron Maiden & Sabaton      | Jul 2018 | Madrid, ES                 |
 
 After years of wishing I could afford to build a great audio setup, I started with a beautiful
 Linn Sondek LP12 (with help from Definitive Audio in Bellevue, WA), which has grown over time
