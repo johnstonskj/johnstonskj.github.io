@@ -29,7 +29,7 @@ post() {
 	echo "Error: must supply file name"
 	usage
     else
-	#    YEAR-MONTH-DAY-title.MARKUP
+	mkdir -p _posts
 	DATE=$(date "+%Y-%m-%d")
 	FILE=$(echo $1 | sed -e "s/ /-/g")
 	echo "_posts/$DATE-$FILE.md"

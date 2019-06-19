@@ -23,7 +23,7 @@ small 4,000 person crowd.
 | Trombone Shorty, and more          | Sep 2018  | Seattle, Woodland Park Zoo |
 | The Mavericks & Los Lobos          | Sep 2018  | Seattle, St. Michelle      |
 | Helloween                          | Sep 2018  | Las Vegas, House of Blues  |
-| [Iron Maiden & Sabaton](maiden.md) | Jul 2018  | Madrid, ES                 |
+| [Iron Maiden & Sabaton](_posts/2019-06-19-Iron-Maiden-2018.md) | Jul 2018  | Madrid, ES                 |
 
 After years of wishing I could afford to build a great audio setup, I started with a beautiful
 Linn Sondek LP12 (with help from Definitive Audio in Bellevue, WA), which has grown over time
