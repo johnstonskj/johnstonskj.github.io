@@ -12,6 +12,11 @@ Go and Rust being the two front runners. For small tools I have tended to
 rely on Python since the mid 90's, although I have become worryingly 
 comfortable writing shell (zsh) scripts.
 
+I do like to use Jupiter for experiments, and for documenting ideas where
+the/an algorithm is a part of the process. I have in the past also used 
+Mathematica (now the Wolfram Language) for similar tasks, and still love
+the "batteries included" capabilities of the language. 
+
 At home, [Racket](https://racket-lang.org/) is my favorite small tool 
 language, taking the place of Python for a lot of tasks. I have also started
 to use Rust more as well. One personal project that has been very rewarding
