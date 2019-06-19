@@ -1,6 +1,6 @@
 ---
 title: My Development Environment
-layout: page
+layout: post
 ---
 
 TBD
