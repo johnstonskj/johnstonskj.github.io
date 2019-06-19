@@ -8,9 +8,13 @@ there is most definitely a growing trend away from Java to achieve better
 individual and team productivity. Scala has played a role in this but it
 appears that the current leading choice is now Kotlin, which I have to say
 I do like a lot. Additionally there is interest in non-JVM languages with
-Go and Rust being the two front runners. 
+Go and Rust being the two front runners. For small tools I have tended to
+rely on Python since the mid 90's, although I have become worryingly 
+comfortable writing shell (zsh) scripts.
 
-At home, [Racket](https://racket-lang.org/) is my favorite small tool language.
+At home, [Racket](https://racket-lang.org/) is my favorite small tool 
+language, taking the place of Python for a lot of tasks. I have also started
+to use Rust more at home as well. 
 
 ## Interesting Links
 
@@ -71,7 +75,6 @@ some of these only exist as online, usually PDF, scanned manuals.
 * Forth
 * F#
 * _Lispy_ Languages
-  * Clojure
   * Racket
   * Scheme
 * ML Family
