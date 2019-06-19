@@ -110,9 +110,9 @@ promote() {
 			echo "Error: file $1 does not exist in $DRAFTS_DIR"
 			usage
 		else
-			TITLE=$(grep "^title: " $SRC | cut -d: -f2 | sed -e "s/ /-/g")
 			if grep -Fq "^layout: post" $SRC ; then
 				DATE=$(date "+%Y-%m-%d")
+				TITLE=$(grep "^title: " $SRC | cut -d: -f2 | sed -e "s/ /-/g")
 			    git mv $SRC "$POSTS_DIR/$DATE-$TITLE.md"
 			else
 				git mv $SRC "$PAGES_DIR/$1"
