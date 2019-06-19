@@ -1,5 +1,15 @@
 #!/usr/bin/env zsh
 
+PAGES_DIR=.
+POSTS_DIR=./_posts
+DRAFTS_DIR=./_drafts
+ASSET_DIR=./assets
+IMG_DIR=$ASSET_DIR/img
+AVATAR_DIR=$ASSET_DIR/img/avatar
+POSTS_IMG_DIR=$ASSET_DIR/img/posts
+
+MD_EXT=md
+
 usage() {
     echo "NAME"
     echo "\t$0"
@@ -16,9 +26,10 @@ usage() {
 }
 
 init() {
-    mkdir -p _posts
-    mkdir -p _assets/img/avatars
-    mkdir -p _assets/img/posts
+    mkdir -p $DRAFTS_DIR
+    mkdir -p $POSTS_DIR
+    mkdir -p $AVATAR_DIR
+    mkdir -p $POSTS_IMG_DIR
     cat <<EOF >> .gitignore
 tmp/
 \#*\#
@@ -32,11 +43,10 @@ post() {
 	echo "Error: must supply file name"
 	usage
     else
-	mkdir -p _posts
 	DATE=$(date "+%Y-%m-%d")
 	FILE=$(echo $1 | sed -e "s/ /-/g")
-	echo "_posts/$DATE-$FILE.md"
- 	cat <<EOF > "_posts/$DATE-$FILE.md"
+	echo "$POSTS_DIR/$DATE-$FILE.md"
+ 	cat <<EOF > "$POSTS_DIR/$DATE-$FILE.md"
 ---
 title: $1
 layout: post
@@ -45,7 +55,7 @@ layout: post
 TBD
 
 EOF
-	git add "_posts/$DATE-$FILE.md"
+	git add "$POSTS_DIR/$DATE-$FILE.md"
     fi
 }
 
@@ -55,13 +65,13 @@ new_file() {
 	usage
     else
 	FILE=$(basename -- $1)
-	if [[ "${FILE##*.}" != "md" ]] ; then
-	    FILE="$1.md"
+	if [[ "${FILE##*.}" != $MD_EXT ]] ; then
+	    FILE="$1.$MD_EXT"
 	fi
 	LAYOUT=${2:-default}
 	TITLE=${3:-"New Page"}
 	echo "Writing to $FILE"
- 	cat <<EOF > $FILE
+ 	cat <<EOF > "$PAGES_DIR/$FILE"
 ---
 title: $TITLE
 layout: $LAYOUT
@@ -71,7 +81,7 @@ TBD
 
 EOF
     fi
-    git add $FILE
+    git add "$PAGES_DIR/$FILE"
 }
 
 promote() {
@@ -79,17 +89,17 @@ promote() {
 		echo "Error: must supply file name"
 		usage
     else
-    	SRC="_drafts/$1"
+    	SRC="$DRAFTS_DIR/$1"
 	    if [[ ! -e $SRC ]] ; then
-			echo "Error: file $SRC does not exist"
+			echo "Error: file $1 does not exist in $DRAFTS_DIR"
 			usage
 		else
 			TITLE=$(grep "^title: " $SRC | cut -d: -f2 | sed -e "s/ /-/g")
 			if grep -Fq "^layout: post" $SRC ; then
 				DATE=$(date "+%Y-%m-%d")
-			    git mv $SRC "_posts/$DATE-$TITLE.md"
+			    git mv $SRC "$POSTS_DIR/$DATE-$TITLE.md"
 			else
-				git mv $SRC $1
+				git mv $SRC "$PAGES_DIR/$1"
 			fi
 		fi
 	fi
