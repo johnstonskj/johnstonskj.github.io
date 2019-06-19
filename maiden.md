@@ -3,6 +3,14 @@ layout: default
 title: New Page
 ---
 
+<style type="text/css" media="screen">
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+</style>
+
 TBD
 
 ![Madrid 2018](assets/img/music/music-maiden-poster.jpg){: .center-image }
