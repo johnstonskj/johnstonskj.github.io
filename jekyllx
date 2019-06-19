@@ -35,8 +35,8 @@ post() {
 	echo "_posts/$DATE-$FILE.md"
  	cat <<EOF > "_posts/$DATE-$FILE.md"
 ---
-layout: post
 title: $1
+layout: post
 ---
 
 TBD
@@ -59,8 +59,8 @@ new_file() {
 	echo "Writing to $FILE"
  	cat <<EOF > $FILE
 ---
-layout: $LAYOUT
 title: $TITLE
+layout: $LAYOUT
 ---
 
 TBD
