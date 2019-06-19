@@ -3,9 +3,14 @@ title: Code4Fun
 layout: page
 ---
 
-TBD
+At work the major platform is the JVM, I say that rather than Java because
+there is most definitely a growing trend away from Java to achieve better
+individual and team productivity. Scala has played a role in this but it
+appears that the current leading choice is now Kotlin, which I have to say
+I do like a lot. Additionally there is interest in non-JVM languages with
+Go and Rust being the two front runners. 
 
-* [Racket](https://racket-lang.org/) Language
+At home, [Racket](https://racket-lang.org/) is my favorite small tool language.
 
 ## Interesting Links
 
@@ -15,35 +20,13 @@ TBD
 
 ## Programming Languages I Have Known
 
-**Mostly for fun, or education**
+Yes, I collect these things; I am fascinated by the different approaches that 
+languages take, the evolution among language families, and the specialization
+and generalization they support. I also periodically scan eBay and others for
+manuals and books for the more obscure or fossilized languages. Unfortunately
+some of these only exist as online, usually PDF, scanned manuals.
 
-* Assembler
-  * 6502
-  * 8088
-  * 80x86
-* BASIC Family 
-  * BBC Basic
-  * Commodore Basic+
-* Eiffel
-* Esterel
-* Forth
-* F#
-* ML Family
-  * Haskell
-  * Miranda
-  * OCaml
-* Occam
-* Pascal Family
-  * Modula-3
-  * Oberon
-  * Turbo Pascal
-  * VAX Pascal
-* Prolog
-* Racket
-* SNOBOL
-* Smalltalk, including Squeak
-
-**Because someone paid me to**
+### Because someone paid me to
 
 * Ada 83/95
 * BASIC Family
@@ -58,11 +41,12 @@ TBD
 * Erlang
 * FoxPro
 * JavaScript
-* Java
-* Kotlin
-* Lispy Languages
+* JVM Focused
+  * Java
+  * Kotlin
+  * Scala
+* _Lispy_ Languages
   * Clojure
-  * Scheme
 * Mathematica/Wolfram
 * Modula-2
 * Perl
@@ -72,4 +56,34 @@ TBD
   * OCL
   * SPARQL
   * SQL; DB2, MS T-SQL, Oracle PSQL, Postgres
-* Scala
+
+### Mostly for fun, or education
+
+* Assembler
+  * 6502
+  * 8088
+  * 80x86
+* BASIC Family 
+  * BBC Basic
+  * Commodore Basic+
+* Eiffel
+* Esterel
+* Forth
+* F#
+* _Lispy_ Languages
+  * Clojure
+  * Racket
+  * Scheme
+* ML Family
+  * Haskell
+  * Miranda
+  * OCaml
+* Occam
+* Pascal Family
+  * Modula-3
+  * Oberon
+  * Turbo Pascal
+  * VAX Pascal
+* Prolog
+* SNOBOL
+* Smalltalk, including Squeak
