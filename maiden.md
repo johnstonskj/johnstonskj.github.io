@@ -1,6 +1,6 @@
 ---
-layout: default
-title: New Page
+layout: page
+title: Iron Maiden, Madrid 2018
 ---
 
 <style type="text/css" media="screen">
