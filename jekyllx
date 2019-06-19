@@ -11,19 +11,25 @@ POSTS_IMG_DIR=$ASSET_DIR/img/posts
 MD_EXT=md
 
 usage() {
-    echo "NAME"
-    echo "\t$0"
-    echo "SYNOPSIS"
-    echo "\t$0 [init|new|post] ARGS"
-    echo "DESCRIPTION"
+	bold=$(tput bold)
+	normal=$(tput sgr0)
+    echo "${bold}NAME${normal}"
+    echo "\t$0 - Jekyll wrapper script"
+    echo "${bold}SYNOPSIS${normal}"
+    echo "\t$0 [new|page|post|promote] ARGS"
+    echo "${bold}DESCRIPTION${normal}"
     echo "\tnew SITENAME"
-    echo "\t\t- Initialize the new project with useful stuff"
+    echo "\t\t- create a new site and add useful stuff"
     echo "\tpage FILENAME [layout] [title]"
     echo "\t\t- create a new page with optional layout/title"
     echo "\tpost TITLE"
     echo "\t\t- create a new post with the required title"
     echo "\tpromote FILENAME"
     echo "\t\t- create a new page or post from a draft"
+    echo "${bold}AUTHOR${normal}"
+    echo "\tWritten by Simon Johnston"
+    echo "${bold}SEE ALSO${normal}"
+    echo "\tJekyll; simple blog-aware static sites <https://jekyllrb.com/>"
 }
 
 new_site() {
