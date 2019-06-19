@@ -7,7 +7,7 @@ Welcome to my first real attempt at a collection of personal things.
 
 Mostly, I'll keep track of interesting things I am working on -- I am a 
 software geek @ Amazon during the day ([work stuff](work.md)), or having 
-fun with -- I also code for fun ([fun stuff](fun.md)) at other times. I
+fun with code ([fun stuff](fun.md)) at other times. I
 am coming to terms with the use of markdown for GitHub, but wherever
 possible I write with [LaTeX](https://www.latex-project.org/) (and really 
 like [texpad](https://www.texpad.com/) for the Mac).
