@@ -14,7 +14,21 @@ comfortable writing shell (zsh) scripts.
 
 At home, [Racket](https://racket-lang.org/) is my favorite small tool 
 language, taking the place of Python for a lot of tasks. I have also started
-to use Rust more at home as well. 
+to use Rust more as well. One personal project that has been very rewarding
+is the development of a set of Racket packages implementing some core
+Machine Learning (ML) algorithms. These packages are not intended to be 
+production ready, I wanted to learn more about how ML processes worked
+and decided the best way was from the ground up. The result is a set of 
+simple, pedantic implementations that are written to be readable rather
+than to scale.
+
+I do have a very sweet ML development machine under the desk at home, based on an 
+[HP Omen](https://store.hp.com/us/en/pdp/omen-desktop-pc-880-160se-2tb61av-1)
+desktop with 64Gb memory, 8Tb disk, 512Gb SSD, an NVIDIA GTX 1080i and an
+NVIDIA Titan V, running Ubuntu for GPU training and inferencing.
+
+Finally, I use the same large monitor at work, and at home, a 
+[Dell UltraSharp U3415W 34-Inch Curved](https://www.dell.com/en-us/shop/accessories/apd/210-adtr).
 
 ## Interesting Links
 
