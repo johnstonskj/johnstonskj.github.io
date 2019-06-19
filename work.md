@@ -55,6 +55,7 @@ I have
 also worked on various parts of the back-end of the retail web site as well as the
 migration of Amazon Fresh into the amazon.com site. 
 
+![Office Flags](/assets/img/music/work-office-flags.jpg)
 
 ## Not-a-Resume
 

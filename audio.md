@@ -93,7 +93,7 @@ Although it's stored in the A/V closet it's network accessible by all systems.
 
 An all digital setup to use my MacBook Pro as the source.
 
-![The Listening Room](/assets/img/music/music-sennheiser.jpg)
+![Sennheiser Head Phones](/assets/img/music/music-sennheiser.jpg)
 
 * Sennheiser [HD 660 S](https://en-us.sennheiser.com/headphones-audiophile-high-end-hd-660-s) headphones
 * Sennheiser [HDV 820](https://en-us.sennheiser.com/digital-headphones-amplifier-hdv-820) DAC/amplifier 
