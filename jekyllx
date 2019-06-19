@@ -11,6 +11,8 @@ usage() {
     echo "\t\t- create a new page with optional layout/title"
     echo "\tpost TITLE"
     echo "\t\t- create a new post with the required title"
+    echo "\tpromote FILENAME"
+    echo "\t\t- create a new page or post from a draft"
 }
 
 init() {
@@ -22,6 +24,7 @@ tmp/
 \#*\#
 *~
 EOF
+	git add .gitignore
 }
 
 post() {
@@ -42,6 +45,7 @@ layout: post
 TBD
 
 EOF
+	git add "_posts/$DATE-$FILE.md"
     fi
 }
 
@@ -67,15 +71,43 @@ TBD
 
 EOF
     fi
+    git add $FILE
+}
+
+promote() {
+    if [[ ${#@} == 0 ]] ; then
+		echo "Error: must supply file name"
+		usage
+    else
+    	SRC="_drafts/$1"
+	    if [[ ! -e $SRC ]] ; then
+			echo "Error: file $SRC does not exist"
+			usage
+		else
+			TITLE=$(grep "^title: " $SRC | cut -d: -f2 | sed -e "s/ /-/g")
+			if grep -Fq "^layout: post" $SRC ; then
+				DATE=$(date "+%Y-%m-%d")
+			    git mv $SRC "_posts/$DATE-$TITLE.md"
+			else
+				git mv $SRC $1
+			fi
+		fi
+	fi
 }
 
 case $1
 in
-    init)  init ;;
-    new)   shift ;
-	   new_file $@ ;;
-    post)  shift ;
-	   post $@ ;;
-    help)  usage ;;
-    *)     usage ;;
+    init)     init ;;
+    
+    new)      shift ;
+	          new_file $@ ;;
+	          
+    post)     shift ;
+	          post $@ ;;
+	   
+	promote)  shift ;
+			  promote $@ ;;
+    help)     usage ;;
+    
+    *)        usage ;;
 esac
