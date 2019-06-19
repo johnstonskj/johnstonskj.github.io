@@ -47,8 +47,10 @@ a lot of fun with some really super-smart people!
 
 I have been at Amazon now since 2009 and currently I am a Senior Principal 
 Engineer working across all of the North America Consumer business with a current focus on 
-[Amazon Fashion](https://www.amazon.com/amazon-fashion/b?node=7141123011) -- Softlines 
+[Amazon Fashion](https://www.amazon.com/amazon-fashion/b?node=7141123011), or softlines 
 as it is often termed. Oh, and yes, we are [hiring](https://amazon.jobs/en/teams/fashion) 😉
+For all the geeks in fashion, here's my [STEM+fashion shirt](https://www.zazzle.com/z/lglvo)
+on Zazzle.
 
 ![Amazon Fashion Offsite](assets/img/work/amazon-sl-offsite.jpg)
 
