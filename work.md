@@ -48,7 +48,7 @@ a lot of fun with some really super-smart people!
 I have been at Amazon now since 2009 and currently I am a Senior Principal 
 Engineer in the consumer side with particular focus on 
 [Amazon Fashion](https://www.amazon.com/amazon-fashion/b?node=7141123011) -- Softlines 
-as it is often termed. 
+as it is often termed. Oh, and yes, we are [hiring](https://amazon.jobs/en/teams/fashion) 😉
 
 ![Amazon Fashion Offsite](assets/img/work/amazon-sl-offsite.jpg)
 
