@@ -42,7 +42,7 @@ CD and vinyl content. Built around the LP12 and the Akurate DSM it drives a pair
 Finally, to relax I love the Modway Remark mid-century modern love seat and chair although it
 was bought mainly for the price.
 
-![The Listening Room](/assets/img/diving/music-home-listening.jpg)
+![The Listening Room](/assets/img/music/music-home-listening.jpg)
 
 
 * Sources
@@ -58,8 +58,10 @@ was bought mainly for the price.
 * Output
   * Linn [AV5140](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) speakers (aktiv), Linn K600 cables
   * Linn [AV5150](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) subwoofer, Transparent [MusicLink](http://transparentcable.com/products/show_product.php?recID=58&catID=1&perfID=4&modCAT=1) RCA interconnects and Pangea [AC-14SE MkII](http://pangeaaudio.com/products.html) power cable
-  
-![The Amp Stack](/assets/img/diving/music-home-stack.jpg)
+
+Seeing the three amps and the two crossovers stacked together is very cool.
+
+![The Amp Stack](/assets/img/music/music-home-stack.jpg)
 
 ## Secondary Home System
 
@@ -91,7 +93,7 @@ Although it's stored in the A/V closet it's network accessible by all systems.
 
 An all digital setup to use my MacBook Pro as the source.
 
-![The Listening Room](/assets/img/diving/music-sennheiser.jpg)
+![The Listening Room](/assets/img/music/music-sennheiser.jpg)
 
 * Sennheiser [HD 660 S](https://en-us.sennheiser.com/headphones-audiophile-high-end-hd-660-s) headphones
 * Sennheiser [HDV 820](https://en-us.sennheiser.com/digital-headphones-amplifier-hdv-820) DAC/amplifier 
@@ -108,7 +110,7 @@ when I want to chill and read/review work.
 I recently swapped out an older pair of Linn Tukan bookshelf speakers for the beautiful Sonus Faber
 Venere 2.0 and they have an amazing sound presence! I may be a SF convert going forward.
 
-![At Work](/assets/img/diving/music-office.jpg)
+![At Work](/assets/img/music/music-office.jpg)
 
 * Sources
   * Clearaudio [Emotion](https://clearaudio.de/en/products/turntables-emotion_se.php) turntable ([Satisfy](https://clearaudio.de/de/_archive/tonearms-satisfy.php) tonearm and Audio Technica [AT-OC9/III](https://eu.audio-technica.com/AT-OC9III) cartridge)
