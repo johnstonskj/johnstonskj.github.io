@@ -47,4 +47,6 @@ _Programming today is a race between software engineers striving to build bigger
 
 _The three most dangerous things in the world are a programmer with a soldering iron, a hardware type with a program patch and a user with an idea._ — **Rick Cook**
 
+_Without requirements or design, programming is the art of adding bugs to an empty text file._ -- **Louis Srygley**
+
 _Real stupidity beats artificial intelligence every time._ — **Terry Pratchett**
