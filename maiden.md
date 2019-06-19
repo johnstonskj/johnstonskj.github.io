@@ -5,7 +5,7 @@ title: New Page
 
 TBD
 
-![Madrid 2018](assets/img/music/music-maiden-poster.jpg)
+![Madrid 2018](assets/img/music/music-maiden-poster.jpg){: .center-image }
 
 [Auction](https://www.givergy.com/charity/the-truants)
 
