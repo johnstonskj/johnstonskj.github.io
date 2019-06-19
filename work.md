@@ -26,7 +26,7 @@ even though it really isn't fashionable to say so out loud.
 
 My first full-time job was with the now defunct
 [ICL](https://en.wikipedia.org/wiki/International_Computers_Limited) Retail Systems
-(when looking for something from the ICL days I found [this](icl-sig.md) embarressment).
+(when looking for something from the ICL days I found [this](_posts/2019-06-13-ICL-EMail-Signature.md) embarressment).
 Mostly this was C and C++ ([Glockenspiel](http://www.edm2.com/index.php/Glockenspiel_C%2B%2B)
 and [Zortec](http://www.edm2.com/index.php/Zortech_C%2B%2B) on 
 [OS/2](https://en.wikipedia.org/wiki/OS/2)) although some tools were written in

@@ -1,10 +1,13 @@
 ---
 title: ICL EMail Signature
-layout: page
+layout: post
 ---
 
-Well, this was a blast from the past, when email sigs tended to be overly ostentatious --
-or pretentious depending on your point of view!
+Well, this was a blast from the past, looking for some other pointers for this site
+I cam across this in an old Linux mailing list.
+
+From a time when email sigs tended to be overly ostentatious -- or pretentious 
+depending on your point of view!
 
 Oh, and "OP Mail" refers to ICL's proprietary Office Power system which sucked so bad.
 
