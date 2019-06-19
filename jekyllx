@@ -16,8 +16,9 @@ usage() {
     echo "SYNOPSIS"
     echo "\t$0 [init|new|post] ARGS"
     echo "DESCRIPTION"
-    echo "\tinit\t- Initialize the new project with useful stuff"
-    echo "\tnew FILENAME [layout] [title]"
+    echo "\tnew SITENAME"
+    echo "\t\t- Initialize the new project with useful stuff"
+    echo "\tpage FILENAME [layout] [title]"
     echo "\t\t- create a new page with optional layout/title"
     echo "\tpost TITLE"
     echo "\t\t- create a new post with the required title"
@@ -25,20 +26,29 @@ usage() {
     echo "\t\t- create a new page or post from a draft"
 }
 
-init() {
-    mkdir -p $DRAFTS_DIR
-    mkdir -p $POSTS_DIR
-    mkdir -p $AVATAR_DIR
-    mkdir -p $POSTS_IMG_DIR
-    cat <<EOF >> .gitignore
+new_site() {
+    if [[ ${#@} == 0 ]] ; then
+		echo "Error: must supply a site name"
+		usage
+    else
+		if $output=$(jekyll new $1) ; then
+		    mkdir -p $DRAFTS_DIR
+	    	mkdir -p $POSTS_DIR
+		    mkdir -p $AVATAR_DIR
+	    	mkdir -p $POSTS_IMG_DIR
+		    cat <<EOF >> .gitignore
 tmp/
 \#*\#
 *~
 EOF
-	git add .gitignore
+			git add .gitignore
+		else
+			echo "Error: could not create new site '$1' ($output)"
+		fi
+	fi
 }
 
-post() {
+new_post() {
     if [[ ${#@} == 0 ]] ; then
 	echo "Error: must supply file name"
 	usage
@@ -59,7 +69,7 @@ EOF
     fi
 }
 
-new_file() {
+new_page() {
     if [[ ${#@} == 0 ]] ; then
 	echo "Error: must supply file name"
 	usage
@@ -107,13 +117,13 @@ promote() {
 
 case $1
 in
-    init)     init ;;
+    init)     new_site ;;
     
     new)      shift ;
 	          new_file $@ ;;
 	          
     post)     shift ;
-	          post $@ ;;
+	          new_post $@ ;;
 	   
 	promote)  shift ;
 			  promote $@ ;;
