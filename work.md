@@ -58,11 +58,47 @@ My office by looking for the flags...
 
 ![Office Flags](/assets/img/music/work-office-flags.jpg)
 
+Having joined in 2009 Amazon is now the longest I have stayed in one company in my career.
+Interview candidates often ask _what do you like about Amazon?_, but the question they should 
+ask is _what has made you stay at Amazon for ~10 years?_. What I like is a very point-in-time
+question and probably very context specific whereas, in general, why you stay somewhere 
+tends to be more enduring traits such as culture and the other people a company attracts.
+What I like right now is the ability to work on really diverse projects such as 
+[the drop](https://www.instagram.com/amazonthedrop/) or working on product discovery for 
+core fashion. The reason I stay is that I work with really smart and dedicated people 
+both on the technical and business side and that the speed of innovation and the scope of
+things that we haven't even thought of yet means I cannot imagine running out of cool
+and hard problems.
+
+On a more fundamental level there are two things I would point people at to help them
+understand why Amazon is somewhat unique and not only attracts but retains good 
+people.
+
+1. Our [Leadership Principles](https://www.amazon.jobs/en/principles), and
+2. The [Principal Engineer](https://www.amazon.jobs/en/landing_pages/principal-engineer-hiring) 
+   Community.
+
+Many companies have mission statements, values, principles, or other material that
+they believe distills their company ethos into pithy wall art. Unfortunately having
+been at a number of such companies I can confidently say I not only have no idea
+what they are now, I don't know that I ever knew what they were or even where to go
+find them. At Amazon the leadership principles are not a hand-out at orientation, they
+are part of everyday conversation, they are a shared understanding of what we value 
+and how we work. They are also set up in tension so they can help in decision making
+to understand how to make trade-offs.
+
+The second big difference from previous experience is the truly global and 
+cross-organizational nature of the Principal Engineer (PE) community. We are 
+expected to work across teams, to help be the _connective tissue_ to help deliver
+large scale systems comprised of services delivered by _two pizza teams_. Teams
+can reach out at any time and ask for principal help and will find domain
+experts, technical depth, and mentoring available -- sometimes more than you expected!
+
 ## Not-a-Resume
 
-I don't have one online, but between my [LinkedIn](https://www.linkedin.com/in/simonkjohnston/)
-profile and [Google Scholar](https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en)
-page that should cover things pretty well.
+I don't have one online, but my [LinkedIn](https://www.linkedin.com/in/simonkjohnston/)
+and [Google Scholar](https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en)
+profiles should cover things pretty well.
 
 ## Standards Involvement
 
