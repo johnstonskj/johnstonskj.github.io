@@ -1,6 +1,6 @@
 ---
 title: Development Tools
-layout: home
+layout: page
 ---
 
 TBD
