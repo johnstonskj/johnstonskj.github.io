@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 
+APP=$(basename $0)
 PAGES_DIR=.
 POSTS_DIR=./_posts
 DRAFTS_DIR=./_drafts
@@ -11,47 +12,50 @@ POSTS_IMG_DIR=$ASSET_DIR/img/posts
 MD_EXT=md
 
 usage() {
-	bold=$(tput bold)
-	normal=$(tput sgr0)
+    bold=$(tput bold)
+    normal=$(tput sgr0)
     echo "${bold}NAME${normal}"
-    echo "\t$0 - Jekyll wrapper script"
+    echo "\t$APP - Jekyll wrapper script\n"
     echo "${bold}SYNOPSIS${normal}"
-    echo "\t$0 [new|page|post|promote] ARGS"
+    echo "\t$APP [new|page|post|promote] ARGS\n"
     echo "${bold}DESCRIPTION${normal}"
     echo "\tnew SITENAME"
-    echo "\t\t- create a new site and add useful stuff"
-    echo "\tpage FILENAME [layout] [title]"
-    echo "\t\t- create a new page with optional layout/title"
+    echo "\t\t- create a new site and add useful stuff\n"
+    echo "\tpage FILENAME [title] [layout]"
+    echo "\t\t- create a new page with optional layout/title\n"
     echo "\tpost TITLE"
-    echo "\t\t- create a new post with the required title"
+    echo "\t\t- create a new post with the required title\n"
     echo "\tpromote FILENAME"
-    echo "\t\t- create a new page or post from a draft"
+    echo "\t\t- create a new page or post from a draft\n"
     echo "${bold}AUTHOR${normal}"
-    echo "\tWritten by Simon Johnston"
+    echo "\tWritten by Simon Johnston\n"
     echo "${bold}SEE ALSO${normal}"
-    echo "\tJekyll; simple blog-aware static sites <https://jekyllrb.com/>"
+    echo "\tJekyll; simple blog-aware static sites <https://jekyllrb.com/>\n"
 }
 
 new_site() {
     if [[ ${#@} == 0 ]] ; then
-		echo "Error: must supply a site name"
-		usage
+	echo "Error: must supply a site name"
+	usage
     else
-		if $output=$(jekyll new $1) ; then
-		    mkdir -p $DRAFTS_DIR
-	    	mkdir -p $POSTS_DIR
-		    mkdir -p $AVATAR_DIR
-	    	mkdir -p $POSTS_IMG_DIR
-		    cat <<EOF >> .gitignore
-tmp/
+	if jekyll new $1 ; then
+	    echo $output
+	    cd $1
+	    mkdir -p $DRAFTS_DIR
+	    mkdir -p $AVATAR_DIR
+	    mkdir -p $POSTS_IMG_DIR
+	    cat <<EOF >> .gitignore
+Gemfile.lock
 \#*\#
 *~
 EOF
-			git add .gitignore
-		else
-			echo "Error: could not create new site '$1' ($output)"
-		fi
+	    git init
+	    git add --all
+	    echo git commit -m "Initial commit (jekyll new)"
+	else
+	    echo "Error: could not create new site '$1' ($output)"
 	fi
+    fi
 }
 
 new_post() {
@@ -84,8 +88,8 @@ new_page() {
 	if [[ "${FILE##*.}" != $MD_EXT ]] ; then
 	    FILE="$1.$MD_EXT"
 	fi
-	LAYOUT=${2:-default}
-	TITLE=${3:-"New Page"}
+	TITLE=${2:-"New Page"}
+	LAYOUT=${3:-page}
 	echo "Writing to $FILE"
  	cat <<EOF > "$PAGES_DIR/$FILE"
 ---
@@ -102,37 +106,39 @@ EOF
 
 promote() {
     if [[ ${#@} == 0 ]] ; then
-		echo "Error: must supply file name"
-		usage
+	echo "Error: must supply file name"
+	usage
     else
     	SRC="$DRAFTS_DIR/$1"
-	    if [[ ! -e $SRC ]] ; then
-			echo "Error: file $1 does not exist in $DRAFTS_DIR"
-			usage
-		else
-			if grep -Fq "^layout: post" $SRC ; then
-				DATE=$(date "+%Y-%m-%d")
-				TITLE=$(grep "^title: " $SRC | cut -d: -f2 | sed -e "s/ /-/g")
-			    git mv $SRC "$POSTS_DIR/$DATE-$TITLE.md"
-			else
-				git mv $SRC "$PAGES_DIR/$1"
-			fi
-		fi
+	if [[ ! -e $SRC ]] ; then
+	    echo "Error: file $1 does not exist in $DRAFTS_DIR"
+	    usage
+	else
+	    if grep -Fq "layout: post" $SRC ; then
+		DATE=$(date "+%Y-%m-%d")
+		TITLE=$(grep "title: " $SRC | cut -d: -f2 | sed -e "s/ /-/g" | cut -c 2-)
+		git mv $SRC "$POSTS_DIR/$DATE-$TITLE.md"
+	    else
+		git mv $SRC "$PAGES_DIR/$1"
+	    fi
 	fi
+    fi
 }
 
 case $1
 in
-    init)     new_site ;;
-    
     new)      shift ;
-	          new_file $@ ;;
+	      new_site $@ ;;
+    
+    page)     shift ;
+	      new_page $@ ;;
 	          
     post)     shift ;
-	          new_post $@ ;;
+	      new_post $@ ;;
 	   
-	promote)  shift ;
-			  promote $@ ;;
+    promote)  shift ;
+	      promote $@ ;;
+    
     help)     usage ;;
     
     *)        usage ;;
