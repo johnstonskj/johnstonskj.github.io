@@ -49,7 +49,7 @@ was bought mainly for the price.
 
 
 * Sources
-  * Linn [Sondek LP12 Majik](https://www.linn.co.uk/sources/turntables/complete#majik-lp12) (Pro-Ject 9xx Carbon arm and Linn [Adikt](https://www.linn.co.uk/sources/turntables/cartridges#adikt) MM cartridge) with [Trampoline](https://www.linn.co.uk/sources/turntables/baseboards) base, [Kore](https://www.linn.co.uk/sources/turntables/sub-chassis#kore) chassis, and Lingo 3 power supply
+  * Linn [Sondek LP12 Majik](https://www.linn.co.uk/sources/turntables/complete#majik-lp12) (Pro-Ject [9-cc Carbon](https://www.project-audio.com/en/product/9cc/) tonearm and Linn [Adikt](https://www.linn.co.uk/sources/turntables/cartridges#adikt) MM cartridge) with [Trampoline](https://www.linn.co.uk/sources/turntables/baseboards) base, [Kore](https://www.linn.co.uk/sources/turntables/sub-chassis#kore) chassis, and Lingo 3 power supply
   * Linn [Akurate DSM](https://www.linn.co.uk/sources/network-music-players/akurate) (as pre-amp and streamer)
   * Marantz [HD-CD1](https://www.us.marantz.com/us/products/pages/productdetails.aspx?catid=hificomponents&productid=hdcd1) CD Player
   * Transparent [PowerBank 6](http://transparentcable.com/products/show_product.php?recID=68&catID=6&modCAT=1)
