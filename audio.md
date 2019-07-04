@@ -38,7 +38,10 @@ for travel.
 
 This system is setup to be seen _as well as_ heard, it has it's own room shared with all the 
 CD and vinyl content. Built around the LP12 and the Akurate DSM it drives a pair of Aktiv
-5140s effortlessly. The walls are covered with a lot of our show posters and other band art. 
+5140s effortlessly. Using Quadraspire SVT racks for the sources and the amp stack (black columns
+and cherry shelves) looks amazing with the cherry speakers and floor.
+
+The walls are covered with a lot of our show posters and other band art. 
 Finally, to relax I love the Modway Remark mid-century modern love seat and chair although it
 was bought mainly for the price.
 
@@ -58,6 +61,8 @@ was bought mainly for the price.
 * Output
   * Linn [AV5140](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) speakers (aktiv), Linn K600 cables
   * Linn [AV5150](https://www.stereophile.com/content/linn-av-51-system-sght-review-specifications) subwoofer, Transparent [MusicLink](http://transparentcable.com/products/show_product.php?recID=58&catID=1&perfID=4&modCAT=1) RCA interconnects and Pangea [AC-14SE MkII](http://pangeaaudio.com/products.html) power cable
+* Racks
+  * 2 x Quadraspire [SVT](https://quadraspire.co.uk/svt.html), one 2-shelf and one 4-shelf
 
 Seeing the three amps and the two crossovers stacked together is very cool.
 
@@ -122,7 +127,9 @@ Venere 2.0 and they have an amazing sound presence! I may be a SF convert going 
   * Panamax [MR4300](https://www.panamax.com/product/mr4300-power-management-MR4300) power conditioner and Pangea [AC-14SE MkII](http://pangeaaudio.com/products.html) power cables
 * Speakers
   * Sonus Faber [Venere 2.0](https://www.sonusfaber.com/en/products/venere-20/) piano black speakers, Linn [K20](https://www.linn.co.uk/speakers-and-amps/accessories/speaker-cable#k20) cables
-
+* Cabinet
+  * Salamander Designs [Corsica 323](https://www.salamanderdesigns.com/av-cabinets/corsica-323/)
+    with in-cabinet refrigerator, vented shelves, active cooling back and factory installed locks.
 ## Stuff Links
 
 * [Audioquest](https://www.audioquest.com/)
@@ -130,8 +137,10 @@ Venere 2.0 and they have an amazing sound presence! I may be a SF convert going 
 * [Definitive Audio](https://definitive.com/)
 * [Linn](https://www.linn.co.uk/)
 * [naim](https://www.naimaudio.com/)
+* [Quadraspire](https://quadraspire.co.uk/)
 * [QNAP](https://www.qnap.com/en-us/)
 * [roon](https://roonlabs.com/)
+* [Salamander](https://www.salamanderdesigns.com/)
 * [Schiit](https://www.schiit.com/)
 * [Sennheiser](https://en-us.sennheiser.com/)
 * [Sonus Faber](https://www.sonusfaber.com/en/)
