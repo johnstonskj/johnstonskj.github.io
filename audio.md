@@ -130,7 +130,10 @@ Venere 2.0 and they have an amazing sound presence! I may be a SF convert going 
   * Sonus Faber [Venere 2.0](https://www.sonusfaber.com/en/products/venere-20/) piano black speakers, Linn [K20](https://www.linn.co.uk/speakers-and-amps/accessories/speaker-cable#k20) cables
 * Cabinet
   * Salamander Designs [Corsica 323](https://www.salamanderdesigns.com/av-cabinets/corsica-323/)
-    with in-cabinet refrigerator, vented shelves, active cooling back and factory installed locks.
+    with in-cabinet refrigerator, vented shelves, active cooling back and factory installed locks. 
+	All power cables are routed down the right hand side including the outlet cable, and all signal 
+	cables down the left with the speaker and USB cable coming in through a port on the back.
+
 ## Stuff Links
 
 * [Audioquest](https://www.audioquest.com/)
