@@ -1,6 +1,8 @@
 ---
 title: VAX Emulation
 layout: post
+categories: [history]
+tags: [pi, vax, emulation]
 ---
 
 Recently I stumbled over an article, wonderfully titled

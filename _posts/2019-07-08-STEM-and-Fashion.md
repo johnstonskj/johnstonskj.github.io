@@ -1,6 +1,8 @@
 ---
 title: STEM and Fashion
 layout: post
+categories: [work]
+tags: [t-shirt, zazzle]
 ---
 
 I have been having a blast the last year or so working with the great team

@@ -1,6 +1,7 @@
 ---
 title: ICL EMail Signature
 layout: post
+tags: [icl]
 ---
 
 Well, this was a blast from the past, looking for some other pointers for this site
