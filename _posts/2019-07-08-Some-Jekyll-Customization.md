@@ -22,10 +22,10 @@ This turned out to be remarkably easy, specifically adding a new layout `postx` 
 in turn is based on the standard `post`. After displaying the content, I just iterate
 through the tags and output each in it's own span. 
 
-```Liquid
----
+```liquid
+{% raw %}--
 layout: post
----
+--
 
 <div>
   {{ content }}
@@ -34,7 +34,7 @@ layout: post
   {% for tag in page.tags %}
     <span class="tag">{{ tag }}</span>
   {% endfor %}
-</div>
+</div>{% endraw %}
 ```
 
 For my preference I added some CSS, to reduce the font size to `0.75em`, the text color
@@ -56,8 +56,8 @@ with a heading and list of post titles. By using the `page.category` variable I 
 able to only show the block if there are related posts, which turned out pretty 
 easy in the end.
 
-```Liquid
----
+```liquid
+{% raw %}---
 layout: default
 ---
 
@@ -75,5 +75,5 @@ layout: default
       </ul>
     </div>
   {% endif %}
-{% endfor %}
+{% endfor %}{% endraw %}
 ```
