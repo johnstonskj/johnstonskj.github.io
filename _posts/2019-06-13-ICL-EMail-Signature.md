@@ -1,6 +1,6 @@
 ---
 title: ICL EMail Signature
-layout: post
+layout: postx
 tags: [icl]
 ---
 

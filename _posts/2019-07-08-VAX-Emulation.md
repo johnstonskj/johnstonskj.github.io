@@ -1,6 +1,6 @@
 ---
 title: VAX Emulation
-layout: post
+layout: postx
 categories: [history]
 tags: [pi, vax, emulation]
 ---

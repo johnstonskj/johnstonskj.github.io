@@ -1,6 +1,6 @@
 ---
 title: STEM and Fashion
-layout: post
+layout: postx
 categories: [work]
 tags: [t-shirt, zazzle]
 ---

@@ -1,0 +1,22 @@
+---
+layout: post
+---
+
+<style type="text/css" media="screen">
+  .post-tags {
+      font-size: 0.8em;
+      color: #828282;
+  }
+  .post-tags .tag::before {
+      content: "#";
+  }
+</style>
+
+<div>
+  {{ content }}
+</div>
+<div class="post-tags">
+  {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+  {% endfor %}
+</div>
