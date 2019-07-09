@@ -14,10 +14,9 @@ is predominantly primarily [macOS](https://www.apple.com/macos) with
 [Ubuntu](https://ubuntu.com/) machine at home for Machine Learning 
 development. 
 
-> I am coming to terms with the use of markdown for GitHub -- and therefore
-> pages -- but wherever possible I write with [LaTeX](https://www.latex-project.org/) 
-> and really like [texpad](https://www.texpad.com/) for the Mac.
-
+I am coming to terms with the use of markdown for GitHub -- and therefore
+pages -- but wherever possible I write with [LaTeX](https://www.latex-project.org/) 
+and really like [texpad](https://www.texpad.com/) for the Mac.
 
 With my wife I love to [SCUBA dive](diving.md), in warm and cold water. 
 We have been lucky to make some amazing frineds and visit some incredible
