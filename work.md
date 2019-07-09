@@ -1,6 +1,7 @@
 ---
 title: Work
-layout: page
+layout: catpage
+category: work
 ---
 
 I am a software geek, starting at high school with an accidental fall into computer science. 

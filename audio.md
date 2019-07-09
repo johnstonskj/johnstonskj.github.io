@@ -1,6 +1,7 @@
 ---
 title: Audio
-layout: page
+layout: catpage
+category: audio
 ---
 
 When not [working](work.md) or [underwater](diving.md) I love music, both recorded and live. We 

@@ -1,6 +1,7 @@
 ---
 title: Diving
-layout: page
+layout: catpage
+category: diving
 ---
 
 Diving is something I have wanted to try off and on since I was young, unfortunately
