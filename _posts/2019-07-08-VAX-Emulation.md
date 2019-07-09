@@ -13,7 +13,12 @@ I have to say, as someone who stared through the glass at big iron machines, it
 is not only incredible that we can now emulate these monsters on such small and
 inexpensive hardware, but we can even show them running in networked configurations.
 
-I donated my last VAX hardware (VAXStation 3000) as well as a Next Cube to 
+I donated my last VAX hardware (VAXStation 4000/60) as well as a Next Cube to 
 the [Living Computers Museum](https://livingcomputers.org/) in 2018. It seems 
 important to preserve as much as we can from an industry that moves so fast 
 and which has seen much of it's output thrown away as it becomes obsolete. 
+
+![VAX Station](assets/img/posts/vax-4000.jpg)
+
+All computers in the collection in it's prime were named for Terry Pratchett's
+witches.
