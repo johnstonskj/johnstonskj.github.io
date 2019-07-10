@@ -44,7 +44,11 @@ social:
     - "https://instagram.com/johnston4250"
     - "https://www.linkedin.com/in/simonkjohnston"
     - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
-    
+
+plugins:
+  - jekyll-avatar
+  - jekyll-gist
+
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
@@ -55,8 +59,24 @@ defaults:
       path: "assets/img"
     values:
       image: true
+      sitemap: false
       
 exclude:
 - .gitignore
 - _drafts
 - jekyllx
+
+jekyll_compose:
+  auto_open: true
+  draft_default_front_matter:
+    description:
+    image:
+    category:
+    tags:
+  post_default_front_matter:
+    description:
+    image:
+    category:
+    tags:
+    published: false
+    sitemap: false
