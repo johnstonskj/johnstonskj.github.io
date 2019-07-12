@@ -1,7 +1,7 @@
 ---
-title: Some Jekyll Customization
 layout: post
-categories: [code]
+title: Some Jekyll Customization
+category: code
 tags: [jekyll, blog]
 ---
 
