@@ -70,7 +70,7 @@ new_post() {
 ---
 title: $1
 layout: post
-categories: []
+category: 
 tags: []
 ---
 
@@ -97,6 +97,7 @@ new_page() {
 ---
 title: $TITLE
 layout: $LAYOUT
+category: 
 tags: []
 ---
 
