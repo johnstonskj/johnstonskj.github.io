@@ -19,6 +19,11 @@ it my solution had a couple of unfortunate conditions, namely:
 
 ## New Travis configuration
 
+So, below is the new [`.travis.yml`](https://github.com/johnstonskj/rust-financial/blob/master/.travis.yml)
+for the workspace. This has only one additional build added to the 
+matrix, removes all scripting from the configuration and uses a 
+series of global flags that control the behavior of the CI scripts.
+
 ```yaml
 # Common language header
 language: rust
@@ -44,7 +49,7 @@ env:
   - CARGO_FLAGS=--verbose
   - CARGO_LINTER=fmt
   - CARGO_DEPLOY=1
-  - secure: "SwxX4DVDM7eS3AjJhdDCAIWIYi9IMfiYIAu+n4Fx4fkPf8RwCg/h1gA4RV6WNZBpus8fzD065GHnYWP6BVllyFzoF2WYG9xBTcSA+gJHFrGSSqa7xNLEZCTUkSb0KLtVv7GbgVZgH4lHgh+BTfAYwTn/ty9bBoz+qlF9k0tRJsP7q8KsL+XSZWIQdQuuCFnjnkaNYoJPg3Iz4BDV77Wyr2hIK1bsos1NNslCUJxp3d3O16lEd0L2uU19iZ6ORgOaTq5NUHZ/mTaRFmtLgZjHHNp0YYaoZCZjNqG5PDXZm0vU7e7rprx6s9p1O9Ll6jEAQcE07tNa1Om26hsYCS4HP5+zqNrhb6d5oB6n5NjobOK3E1AamgbnJglh96lxqreOICGRHEwYurgq+IyxXFE+xGfkxsi45xcdiX0HueFxYgfjbjtB5osXhE0pci2UXMDwcNhjqPs3WZ1cCPQKjYx64Rxt1bnOHLj8BqNmk075wDtHNqzbNI5k5VK9IvajNfXnVLTghFqIccSHNOswVRAmcnH+nc83bj9XCe4JMOh0UzIngg+wRVIcvrTkxWWdVAE0m/8XAJr06ZWF2bGRK2AATJqSeonyBpYxl7kK/qJoUs8oCrcw0KIVe1/Wd7HUwLoy4zxuVxH07F0H/v231Zip3XMvz8P3/1Sfm27MuMYuZlw="
+  - secure: "Swx...Zlw="
 
 matrix:
   # Performance tweak
@@ -91,7 +96,15 @@ notifications:
 
 ## CI Scripts
 
+The following are the individual components called from the configuration.
+
 ### Config
+
+This script is not called from the configuration, rather is is sourced by
+each of the following scripts to set up the environment. Firstly, it determines
+whether this is a workspace or crate repository. Then, if it is a workspace,
+it creates the `$CRATES` environment variable directly from the members
+listed in the `Cargo.toml` file.
 
 ``` bash
 if $(grep -q "^\[workspace\]$" Cargo.toml) ; then
@@ -119,6 +132,10 @@ fi
 
 ### Build
 
+This is the build script, it determines the correct flags to use depending
+on whether this ia a workspace build (from `$CARGO_WORKSPACE`). It performs
+the build, test, and doc tasks into a single script.
+
 ``` bash
 source ci/cargo-config.sh
 
@@ -141,9 +158,14 @@ cargo doc $CARGO_FLAGS $WS_FLAGS --no-deps
 
 ### Lint-ing
 
-``` bash
-#!/usr/bin/env bash
+This performs any lint-like tasks in a single script. Currently it supports
+`rustfmt` and `clippy` only. It assumes that the environment variable
+`$CARGO_LINTER` contains a comma separated list of commands that you wish
+to run. This may be run for all builds, in which case add it as a line in
+the top-level `script` list, or as I have done, create a new build in
+the matrix.
 
+``` bash
 source ci/cargo-config.sh
 
 if [[ "$CARGO_LINTER" == "" ]] ; then
@@ -196,6 +218,10 @@ fi
 
 ### Run a command
 
+This script isn't currently called from the configuration file directly,
+although it could. It runs an arbitrary Cargo command taking into account
+any required flags, and passing any flags to the command.
+
 ``` bash
 source ci/cargo-config.sh
 
@@ -217,6 +243,10 @@ fi
 
 ### Deploy/Publish
 
+This script is an ongoing, and painful, attempt at getting Travis to publish the
+crates in the workspace. Currently, it has worked for a random single crate in 
+the workspace, but not all. Still, that's progress.
+
 ``` bash
 source ci/cargo-config.sh
 
@@ -228,7 +258,7 @@ fi
 
 if [[ "$CARGO_TOKEN" = "" ]] ; then
     # Ensure this is set as a global environment
-    #  variable, *and* as a secure one.
+    # variable, *and* as a secure one.
     echo "Error: no CARGO_TOKEN environment variable"
     exit 2
 fi
@@ -246,5 +276,35 @@ if [[ $CARGO_WORKSPACE = 1 ]] ; then
 else
     cargo publish $CARGO_FLAGS --token $CARGO_TOKEN
 fi
+```
+
+Note that in the Travis configuration I have switched from the `cargo` 
+provider and simply use `script`. This allows me to move all the logic 
+into the script above. Also note the new condition using `$CARGO_DEPLOY`
+to gate deployment. 
+
+``` yaml
+deploy:
+  provider: script
+  on:
+    tags: true
+    all_branches: true
+    condition: "$TRAVIS_RUST_VERSION = stable && $TRAVIS_OS_NAME = linux && $CARGO_DEPLOY = 1"
+  script: ci/cargo-publish.sh
+
+```
+
+Finally, this uses `all_braches: true` but still `tags: true` to only 
+use tagged builds. **BUT** No builds occured when I tagged a build. It
+turns out that Travis uses the tag name as the branch name when it runs
+the build and so you have to include something in the top level
+`branches` block to whitelist those builds. I used a reasonably safe 
+regex for semantic version tags.
+
+``` yaml
+branches:
+  only:
+  - master
+  - /\d+\.\d+(\.\d+)?(\-[a-z]+[a-zA-Z0-9]*)?/
 ```
 
