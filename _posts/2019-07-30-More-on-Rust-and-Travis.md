@@ -7,8 +7,8 @@ tags: [rust, travis, ci]
 
 This is a follow on to the post I wrote earlier this month, {% link _posts/2019-07-19-Rust-and-Travis----Ouch.md %}.
 
-As I am ~persistent~ stubborn, I continued to work on the problem. As I saw
-it my solution had a couple of unfortunate conditions, namely:
+As I am ~persistent~ stubborn, I continued to work on the problem. As I 
+saw it my solution had a couple of unfortunate conditions, namely:
 
 * The Travis configuration file just felt too long.
 * I stand by the fact that my for loops were OK as embedded scripting
@@ -17,16 +17,14 @@ it my solution had a couple of unfortunate conditions, namely:
   but how to keep that in sync with the Cargo workspace members?
 * Deployment didn't work.
 
-I'm thinking the next step is actually to pull these out into their own 
-repo and add an `install` block to the configuration to clone the repo
-into the build directory.
-
 ## New Travis configuration
 
 So, below is the new [`.travis.yml`](https://github.com/johnstonskj/rust-financial/blob/master/.travis.yml)
-for the workspace. This has only one additional build added to the 
-matrix, removes all scripting from the configuration and uses a 
-series of global flags that control the behavior of the CI scripts.
+for the workspace. This removes all scripting from the configuration 
+and uses a series of global flags that control the behavior of the CI 
+scripts. Note the `install` list that includes a Git checkout and a 
+script call. I have moved all of the scripts from `rust-financial` and
+moved to [`rustt-ci`](https://github.com/johnstonskj/rust-ci).
 
 ```yaml
 # Common language header
@@ -49,11 +47,16 @@ os:
 # Set global environment only
 env:
   global:
-  - RUST_BACKTRACE=1
+  - CARGO_BIN=ci/bin
+  - CARGO_DEBUG=1
+  - CARGO_DEPLOY=1
   - CARGO_FLAGS=--verbose
   - CARGO_LINTER=fmt
-  - CARGO_DEPLOY=1
-  - secure: "Swx...Zlw="
+  - secure: "SwxX4DVDM7eS3AjJhdDCAIWIYi9IMfiYIAu+n4Fx4fkPf8RwCg/h1gA4RV6WNZBpus8fzD065GHnYWP6BVllyFzoF2WYG9xBTcSA+gJHFrGSSqa7xNLEZCTUkSb0KLtVv7GbgVZgH4lHgh+BTfAYwTn/ty9bBoz+qlF9k0tRJsP7q8KsL+XSZWIQdQuuCFnjnkaNYoJPg3Iz4BDV77Wyr2hIK1bsos1NNslCUJxp3d3O16lEd0L2uU19iZ6ORgOaTq5NUHZ/mTaRFmtLgZjHHNp0YYaoZCZjNqG5PDXZm0vU7e7rprx6s9p1O9Ll6jEAQcE07tNa1Om26hsYCS4HP5+zqNrhb6d5oB6n5NjobOK3E1AamgbnJglh96lxqreOICGRHEwYurgq+IyxXFE+xGfkxsi45xcdiX0HueFxYgfjbjtB5osXhE0pci2UXMDwcNhjqPs3WZ1cCPQKjYx64Rxt1bnOHLj8BqNmk075wDtHNqzbNI5k5VK9IvajNfXnVLTghFqIccSHNOswVRAmcnH+nc83bj9XCe4JMOh0UzIngg+wRVIcvrTkxWWdVAE0m/8XAJr06ZWF2bGRK2AATJqSeonyBpYxl7kK/qJoUs8oCrcw0KIVe1/Wd7HUwLoy4zxuVxH07F0H/v231Zip3XMvz8P3/1Sfm27MuMYuZlw="
+
+install:
+- git clone https://github.com/johnstonskj/rust-ci.git ci
+- ci/bin/cargo-lint.sh --install
 
 matrix:
   # Performance tweak
@@ -62,20 +65,10 @@ matrix:
   allow_failures:
   - rust: nightly
 
-  # Only run the formatting check for stable, turn off deployments
-  include:
-  - name: 'Rust: linter check'
-    rust: stable
-    install:
-    - ci/cargo-lint.sh --install
-    env:
-    - CARGO_DEPLOY=0
-    script:
-    - ci/cargo-lint.sh
-
 # Script supports packages and workspaces
 script:
-- ci/cargo-build.sh
+- ci/bin/cargo-build.sh
+- ci/bin/cargo-lint.sh
 
 # Deployment script, this is under test
 deploy:
@@ -84,7 +77,7 @@ deploy:
     tags: true
     all_branches: true
     condition: "$TRAVIS_RUST_VERSION = stable && $TRAVIS_OS_NAME = linux && $CARGO_DEPLOY = 1"
-  script: ci/cargo-publish.sh
+  script: ci/bin/cargo-publish.sh
 
 # Only initiate build on master or tag branches
 branches:
@@ -111,6 +104,20 @@ it creates the `$CRATES` environment variable directly from the members
 listed in the `Cargo.toml` file.
 
 ``` bash
+#!/usr/bin/env bash
+
+if [[ "$CARGO_BIN" = "" ]] ; then
+    CARGO_BIN=$(dirname "$0")
+fi
+
+source $CARGO_BIN/logging.sh
+
+debug "running cargo CI commands from $CARGO_BIN"
+
+if [[ ! -f "Cargo.toml" ]] ; then
+    fatal "no Cargo.toml file, are you running in your project root?" 2>&1
+fi
+
 if $(grep -q "^\[workspace\]$" Cargo.toml) ; then
     export CARGO_WORKSPACE=1
     #
@@ -128,9 +135,18 @@ if $(grep -q "^\[workspace\]$" Cargo.toml) ; then
         | sed -e 's/[[:space:]]*$//' \
         | tr ' ' ',' \
     )
-    echo "Cargo workspace contains ( $CRATES ) crates"
+    info "cargo workspace contains ( $CRATES ) crates"
 else
     export CARGO_WORKSPACE=0
+fi
+
+if [[ $CARGO_DEBUG = 1 ]] ; then
+    debug "setting debug flags (CARGO_FLAGS, RUST_BACKTRACE, RUST_LOG)"
+    RUST_BACKTRACE=1
+    RUST_LOG=info
+    if [[ ! $CARGO_FLAGS = *verbose* ]] ; then
+	    CARGO_FLAGS="$CARGO_FLAGS --verbose"
+    fi
 fi
 ```
 
@@ -141,7 +157,9 @@ on whether this ia a workspace build (from `$CARGO_WORKSPACE`). It performs
 the build, test, and doc tasks into a single script.
 
 ``` bash
-source ci/cargo-config.sh
+#!/usr/bin/env bash
+
+source $CARGO_BIN/cargo-config.sh
 
 if [[ $CARGO_WORKSPACE = 1 ]] ; then
     WS_FLAGS="--all"
@@ -150,11 +168,11 @@ else
 fi
 
 if [[ "$1" == "--clean" ]] ; then
-    echo "Cleaning up first..."
+    info "cleaning up first..."
     cargo clean $CARGO_FLAGS --release --doc
 fi
 
-echo "Running build, test, doc..."
+info "running build, test, doc..."
 cargo build $CARGO_FLAGS $WS_FLAGS && \
 cargo test $CARGO_FLAGS $WS_FLAGS && \
 cargo doc $CARGO_FLAGS $WS_FLAGS --no-deps
@@ -170,13 +188,16 @@ the top-level `script` list, or as I have done, create a new build in
 the matrix.
 
 ``` bash
-source ci/cargo-config.sh
+#!/usr/bin/env bash
+
+source $CARGO_BIN/cargo-config.sh
 
 if [[ "$CARGO_LINTER" == "" ]] ; then
-    echo >&2 "Warning: no CARGO_LINTER environment variable set, doing nothing now"
+    warning "no CARGO_LINTER environment variable set, doing nothing now"
     exit 1
 else
     if [[ "$1" == "--install" ]] ; then
+        info "installing lint-like tools"
         let "exit_code=0"
         for CMD in ${CARGO_LINTER//,/ }
         do
@@ -190,7 +211,7 @@ else
                 let "exit_code += $?"
                 ;;
             *)
-                echo >&2 "Warning: unknown command $CMD"
+                warning "unknown command $CMD"
                 let "exit_code += 100"
                 ;;
             esac
@@ -202,15 +223,15 @@ else
         do
             case "$CMD" in
             fmt)
-                ci/cargo-command.sh fmt --check $*
+                $CARGO_BIN/cargo-command.sh fmt --check $*
                 let "exit_code += $?"
                 ;;
             clippy)
-                ci/cargo-command.sh clippy -D warnings $*
+                $CARGO_BIN/cargo-command.sh clippy -D warnings $*
                 let "exit_code += $?"
                 ;;
             *)
-                echo >&2 "Warning: unknown command $CMD"
+                warning "unknown command $CMD"
                 let "exit_code += 100"
                 ;;
             esac
@@ -227,7 +248,13 @@ although it could. It runs an arbitrary Cargo command taking into account
 any required flags, and passing any flags to the command.
 
 ``` bash
-source ci/cargo-config.sh
+#!/usr/bin/env bash
+
+source $CARGO_BIN/cargo-config.sh
+
+if [[ $# -lt 1 ]] ; then
+    fatal "no CARGO_COMMAND argument supplied"
+fi
 
 if [[ $CARGO_WORKSPACE = 1 ]] ; then
     WS_FLAGS="--all"
@@ -237,6 +264,8 @@ fi
 
 CARGO_COMMAND=$1
 shift
+
+debug "running $CARGO_COMMAND"
 
 if [[ $# = 0 ]] ; then
     cargo $CARGO_COMMAND $CARGO_FLAGS $WS_FLAGS
@@ -252,18 +281,20 @@ crates in the workspace. Currently, it has worked for a random single crate in
 the workspace, but not all. Still, that's progress.
 
 ``` bash
-source ci/cargo-config.sh
+#!/usr/bin/env bash
+
+source $CARGO_BIN/cargo-config.sh
 
 if [[ "$CARGO_DEPLOY" = "0" ]] ; then
     # Just in case.
-    echo "Skipping deployment step for now"
+    info "skipping deployment step for now"
     exit 0
 fi
 
 if [[ "$CARGO_TOKEN" = "" ]] ; then
     # Ensure this is set as a global environment
-    # variable, *and* as a secure one.
-    echo "Error: no CARGO_TOKEN environment variable"
+    #  variable, *and* as a secure one.
+    error "no CARGO_TOKEN environment variable"
     exit 2
 fi
 
