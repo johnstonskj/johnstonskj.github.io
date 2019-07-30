@@ -23,8 +23,9 @@ So, below is the new [`.travis.yml`](https://github.com/johnstonskj/rust-financi
 for the workspace. This removes all scripting from the configuration 
 and uses a series of global flags that control the behavior of the CI 
 scripts. Note the `install` list that includes a Git checkout and a 
-script call. I have moved all of the scripts from `rust-financial` and
-moved to [`rustt-ci`](https://github.com/johnstonskj/rust-ci).
+script call. I have moved all of the scripts from the original
+`rust-financial` repo into the new
+[`rust-ci`](https://github.com/johnstonskj/rust-ci) one.
 
 ```yaml
 # Common language header
@@ -52,7 +53,7 @@ env:
   - CARGO_DEPLOY=1
   - CARGO_FLAGS=--verbose
   - CARGO_LINTER=fmt
-  - secure: "SwxX4DVDM7eS3AjJhdDCAIWIYi9IMfiYIAu+n4Fx4fkPf8RwCg/h1gA4RV6WNZBpus8fzD065GHnYWP6BVllyFzoF2WYG9xBTcSA+gJHFrGSSqa7xNLEZCTUkSb0KLtVv7GbgVZgH4lHgh+BTfAYwTn/ty9bBoz+qlF9k0tRJsP7q8KsL+XSZWIQdQuuCFnjnkaNYoJPg3Iz4BDV77Wyr2hIK1bsos1NNslCUJxp3d3O16lEd0L2uU19iZ6ORgOaTq5NUHZ/mTaRFmtLgZjHHNp0YYaoZCZjNqG5PDXZm0vU7e7rprx6s9p1O9Ll6jEAQcE07tNa1Om26hsYCS4HP5+zqNrhb6d5oB6n5NjobOK3E1AamgbnJglh96lxqreOICGRHEwYurgq+IyxXFE+xGfkxsi45xcdiX0HueFxYgfjbjtB5osXhE0pci2UXMDwcNhjqPs3WZ1cCPQKjYx64Rxt1bnOHLj8BqNmk075wDtHNqzbNI5k5VK9IvajNfXnVLTghFqIccSHNOswVRAmcnH+nc83bj9XCe4JMOh0UzIngg+wRVIcvrTkxWWdVAE0m/8XAJr06ZWF2bGRK2AATJqSeonyBpYxl7kK/qJoUs8oCrcw0KIVe1/Wd7HUwLoy4zxuVxH07F0H/v231Zip3XMvz8P3/1Sfm27MuMYuZlw="
+  - secure: "Swx...Zlw="
 
 install:
 - git clone https://github.com/johnstonskj/rust-ci.git ci
