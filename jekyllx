@@ -17,13 +17,15 @@ usage() {
     echo "${bold}NAME${normal}"
     echo "\t$APP - Jekyll wrapper script\n"
     echo "${bold}SYNOPSIS${normal}"
-    echo "\t$APP [new|page|post|promote] ARGS\n"
+    echo "\t$APP [new|draft|page|post|promote] ARGS\n"
     echo "${bold}DESCRIPTION${normal}"
     echo "\tnew SITENAME"
     echo "\t\t- create a new site and add useful stuff\n"
-    echo "\tpage FILENAME [title] [layout]"
+    echo "\tdraft TITLE [category=]"
+    echo "\t\t- create a new draft post with optional category\n"
+    echo "\tpage FILENAME [title=New Page] [layout=catpage] [category=]"
     echo "\t\t- create a new page with optional layout/title\n"
-    echo "\tpost TITLE"
+    echo "\tpost TITLE  [category=]"
     echo "\t\t- create a new post with the required title\n"
     echo "\tpromote FILENAME"
     echo "\t\t- create a new page or post from a draft\n"
@@ -34,6 +36,7 @@ usage() {
 }
 
 new_site() {
+    # new SITENAME
     if [[ ${#@} == 0 ]] ; then
 	echo "Error: must supply a site name"
 	usage
@@ -58,59 +61,86 @@ EOF
     fi
 }
 
+new_draft() {
+    # draft TITLE [category=]
+    new_post_file 1 $1 $2
+}
+
 new_post() {
+    # post TITLE [category=]
+    new_post_file 0 $1 $2
+}
+
+new_post_file() {
+    # $IS_DRAFT $TITLE $CAT
     if [[ ${#@} == 0 ]] ; then
-	echo "Error: must supply file name"
+	echo "Error: must supply page title"
 	usage
     else
-	DATE=$(date "+%Y-%m-%d")
-	FILE=$(echo $1 | sed -e "s/ /-/g")
-	echo "$POSTS_DIR/$DATE-$FILE.md"
- 	cat <<EOF > "$POSTS_DIR/$DATE-$FILE.md"
----
-title: $1
-layout: post
-category: 
-tags: []
----
-
-TBD
-
-EOF
-	git add "$POSTS_DIR/$DATE-$FILE.md"
+	if [[ $1 -eq 1 ]] ; then
+	    DIR=$DRAFTS_DIR
+	else
+	    DIR=$POSTS_DIR
+	fi
+	FILE=$(echo $2 | sed -e "s/ /-/g")
+	if [[ "$3" == "" ]] ; then
+	    LAYOUT="post"
+	    CAT=
+	else
+	    LAYOUT="postx"
+	    CAT=$3
+	fi
+	if [[ $1 -eq 0 ]] ; then
+	    DATE=$(date "+%Y-%m-%d")
+	    FILE="$DATE-$FILE"
+	fi
+	write_file $DIR $FILE $2 $LAYOUT $CAT
     fi
 }
 
 new_page() {
+    # page FILENAME [title=New Page] [layout=catpage] [category=]
     if [[ ${#@} == 0 ]] ; then
 	echo "Error: must supply file name"
 	usage
     else
+	FILE=$(echo $1 | sed -e "s/ /-/g")
 	FILE=$(basename -- $1)
 	if [[ "${FILE##*.}" != $MD_EXT ]] ; then
 	    FILE="$1.$MD_EXT"
 	fi
 	TITLE=${2:-"New Page"}
-	LAYOUT=${3:-page}
-	echo "Writing to $FILE"
- 	cat <<EOF > "$PAGES_DIR/$FILE"
+	LAYOUT=${3:-catpage}
+	write_file $PAGES_DIR $FILE $TITLE $LAYOUT $4
+    fi
+}
+
+write_file() {
+    # $DIR $FILE $TITLE $LAYOUT $CAT
+    FILE_NAME="$DIR/$FILE"
+    if [[ "${FILE_NAME##*.}" != $MD_EXT ]] ; then
+	FILE_NAME="$FILE_NAME.$MD_EXT"
+    fi
+    echo "Writing to $FILE_NAME"
+    cat <<EOF > "$FILE_NAME"
 ---
-title: $TITLE
-layout: $LAYOUT
-category: 
+title: $3
+layout: $4
+category: $5
 tags: []
 ---
 
 TBD
 
 EOF
-    fi
-    git add "$PAGES_DIR/$FILE"
+    echo "Adding file to Git"
+    git add "$FILE_NAME"
 }
 
 promote() {
+    # promote FILENAME
     if [[ ${#@} == 0 ]] ; then
-	echo "Error: must supply file name"
+	echo "Error: must supply file name (without directory)"
 	usage
     else
     	SRC="$DRAFTS_DIR/$1"
@@ -119,10 +149,13 @@ promote() {
 	    usage
 	else
 	    if grep -Fq "layout: post" $SRC ; then
+		echo "Moving file to dated post"
 		DATE=$(date "+%Y-%m-%d")
 		TITLE=$(grep "title: " $SRC | cut -d: -f2 | sed -e "s/ /-/g" | cut -c 2-)
+		echo "Moving file with Git"
 		git mv $SRC "$POSTS_DIR/$DATE-$TITLE.md"
 	    else
+		echo "Moving file with Git"
 		git mv $SRC "$PAGES_DIR/$1"
 	    fi
 	fi
@@ -134,6 +167,9 @@ in
     new)      shift ;
 	      new_site $@ ;;
     
+    draft)    shift ;
+	      new_draft $@ ;;
+	          
     page)     shift ;
 	      new_page $@ ;;
 	          
