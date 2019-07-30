@@ -7,7 +7,7 @@ tags: [rust, travis, ci]
 
 This is a follow on to the post I wrote earlier this month, {% link _posts/2019-07-19-Rust-and-Travis----Ouch.md %}.
 
-As I am ~persistent~ stubborn, I continued to work on the problem. As I 
+As I am ~~persistent~~ stubborn, I continued to work on the problem. As I 
 saw it my solution had a couple of unfortunate conditions, namely:
 
 * The Travis configuration file just felt too long.
