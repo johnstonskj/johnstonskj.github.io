@@ -17,6 +17,10 @@ it my solution had a couple of unfortunate conditions, namely:
   but how to keep that in sync with the Cargo workspace members?
 * Deployment didn't work.
 
+I'm thinking the next step is actually to pull these out into their own 
+repo and add an `install` block to the configuration to clone the repo
+into the build directory.
+
 ## New Travis configuration
 
 So, below is the new [`.travis.yml`](https://github.com/johnstonskj/rust-financial/blob/master/.travis.yml)
