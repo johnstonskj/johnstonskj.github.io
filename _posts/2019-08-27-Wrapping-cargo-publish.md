@@ -31,7 +31,7 @@ the history in the readme file.
 
 ## Script
 
-```
+I simply named it `cargopub`, but here it is.
 
 ``` bash
 #!/usr/bin/env bash
