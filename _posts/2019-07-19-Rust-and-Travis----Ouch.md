@@ -16,6 +16,13 @@ I have used [Travis CI](https://travis-ci.org/johnstonskj) for a number of
 projects already and found it pretty easy for most languages so that's where 
 I started.
 
+> Why the "ouch" part? the main reason is that it seems much harder out of the
+> box to get a good Rust build on Travis **if** you are using workspaces. All
+> the examples I had seen contained all manner of odd scripts, invocations and
+> config that looked like some kind of Voodoo magic. I have actually created
+> my own Voodoo magic after finishing this post, I'll document that some time
+> soon. _edited 2019-07-30_
+
 ## Getting Started
 
 The Rust book has a section on [Continuous Integration](https://doc.rust-lang.org/cargo/guide/continuous-integration.html#travis-ci)
