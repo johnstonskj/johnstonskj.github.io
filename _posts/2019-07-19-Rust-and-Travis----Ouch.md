@@ -1,6 +1,6 @@
 ---
 title: Rust and Travis -- Ouch
-layout: post
+layout: postx
 category: code
 tags: [rust, travis, ci]
 ---

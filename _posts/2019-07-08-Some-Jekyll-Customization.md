@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postx
 title: Some Jekyll Customization
 category: code
 tags: [jekyll, blog]
