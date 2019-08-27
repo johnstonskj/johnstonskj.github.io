@@ -37,14 +37,14 @@ I simply named it `cargopub`, but here it is.
 #!/usr/bin/env bash
 
 if [[ "$1" == "" ]] ; then
-    echo "Error: a version message is required as first parameter"
+    echo "Error: a version message is required as first parameter" >&2
     exit 1
 fi
 
 pushd $(git rev-parse --show-toplevel)
 
 if ! cargo clean && cargo fmt -- --check && cargo test && cargo doc --no-deps ; then
-    echo "Error: failed cargo pre-requisite steps"
+    echo "Error: failed cargo pre-requisite steps" >&2
     exit 2
 fi
 
@@ -54,7 +54,7 @@ if [[ -e Cargo.toml ]] ; then
 
     if [[ -e README.md ]] ; then
         if ! grep -q "\*\*$VER\*\*" README.md; then
-            echo "Error: version not listed in README.md"
+            echo "Error: version not listed in README.md" >&2
             exit 3
         fi
     fi
@@ -64,11 +64,11 @@ if [[ -e Cargo.toml ]] ; then
         git push --tags --no-verify
         popd
     else 
-        echo "Error: cargo publish command failed"
+        echo "Error: cargo publish command failed" >&2
         exit 4
     fi
 else
-    echo "Error: no cargo file; are you in the right place?"
+    echo "Error: no cargo file; are you in the right place?" >&2
     exit 5
 fi
 ```
