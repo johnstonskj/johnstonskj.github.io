@@ -84,7 +84,7 @@ Apparently at some point I took a rest...
 
 ![Simon resting, Kirkland](assets/img/diving/dive-cleanup-simon.jpg)
 
-## Places so far
+## Places Dived So Far
 
 * Bora Bora
 * Seattle
