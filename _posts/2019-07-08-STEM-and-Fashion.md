@@ -1,7 +1,7 @@
 ---
-title: STEM and Fashion
 layout: postx
-categories: [work]
+title: STEM and Fashion
+category: work
 tags: [t-shirt, zazzle]
 ---
 

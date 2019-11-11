@@ -4,7 +4,7 @@ layout: catpage
 category: audio
 ---
 
-When not [working](work.md) or [underwater](diving.md) I love music, both recorded and live. We 
+When not [working]({% link work.md %}) or [underwater]({% link diving.md %}) I love music, both recorded and live. We 
 hang out in local venues as well as travel to see live shows and festivals. We also have a pretty
 big collection of recorded music as well as heavy use of [Spotify](https://www.spotify.com/us/) 
 and [TIDAL](https://tidal.com/). My personal tastes range from Baroque classical to Scandinavian 
@@ -137,7 +137,7 @@ Venere 2.0 and they have an amazing sound presence! I may be a SF convert going 
 
 ## Stuff Links
 
-* [Audioquest](https://www.audioquest.com/)
+* [audioquest](https://www.audioquest.com/)
 * [clearaudio](https://clearaudio.de/en/direct/index.php)
 * [Definitive Audio](https://definitive.com/)
 * [Linn](https://www.linn.co.uk/)
@@ -148,6 +148,7 @@ Venere 2.0 and they have an amazing sound presence! I may be a SF convert going 
 * [Salamander](https://www.salamanderdesigns.com/)
 * [Schiit](https://www.schiit.com/)
 * [Sennheiser](https://en-us.sennheiser.com/)
+* [Shure](https://www.shure.com/en-US)
 * [Sonus Faber](https://www.sonusfaber.com/en/)
 * [TIDAL](https://tidal.com/)
 * [Transparent Cable](https://www.transparentcable.com/)

@@ -53,8 +53,8 @@ KVM switch at home connected to the three machines.
 
 ## Interesting Links
 
-* [Reading List](reading.md)
-* [Quotes for Software Geeks](quotes.md)
+* [Reading List]({% link reading.md %})
+* [Quotes for Software Geeks]({% link quotes.md %})
 * [GitHub Repositories](https://github.com/johnstonskj?tab=repositories)
 
 ## Programming Languages I Have Known

@@ -1,6 +1,8 @@
+/.idea
 Gemfile.lock
 .sass-cache/
 _site/
 tmp/
 \#*\#
 *~
+.DS_Store

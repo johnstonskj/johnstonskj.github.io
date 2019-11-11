@@ -1,7 +1,7 @@
 ---
+layout: postx
 title: Some Jekyll Customization
-layout: post
-categories: [code]
+category: code
 tags: [jekyll, blog]
 ---
 

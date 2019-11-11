@@ -1,6 +1,7 @@
 ---
-title: ICL EMail Signature
 layout: postx
+title: ICL EMail Signature
+category: history
 tags: [icl]
 ---
 
