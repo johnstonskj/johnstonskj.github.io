@@ -83,3 +83,18 @@ Kirkland, WA waterfront.
 Apparently at some point I took a rest...
 
 ![Simon resting, Kirkland](assets/img/diving/dive-cleanup-simon.jpg)
+
+## Places so far
+
+* Bora Bora
+* Seattle
+* Mexico
+  * Isla Mujeres
+  * Yucatan Cenotes
+  * Cozumel
+  * Mahahual
+* La Jolla, CA
+* Grand Turk
+* St. Kitts
+* Bonaire
+* Indonesia (Derawan Islands)
