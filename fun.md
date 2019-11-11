@@ -48,6 +48,8 @@ desktop with 64Gb memory, 8Tb disk, 512Gb SSD, an NVIDIA GTX 1080i and an
 NVIDIA Titan V, running Ubuntu for GPU training and inferencing. I use the same 
 large monitor at work, and at home, a Dell
 [UltraSharp U3415W 34-Inch Curved](https://www.dell.com/en-us/shop/accessories/apd/210-adtr).
+I have also a Advantage keyboard and a XYZ mouse at home and work with a XYZ 
+KVM switch at home connected to the three machines.
 
 ## Interesting Links
 
@@ -69,7 +71,7 @@ some of these only exist as online, usually PDF, scanned manuals.
 * BASIC Family
   * MS/Sanyo Basic
   * Visual Basic
-* COBOL
+* COBOL (yes, really)
 * C Family
   * C
   * C++; Glockenspiel, Zortech, MSVCC, GCC, CLANG
@@ -89,6 +91,7 @@ some of these only exist as online, usually PDF, scanned manuals.
 * Perl
 * Progress 4GL
 * Python (from 0.5, and built first non-Unix port)
+* Rust
 * Query/Constraint Languages
   * OCL
   * SPARQL
