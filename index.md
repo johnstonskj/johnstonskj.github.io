@@ -28,4 +28,4 @@ considered an [audiophile]({% link audio.md %}) at home.
 Thanks.
 
 
-[![made with Jekyll](https://img.shields.io/badge/made%20with-Jekyll-%23fc0?style=flat&logo=appveyor)](https://jekyllrb.com/)
+[![made with Jekyll](https://img.shields.io/badge/made%20with-Jekyll-%23fc0?style=flat)](https://jekyllrb.com/)
