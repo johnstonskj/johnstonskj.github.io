@@ -26,3 +26,6 @@ I also share with her a love of music, especially live. I might also be
 considered an [audiophile]({% link audio.md %}) at home.
 
 Thanks.
+
+
+[![made with Jekyll](https://img.shields.io/badge/made%20with-Jekyll-%23fc0?style=flat&logo=appveyor)](https://jekyllrb.com/)
