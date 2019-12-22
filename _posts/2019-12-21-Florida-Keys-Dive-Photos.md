@@ -32,20 +32,20 @@ Just a fun one, an odd bunch (_macro 1/160 f4 ISO250_).
 This Spotfin Butterflyfish was going around and around the corals in the background and pretty close up for a while 
 (_macro 1/160 f4 ISO100_).
 
-![](/assets/img/diving/florida-dive-07616.jpg)
+![Spotfin Butterflyfish](/assets/img/diving/florida-dive-07616.jpg)
 
 _We're not here, you can't see us behind this tree_; I liked the balance and movement in this (_macro 1/160 f4 ISO125_).
 
-![](/assets/img/diving/florida-dive-07656.jpg)
+![French Grunts](/assets/img/diving/florida-dive-07656.jpg)
 
 Now try and tell me this isn't the derpy-est looking fish, the Blue Parrotfish _Scarus coeruleus_ (_macro 1/160 f4 
 ISO125_).
 
-![](/assets/img/diving/florida-dive-07729.jpg)
+![Blue Parrotfish](/assets/img/diving/florida-dive-07729.jpg)
 
 The vibrancy of the blue spots on this Scrawled Filefish was so cool (_macro 1/160 f4 ISO100_).
 
-![](/assets/img/diving/florida-dive-07814.jpg)
+![Scrawled Filefish](/assets/img/diving/florida-dive-07814.jpg)
 
 Nurse sharks are usually hanging out in caves or under overhangs during the day. This one decided it had had enough 
 attention and swam lazily out from its sleeping spot (_macro 1/250 f4.5 ISO250_).
