@@ -26,7 +26,7 @@ juveniles, big enough when they appeared right next to you out of the gloom (_21
 
 ![photo](/assets/img/diving/derawan-dive-03-shark-sandi.jpg)
 
-Not long after we entered this dive we swam past this guy, it was a natural ledge on the side of the reef and he seemed 
+Not long after we entered this dive we swam past this Green Turtle _Chelonia mydas_, it was a natural ledge on the side of the reef and he seemed 
 to be just watching the world go by. You can still see the amount of particles in the water which made a lot of pictures 
 a challenge (_taken with a Sony E 30mm F3.5 prime macro using the macro port, not a perfect choice but again I like the 
 composition of the subject; 1/60 ISO640_).
@@ -38,7 +38,8 @@ critters, but the diversity, the colors and the detail are fascinating (_macro 1
 
 ![photo](/assets/img/diving/derawan-dive-05-coral.jpg)
 
-This little group of fish though were very cooperative and the little bright yellow flashes made the picture fun for 
+This little group of fish though were very cooperative and the little bright yellow flashes from the pair of Bluestreak 
+Cleaner Wrasse _Labroides dimidiatus_ made the picture fun for 
 me (_macro 1/250 ISO640_).
 
 ![photo](/assets/img/diving/derawan-dive-06-fish.jpg)
@@ -59,8 +60,9 @@ day (_macro 1/250 f4 ISO320_).
 
 ![photo](/assets/img/diving/derawan-dive-09-fan-coral.jpg)
 
-Clown fish are crazy! These little suckers are always on the move and anyone that gets that perfect photo of one in its 
-anemone home deserves a drink. This wasn't the usual Nemo clownfish but super pretty (_macro 1/250 f4 ISO320_).
+Anemone fish are crazy! These little suckers are always on the move and anyone that gets that perfect photo of one in its 
+anemone home deserves a drink. This wasn't the usual Clown Anemonefish but a Pink Anemonefish _Amphiprion perideraion_
+(_macro 1/250 f4 ISO320_).
 
 ![photo](/assets/img/diving/derawan-dive-10-clown-fish.jpg)
 

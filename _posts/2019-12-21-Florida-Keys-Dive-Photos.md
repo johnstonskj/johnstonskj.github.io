@@ -16,7 +16,8 @@ F3.5-5.6 OSS at 35mm 1/60 f6.3 ISO640_).
 ![Soft Coral on the Vandenberg](/assets/img/diving/florida-dive-07358.jpg)
 
 I love the lighting on this one, the film speed may have been too low, but I like it. Mostly French Grunts
-_Haemulon flavolineatum_ (_Sony E 30mm F3.5 macro at 1/160 f/4 ISO125_).
+_Haemulon flavolineatum_ with a lone Brown Chromis _Chromis multilineata_ in the foreground (_Sony E 30mm F3.5 macro 
+at 1/160 f/4 ISO125_).
 
 ![French Grunts](/assets/img/diving/florida-dive-07509.jpg)
 
@@ -25,7 +26,8 @@ different. Not really got a picture that seemed to capture the colors before (_m
 
 ![](/assets/img/diving/florida-dive-07595.jpg)
 
-Just a fun one, an odd bunch (_macro 1/160 f4 ISO250_).
+Just a fun one, an odd bunch; three different colors of Ocean Surgeonfish _Acanthurus bahianus_, and something 
+silvery in the back (_macro 1/160 f4 ISO250_).
 
 ![](/assets/img/diving/florida-dive-07609.jpg)
 
