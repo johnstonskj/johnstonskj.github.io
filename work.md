@@ -101,7 +101,7 @@ experts, technical depth, and mentoring available -- sometimes more than you exp
 
 I don't have one online, but my [LinkedIn](https://www.linkedin.com/in/simonkjohnston/)
 and [Google Scholar](https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en)
-profiles should cover things pretty well.
+profiles should cover things pretty well. Patents are listed in those sites, but also cached locally [here](patents.md).
 
 ## Standards Involvement
 
