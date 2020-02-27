@@ -2,11 +2,11 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "FiraGO", sans-serif !default;
+$base-font-family: "Fira Sans", sans-serif !default;
 $base-font-size:   16px !default;
-$base-font-weight: 300 !default;
+$base-font-weight: 200 !default;
 $small-font-size:  $base-font-size * 0.8 !default;
-$base-line-height: 2 !default;
+$base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
@@ -19,6 +19,11 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
+
+$code-font-family: "Fira Code", monospace !default;
+$code-font-weight: 300;
+$code-font-size:   90%;
+$code-line-height: 1.4;
 
 // Width of the content area
 $content-width:    800px !default;
@@ -51,7 +56,6 @@ $on-laptop:        800px !default;
 ;
 
 main p {
-  line-height: 1.5;
   text-align: justify;
 }
 
@@ -65,11 +69,11 @@ main.book-style p:first-of-type {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 200%;
 }
 
 figure {
-  font-size: 80%;
+  font-size: $small-font-size;
 }
 
 a, a:visited {
@@ -78,7 +82,7 @@ a, a:visited {
 
 .meta {
   color: $grey-color-light;
-  font-size: 80%;
+  font-size: $small-font-size;
 }
 
 h3 > .post-link {
@@ -86,10 +90,16 @@ h3 > .post-link {
 }
 
 main h1, main h2, main h3, main h4 {
-  font-weight: 200;
+  font-weight: 50%;
 }
 
 pre, code {
-  font-family: "Fira Mono", monospace;
-  font-size: 90%;
+  font-family: $code-font-family;
+  font-size: $code-font-size;
+  font-weight: $code-font-weight;
+  line-height: $code-line-height;
+}
+
+.highlight .o, .highlight .k {
+  font-weight: 200%;
 }
