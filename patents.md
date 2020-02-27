@@ -33,7 +33,7 @@ layout: page
 
 # Applications
 
-1. _Message Flow Model of interactions Between Distributed Service_, [US 2008/0259,30 A1](assets/doc/patents/US20080259930A1.pdf), Oct. 23, 2008
-1. _Automatic Destination Determination for Multiple Travelers Departing From Multiple Source Locations Based on User Specified Criteria_, [US 2009/0105941 A1](assets/doc/patents/US20090105941A1.pdf), Apr. 23, 2009
-1. _Defining Operations Elements in a Business Process Model_, [US 2009/0138249 A1](assets/doc/patents/US20090138249A1.pdf), May 28, 2009
 1. _Event-Based Composition Model for Workflow Systems_, [US 2019/0213510 A1](assets/doc/patents/US20190213510A1.pdf), Jul. 11, 2019
+1. _Defining Operations Elements in a Business Process Model_, [US 2009/0138249 A1](assets/doc/patents/US20090138249A1.pdf), May 28, 2009
+1. _Automatic Destination Determination for Multiple Travelers Departing From Multiple Source Locations Based on User Specified Criteria_, [US 2009/0105941 A1](assets/doc/patents/US20090105941A1.pdf), Apr. 23, 2009
+1. _Message Flow Model of interactions Between Distributed Service_, [US 2008/0259,30 A1](assets/doc/patents/US20080259930A1.pdf), Oct. 23, 2008
