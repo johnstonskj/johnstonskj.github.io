@@ -35,7 +35,9 @@ _... we do not consider it as good engineering practice to consume a resource la
 
 _Every program has (at least) two purposes: the one for which it was written, and another for which it wasn’t._ — **Alan J. Perlis**
 
-_Lisp has jokingly been called “the most intelligent way to misuse a computer.” I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts._  - *Edsger Dijkstra*
+_Object oriented programs are offered as alternatives to correct ones_ — **Edsger W. Dijkstra**
+
+_Lisp has jokingly been called "the most intelligent way to misuse a computer." I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts._  - *Edsger Dijkstra*
 
 _All problems in computer science can be solved by another level of indirection... Except for the problem of too many layers of indirection._ — **David Wheeler**
 
@@ -52,3 +54,7 @@ _The three most dangerous things in the world are a programmer with a soldering 
 _Without requirements or design, programming is the art of adding bugs to an empty text file._ -- **Louis Srygley**
 
 _Real stupidity beats artificial intelligence every time._ — **Terry Pratchett**
+
+_Oh, I’ve certainly never been short of pleasure. Do you know what real pleasure is? A creative act. A pleasure without creativity is dead boring._ -- **Gianni Agnelli**
+
+_A thing done well can be done better._ -- **Gianni Agnelli**
