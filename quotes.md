@@ -63,4 +63,4 @@ _Writing improves in direct ratio to the number of things we can keep out of it 
 
 _Writing is thinking on paper_ — **William Zinsser**
 
-_Judge a man by his questions rather than by his answers_ -- **Voltaire (François-Marie Arouet)**
+_Judge a man by his questions rather than by his answers_ and the corollary _He must be very ignorant for he answers every question he is asked._ -- **Voltaire (François-Marie Arouet)**
