@@ -58,3 +58,7 @@ _Real stupidity beats artificial intelligence every time._ — **Terry Pratchett
 _Oh, I’ve certainly never been short of pleasure. Do you know what real pleasure is? A creative act. A pleasure without creativity is dead boring._ -- **Gianni Agnelli**
 
 _A thing done well can be done better._ -- **Gianni Agnelli**
+
+_Writing improves in direct ratio to the number of things we can keep out of it that shouldn't be there_ -- **William Zinsser**
+
+_Writing is thinking on paper_ — **William Zinsser**
