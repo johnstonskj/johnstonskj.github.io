@@ -62,3 +62,5 @@ _A thing done well can be done better._ -- **Gianni Agnelli**
 _Writing improves in direct ratio to the number of things we can keep out of it that shouldn't be there_ -- **William Zinsser**
 
 _Writing is thinking on paper_ — **William Zinsser**
+
+_Judge a man by his questions rather than by his answers_ -- **Voltaire (François-Marie Arouet)**
