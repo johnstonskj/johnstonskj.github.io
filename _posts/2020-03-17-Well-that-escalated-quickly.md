@@ -86,11 +86,12 @@ struct Node {
 }
 ```
 
-The `NodePtr` values can easily be created, and as their only member is an `Rc<Node>` there can be a number of these structs 
-sharing the same `Node` value. The vector of `children` in each `Node` allow us to retain ownership with `Rc`, but this
-doesn't work well for `parent` (or for `owning_document` which isn't present in `amxml`). However, a `Weak<Node>` 
-created by `Rc::downgrade` works well to capture these additional references. Additionally, `RefCell` is added to allow
-mutation of elements in subtle ways within the implementation.
+The `NodePtr` values can easily be created, and as their only member is an `Rc<Node>` ([`Rc`](https://doc.rust-lang.org/std/rc/struct.Rc.html)) 
+there can be a number of these structs  sharing the same `Node` value. The vector of `children` in each `Node` allow us 
+to retain ownership with `Rc`, but this doesn't work well for `parent` (or for `owning_document` which isn't present in 
+`amxml`). However, a `Weak<Node>` ([`Weak`](https://doc.rust-lang.org/std/rc/struct.Weak.html)) created by `Rc::downgrade` 
+works well to capture these additional references. Additionally, [`RefCell`](https://doc.rust-lang.org/std/cell/struct.RefCell.html) 
+is added to allow mutation of elements in subtle ways within the implementation.
 
 The corresponding types in xml_dom are split between a generic `rc_cell` module:
 
