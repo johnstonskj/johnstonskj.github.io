@@ -2,7 +2,7 @@
 title: The Rust Toolchain (Rustioms)
 layout: post
 categories: [code]
-tags: [rust, idioms]
+tags: [rust, cargo, idioms]
 ---
 
 Most languages these days focus a lot of time on ensuring a complete toolchain, not just a compiler. We see build tools, 
