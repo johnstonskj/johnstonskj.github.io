@@ -36,6 +36,9 @@ github_username: johnstonskj
 linkedin_username: simonkjohnston
 facebook_username: simonkjohnston
 instagram_username: johnston4250
+# discourse_username: johnston4250
+# slack_username: johnstonskj@gmail.com
+# slack_channels: racket
 
 social:
   type:  Person
@@ -44,6 +47,7 @@ social:
     - "https://instagram.com/johnston4250"
     - "https://www.linkedin.com/in/simonkjohnston"
     - "https://scholar.google.com/citations?user=oXcWSwYAAAAJ&hl=en"
+# https://www.rustaceans.org/johnstonskj
 
 plugins:
   - jekyll-avatar
