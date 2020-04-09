@@ -2,6 +2,7 @@
 title: Work
 layout: catpage
 category: work
+permalink: /work/
 ---
 
 I am a software geek, starting at high school with an accidental fall into computer science. 

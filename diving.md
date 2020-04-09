@@ -2,6 +2,7 @@
 title: Diving
 layout: catpage
 category: diving
+permalink: /diving/
 ---
 
 Diving is something I have wanted to try off and on since I was young, unfortunately

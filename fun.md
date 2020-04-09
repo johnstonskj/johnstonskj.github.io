@@ -2,6 +2,7 @@
 title: Code4Fun
 layout: catpage
 category: code
+permalink: /code/
 ---
 
 At work the major platform is the JVM, I say that rather than Java because

@@ -2,6 +2,7 @@
 title: Audio
 layout: catpage
 category: audio
+permalink: /audio/
 ---
 
 When not [working]({% link work.md %}) or [underwater]({% link diving.md %}) I love music, both recorded and live. We 
