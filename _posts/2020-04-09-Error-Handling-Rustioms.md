@@ -2,7 +2,7 @@
 title: Error Handling (Rustioms)
 layout: post
 categories: [code]
-tags: [rust, idioms]
+tags: [rust, errors, idioms]
 ---
 
 Error detection, handling, and recovery is a really hard problem, and while most of the time it's a face-palm moment,
@@ -185,7 +185,7 @@ to be handed across threads. You also add your own `Result` type as well, as in 
 * [`std::cmp::PartialEq`](https://doc.rust-lang.org/std/cmp/trait.PartialEq.html); Trait for equality comparisons which are partial equivalence relations.
 * [`std::convert::From`](https://doc.rust-lang.org/std/convert/trait.From.html); Used to do value-to-value conversions while consuming the input value. It is the reciprocal of `Into`.
 * [`std::error::Error`](https://doc.rust-lang.org/std/error/trait.Error.html); Error is a trait representing the basic expectations for error values, i.e., values of type `E` in `Result<T, E>`.
-* [`std::fmt::Display`](https://doc.rust-lang.org/std/fmt/trait.Display.html); Format trait for an empty format, {}.
+* [`std::fmt::Display`](https://doc.rust-lang.org/std/fmt/trait.Display.html); Format trait for an empty format, `{}`.
 * [`std::io::Error`](https://doc.rust-lang.org/std/io/struct.Error.html); The error type for I/O operations of the `Read`, `Write`, `Seek`, and associated traits.
 * [`std::option::Option`](https://doc.rust-lang.org/std/option/enum.Option.html); The Option type.
 * [`std::result::Result`](https://doc.rust-lang.org/std/result/enum.Result.html); Result is a type that represents either success (`Ok`) or failure (`Err`).
