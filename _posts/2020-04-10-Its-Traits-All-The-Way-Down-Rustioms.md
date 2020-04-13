@@ -128,6 +128,7 @@ impl<T> MyContainer<T> {
     }
 }
 ```
+
 Now, all of that may seem like a lot of boiler-plate code, and it was, the following provides `Clone`, `Copy`, `Debug`, 
 and `Default` using derive. But, to achieve this you have to constrain `T` at this early stage to also be those things. 
 The composition of traits in Rust, while maybe adding some verbosity to library types is a trade-off for the level of 
@@ -186,7 +187,6 @@ an integer (regardless of size). There is a way to plug this gap, an excellent c
 ## Documentation Links
 
 * [Traits](https://doc.rust-lang.org/rust-by-example/trait.html) in Rust by Example.
-
 
 * Commonly derived
   * [`std::fmt::Debug`](https://doc.rust-lang.org/std/fmt/trait.Debug.html); Debug should format the output in a programmer-facing, debugging context.
