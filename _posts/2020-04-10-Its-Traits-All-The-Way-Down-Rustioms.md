@@ -1,6 +1,6 @@
 ---
 title: It's Traits (Almost) All the Way Down (Rustioms)
-layout: post
+layout: postx
 categories: [code]
 tags: [rust, traits, idioms]
 ---
@@ -146,7 +146,7 @@ Another interesting trait is [`Any`](https://doc.rust-lang.org/std/any/trait.Any
 _Most types implement Any. However, any type which contains a non-'static reference does not._ What this means is that
 you can test whether a value is of a given type using the `of` method on `TypeId` and the support for `TypeId` 
 equivalence. In the following example we see a value passed into `is_of_type` and all we know is that the value implements
-`Any` and _maybe_ `Sized`. Interestingl we name this value `_` as we are actually uninterested in the value but only the
+`Any` and _maybe_ `Sized`. Interestingly we name this value `_` as we are actually uninterested in the value but only the
 type `T` of this value. We then compare the type ID of this value to the `type_id` passed to us.
 
 ```rust

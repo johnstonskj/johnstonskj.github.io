@@ -1,4 +1,5 @@
 ---
+title: Practical Typography
 layout: postx
 category: code
 tags: [typography]

@@ -1,6 +1,6 @@
 ---
 title: Pattern Matching (Rustioms)
-layout: post
+layout: postx
 categories: [code]
 tags: [rust, match, idioms]
 ---

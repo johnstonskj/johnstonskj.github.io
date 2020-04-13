@@ -1,6 +1,6 @@
 ---
-layout: postx
 title: Minima & Typography
+layout: postx
 category: code
 tags: [jekyll, blog, typography]
 ---

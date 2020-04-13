@@ -1,6 +1,6 @@
 ---
 title: Error Handling (Rustioms)
-layout: post
+layout: postx
 categories: [code]
 tags: [rust, errors, idioms]
 ---
