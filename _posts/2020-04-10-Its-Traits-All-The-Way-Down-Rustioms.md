@@ -43,7 +43,7 @@ compiler knows the contained type is able to support it.
 
 Taking the first impl in the  example below, `impl<T: Clone> Clone for MyContainer<T>` can be read as "implement `Clone` 
 for `MyContainer`, IFF the type `T` implements `Clone`". So we can now see that we have implemented a bunch of core 
-traits, `Clone`, `Copy`, `Debug`, `Display`, `From`, `Borrow`, and `BorrowMut` for our type, all dependent on `T` 
+traits, `Clone`, `Copy`, `Debug`, `Display`, `Drop`, From`, `Borrow`, and `BorrowMut` for our type, all dependent on `T` 
 supporting the same. 
 
 We also have two `impl` blocks for `MyContainer` itself, one is unconstrained and provides `map()` and `take()`, the 
@@ -92,6 +92,12 @@ impl<T: Default> Default for MyContainer<T> {
     }
 }
 
+impl<T: Drop> Drop for MyContainer<T> {
+    fn drop(&mut self) {
+        std::mem::drop(&self.inner)
+    }
+}
+
 impl<T> From<T> for MyContainer<T> {
     fn from(inner: T) -> Self {
         Self { inner }
@@ -129,6 +135,10 @@ impl<T> MyContainer<T> {
 }
 ```
 
+`Drop` is a particularly interesting trait, while Rust does not have explicit constructors and destructors, implementing
+`Drop` means that the `drop()` method will be called on any object as it goes out of scope. So, for our type we will 
+delegate the drop method if the inner type supports it.
+
 Now, all of that may seem like a lot of boiler-plate code, and it was, the following provides `Clone`, `Copy`, `Debug`, 
 and `Default` using derive. But, to achieve this you have to constrain `T` at this early stage to also be those things. 
 The composition of traits in Rust, while maybe adding some verbosity to library types is a trade-off for the level of 
@@ -150,6 +160,9 @@ an integer (regardless of size). There is a way to plug this gap, an excellent c
 
 ## Documentation Links
 
+* [Traits](https://doc.rust-lang.org/rust-by-example/trait.html) in Rust by Example.
+
+
 * Commonly derived
   * [`std::fmt::Debug`](https://doc.rust-lang.org/std/fmt/trait.Debug.html); Debug should format the output in a programmer-facing, debugging context.
   * [`std::clone::Clone`](https://doc.rust-lang.org/std/clone/trait.Clone.html); A common trait for the ability to explicitly duplicate an object.
@@ -160,6 +173,7 @@ an integer (regardless of size). There is a way to plug this gap, an excellent c
   * [`std::cmp::Ord`](https://doc.rust-lang.org/std/cmp/trait.Ord.html); Trait for types that form a total order.
 * Operations
   * [`std::ops::Add`](https://doc.rust-lang.org/std/ops/trait.Add.html); The addition operator `+`.
+  * [`std::ops::Drop`](https://doc.rust-lang.org/std/ops/trait.Drop.html); Used to run some code when a value goes out of scope. This is sometimes called a 'destructor'.
   * [`std::ops::Index`](https://doc.rust-lang.org/std/ops/trait.Index.html); Used for indexing operations (`container[index]`) in immutable contexts.
 * Conversions
   * [`std::convert::From`](https://doc.rust-lang.org/std/convert/trait.From.html); Used to do value-to-value conversions while consuming the input value. It is the reciprocal of `Into`.
