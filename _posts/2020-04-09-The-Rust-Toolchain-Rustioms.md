@@ -1,7 +1,7 @@
 ---
 title: The Rust Toolchain (Rustioms)
 layout: postx
-categories: [code]
+category: code
 tags: [rust, cargo, idioms]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: More, Almost Real, Rust
 layout: post
-categories: [code]
+category: code
 tags: [rust, work]
 ---
 

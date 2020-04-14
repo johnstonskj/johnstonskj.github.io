@@ -1,7 +1,7 @@
 ---
 title: It's Traits (Almost) All the Way Down (Rustioms)
 layout: postx
-categories: [code]
+category: code
 tags: [rust, traits, idioms]
 ---
 

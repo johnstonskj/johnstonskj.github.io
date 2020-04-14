@@ -52,6 +52,7 @@ social:
 plugins:
   - jekyll-avatar
   - jekyll-gist
+  - jekyll-feed
 
 defaults:
   - scope:
@@ -84,3 +85,11 @@ jekyll_compose:
     tags:
     published: false
     sitemap: false
+
+feed:
+  categories:
+    - audio
+    - code
+    - diving
+    - work
+  excerpt_only: true

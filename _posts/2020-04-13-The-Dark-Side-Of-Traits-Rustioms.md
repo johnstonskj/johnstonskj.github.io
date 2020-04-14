@@ -1,7 +1,7 @@
 ---
 title: The Dark Side of Traits (Rustioms)
 layout: postx
-categories: [code]
+category: code
 tags: [rust, traits, idioms]
 ---
 
