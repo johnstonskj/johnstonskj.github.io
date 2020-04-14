@@ -173,19 +173,27 @@ impl std::error::Error for MyError {
 ```
 
 Having walked through the roll-your-own `Error` process, there are some great crates such as 
-[failure](https://crates.io/crates/failure) that can do all of this and more for you. 
+[failure](https://crates.io/crates/failure) or [thiserror](https://crates.io/crates/thiserror) that can do all of this 
+and more for you. 
 
-Typically I have a top-level `error` module that only contains the above set of definitions and implementations, it 
-also implements the unsafe `Send` and/or `Sync` traits if the compiler doesn't do it automatically to allow error values 
-to be handed across threads. You also add your own `Result` type as well, as in the example in the first section.
+Typically my libraries have a top-level `error` module that only contains the above set of definitions and 
+implementations, it also implements the unsafe `Send` and/or `Sync` traits if the compiler doesn't do it automatically 
+to allow error values to be handed across threads. You also add your own `Result` type as well, as in the example in the 
+first section.
 
 ## Documentation Links
 
-* [`std::clone::Clone`](https://doc.rust-lang.org/std/clone/trait.Clone.html); A common trait for the ability to explicitly duplicate an object.
-* [`std::cmp::PartialEq`](https://doc.rust-lang.org/std/cmp/trait.PartialEq.html); Trait for equality comparisons which are partial equivalence relations.
-* [`std::convert::From`](https://doc.rust-lang.org/std/convert/trait.From.html); Used to do value-to-value conversions while consuming the input value. It is the reciprocal of `Into`.
-* [`std::error::Error`](https://doc.rust-lang.org/std/error/trait.Error.html); Error is a trait representing the basic expectations for error values, i.e., values of type `E` in `Result<T, E>`.
+* [`std::clone::Clone`](https://doc.rust-lang.org/std/clone/trait.Clone.html); A common trait for the ability to 
+  explicitly duplicate an object.
+* [`std::cmp::PartialEq`](https://doc.rust-lang.org/std/cmp/trait.PartialEq.html); Trait for equality comparisons which 
+  are partial equivalence relations.
+* [`std::convert::From`](https://doc.rust-lang.org/std/convert/trait.From.html); Used to do value-to-value conversions 
+  while consuming the input value. It is the reciprocal of `Into`.
+* [`std::error::Error`](https://doc.rust-lang.org/std/error/trait.Error.html); Error is a trait representing the basic 
+  expectations for error values, i.e., values of type `E` in `Result<T, E>`.
 * [`std::fmt::Display`](https://doc.rust-lang.org/std/fmt/trait.Display.html); Format trait for an empty format, `{}`.
-* [`std::io::Error`](https://doc.rust-lang.org/std/io/struct.Error.html); The error type for I/O operations of the `Read`, `Write`, `Seek`, and associated traits.
+* [`std::io::Error`](https://doc.rust-lang.org/std/io/struct.Error.html); The error type for I/O operations of the 
+  `Read`, `Write`, `Seek`, and associated traits.
 * [`std::option::Option`](https://doc.rust-lang.org/std/option/enum.Option.html); The Option type.
-* [`std::result::Result`](https://doc.rust-lang.org/std/result/enum.Result.html); Result is a type that represents either success (`Ok`) or failure (`Err`).
+* [`std::result::Result`](https://doc.rust-lang.org/std/result/enum.Result.html); Result is a type that represents 
+  either success (`Ok`) or failure (`Err`).
