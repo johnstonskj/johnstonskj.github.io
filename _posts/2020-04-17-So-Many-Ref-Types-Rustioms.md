@@ -1,7 +1,7 @@
 ---
 title: So Many Ref Types (Rustioms)
 layout: postx
-categories: [code]
+category: code
 tags: [rust, ref, idioms]
 ---
 

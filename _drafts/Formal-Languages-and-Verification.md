@@ -1,6 +1,6 @@
 ---
 title: Formal Languages and Methods
-layout: post
+layout: postx
 ---
 
 [JsCoq](https://jscoq.github.io)

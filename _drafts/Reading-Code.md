@@ -1,6 +1,6 @@
 ---
 title: How we Read Code
-layout: post
+layout: postx
 ---
 
 I came across this article on [Hacker News](https://news.ycombinator.com) not too long ago, 

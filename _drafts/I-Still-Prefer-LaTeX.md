@@ -1,6 +1,6 @@
 ---
 title: LaTeX Stuff
-layout: post
+layout: postx
 ---
 
 TBD
