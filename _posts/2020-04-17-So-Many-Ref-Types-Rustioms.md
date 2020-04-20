@@ -109,6 +109,9 @@ capabilities.
 
 ## Documentation Links
 
+Definitely go read §15, [Smart Pointers](https://doc.rust-lang.org/stable/book/ch15-00-smart-pointers.html) in The Rust 
+Programming Language.
+
 * [`std::boxed::Box`](https://doc.rust-lang.org/std/boxed/struct.Box.html); `Box<T>`, casually referred to as a 'box', 
   provides the simplest form of heap allocation in Rust. Boxes provide ownership for this allocation, and drop their 
   contents when they go out of scope.
