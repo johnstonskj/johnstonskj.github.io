@@ -10,7 +10,7 @@
 
     {%- feed_meta -%}
 
-    {% if jekyll.environment === 'production' and site.google_analytics %}
+    {% if jekyll.environment == 'production' and site.google_analytics %}
         {% include google-analytics.html %}
     {% endif %}
 </head>
