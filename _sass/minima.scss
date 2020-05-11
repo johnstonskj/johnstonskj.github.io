@@ -20,6 +20,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
+$code-bg-color:    #f6f8fa;
 $code-font-family: "Fira Code", monospace !default;
 $code-font-weight: 300;
 $code-font-size:   90%;
@@ -102,4 +103,28 @@ pre, code {
 
 .highlight .o, .highlight .k {
   font-weight: 200%;
+}
+
+pre, code {
+    background-color: $code-bg-color;
+}
+
+.highlighter-rouge .highlight {
+    background-color: $code-bg-color;
+}
+
+.rouge-table {
+    border: 0px;
+    margin: 0px;
+}
+
+.rouge-table td {
+    border: 0px;
+    padding: 0px;
+}
+
+.rouge-table td pre {
+    border: 0px;
+    margin: 0px;
+    padding-left: 0px;
 }
