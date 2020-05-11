@@ -2,7 +2,7 @@
 title: Add CSS to Dojo Widgets
 layout: postx
 category: code
-tags: [archive, css, dojo]
+tags: [archive, css, dojo, javascript]
 ---
 
 Many [Dojo](https://dojotoolkit.org/) widgets have custom CSS, and you have to remember to include them either in your application HTML pages or in 
