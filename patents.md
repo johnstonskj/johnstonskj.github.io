@@ -5,6 +5,7 @@ layout: page
 
 # Published
 
+1. _Contributed test management in deployment pipelines_, [US 10,719,427](assets/doc/patents/US10719427.pdf) Jol. 21, 2020
 1. _Scent-Based Spoilage Sensing Refrigerator_, [US 10,373,472](assets/doc/patents/US10373472.pdf) Aug. 6, 2019 and [WO 2017/160499 A2](assets/doc/patents/WO2017160499A2.pdf), Sep. 21, 2017
 1. _Workflow Discovery Through User Action Monitoring_, [US 10,296,859](assets/doc/patents/US10296859.pdf) May 21, 2019
 1. _Image-Based Spoilage Sensing Refrigerator_, [US 10,282,689](assets/doc/patents/US10282689.pdf) Aug. 6, 2019
