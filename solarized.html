@@ -1,0 +1,294 @@
+<html>
+    <head>
+        <title>Solarized Palette</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+        <style>
+            body {
+                font-family: 'Lora', 'Times New Roman', serif;
+                font-size: 18px;
+                color: #002b36;
+                position: relative;
+                background: #fdf6e3;
+                display: flex;
+                flex-flow: column;
+                height: 100vh;
+            }
+            hr {
+                color: #93a1a1;
+            }
+            table {
+                border-collapse: collapse;
+                font-size: inherit;
+            }
+            table#main {
+                min-width: 32em;
+                max-width: 42em;
+            }
+            table.theme {
+                min-width: 18em;
+                max-width: 24em;
+            }
+            thead tr {
+                border-style: solid;
+                border-color: #93a1a1;
+                border-width: 0px 0px 2px 0px;
+                text-align: left;
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            td {
+                padding-left: 4px;
+                padding-right: 4px;
+            }
+            td div.swatch {
+                margin: 3px;
+                display:inline-block;
+                min-height: 2em;
+                min-width: 3em;
+                max-width: 5em;
+            }
+            td.num {
+                text-align: right;
+            }
+            .edge {
+                border-style: solid;
+                border-color: #586e75;
+                border-width: 0px 2px 0px 0px;
+            }
+            img {
+                display: block;
+                margin: auto;
+                max-width: 100%;
+            }
+            q, blockquote {
+                color: #586e75;
+            }
+            a:link {
+                color: #268bd2;
+            }
+            a:visited {
+                color: #6c71c4;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Solarized Palette</h1>
+
+        <p>Ethan Schoonover's <a href="https://ethanschoonover.com/solarized/">Solarized</a> page includes some great resources, including this graphic.</p>
+
+        <img style="width: 471px;" src="https://raw.githubusercontent.com/altercation/solarized/master/img/solarized-palette.png"/>
+
+        <p>It also includes a basic text table for the different colors, but it was hard to visualize how to use these in themes. So, here is a prettier version of the table first.</p>
+
+        <table>
+            <thead id="main">
+                <tr><th colspan="2" class="edge">Solarized</th><th class="edge">Hex</th><th class="edge">16/8</th><th class="edge">Termcol</th><th colspan="2" class="edge">XTerm/Hex</th><th colspan="3" class="edge">L*A*B</th><th colspan="3" class="edge">RGB</th><th colspan="3" class="edge">HSB</th><th>Role</th></tr>
+            </thead>
+            <tbody>
+            <tr><td><div class="swatch" style="background-color: #002b36;"></div></td>
+                <td class="edge">base03</td>
+                <td class="edge">#002b36</td>
+                <td class="num edge">8/4</td>
+                <td class="edge">brblack</td>
+                <td class="num">234</td><td class="num edge">#1c1c1c</td>
+                <td class="num">15</td><td class="num">-12</td><td class="num edge">-12</td>
+                <td class="num">0</td><td class="num">43</td><td class="num edge">54</td>
+                <td class="num">193</td><td class="num">100</td><td class="num edge">21</td>
+                <td>Background</td></tr>
+            <tr><td><div class="swatch" style="background-color: #073642;"></div></td>
+                <td class="edge">base02</td>
+                <td class="edge">#073642</td>
+                <td class="num edge">0/4</td>
+                <td class="edge">black</td>
+                <td class="num">235</td><td class="num edge">#262626</td>
+                <td class="num">20</td><td class="num">-12</td><td class="num edge">-12</td>
+                <td class="num">7</td><td class="num">54</td><td class="num edge">66</td>
+                <td class="num">192</td><td class="num">90</td><td class="num edge">26</td>
+                <td>Background</td></tr>
+            <tr><td><div class="swatch" style="background-color: #586e75;"></div></td>
+                <td class="edge">base01</td>
+                <td class="edge">#586e75</td>
+                <td class="num edge">10/7</td>
+                <td class="edge">brgreen</td>
+                <td class="num">240</td><td class="num edge">#585858</td>
+                <td class="num">45</td><td class="num">-07</td><td class="num edge">-07</td>
+                <td class="num">88</td><td class="num">110</td><td class="num edge">117</td>
+                <td class="num">194</td><td class="num">25</td><td class="num edge">46</td>
+                <td>Content</td></tr>
+            <tr><td><div class="swatch" style="background-color: #657b83;"></div></td>
+                <td class="edge">base00</td>
+                <td class="edge">#657b83</td>
+                <td class="edge edge">11/7</td>
+                <td class="edge">bryellow</td>
+                <td class="num">241</td><td class="num edge">#626262</td>
+                <td class="num">50</td><td class="num">-07</td><td class="num edge">-07</td>
+                <td class="num">101</td><td class="num">123</td><td class="num edge">131</td>
+                <td class="num">195</td><td class="num">23</td><td class="num edge">51</td>
+                <td>Content</td></tr>
+            <tr><td><div class="swatch" style="background-color: #839496;"></div></td>
+                <td class="edge">base0</td>
+                <td class="edge">#839496</td>
+                <td class="num edge">8/4</td>
+                <td class="edge">brblue</td>
+                <td class="num">244</td><td class="num edge">#808080</td>
+                <td class="num">60</td><td class="num">-06</td><td class="num edge">-03</td>
+                <td class="num">131</td><td class="num">148</td><td class="num edge">150</td>
+                <td class="num">186</td><td class="num">13</td><td class="num edge">59</td>
+                <td>Content</td></tr>
+            <tr><td><div class="swatch" style="background-color: #93a1a1;"></div></td>
+                <td class="edge">base1</td>
+                <td class="edge">#93a1a1</td>
+                <td class="num edge">14/4</td>
+                <td class="edge">brcyan</td>
+                <td class="num">245</td><td class="num edge">#8a8a8a</td>
+                <td class="num">65</td><td class="num">-05</td><td class="num edge">-02</td>
+                <td class="num">147</td><td class="num">161</td><td class="num edge">161</td>
+                <td class="num">180</td><td class="num">9</td><td class="num edge">63</td>
+                <td>Content</td></tr>
+            </tbody>
+            <tr><td><div class="swatch" style="background-color: #eee8d5;"></div></td>
+                <td class="edge">base2</td>
+                <td class="edge">#eee8d5</td>
+                <td class="num edge">7/7</td>
+                <td class="edge">white</td>
+                <td class="num">254</td><td class="num edge">#e4e4e4</td>
+                <td class="num">92</td><td class="num">-00</td><td class="num edge">10</td>
+                <td class="num">238</td><td class="num">232</td><td class="num edge">213</td>
+                <td class="num">44</td><td class="num">11</td><td class="num edge">93</td>
+                <td>Background</td></tr>
+            <tr><td><div class="swatch" style="background-color: #fdf6e3;"></div></td>
+                <td class="edge">base3</td>
+                <td class="edge">#fdf6e3</td>
+                <td class="num edge">15/7</td>
+                <td class="edge">brwhite</td>
+                <td class="num">230</td><td class="num edge">#ffffd7</td>
+                <td class="num">97</td><td class="num">00</td><td class="num edge">10</td>
+                <td class="num">253</td><td class="num">246</td><td class="num edge">227</td>
+                <td class="num">44</td><td class="num">10</td><td class="num edge">99</td>
+                <td>Background</td></tr>
+            <tr><td><div class="swatch" style="background-color: #b58900;"></div></td>
+                <td class="edge">yellow</td>
+                <td class="edge">#b58900</td>
+                <td class="num edge">3/3</td>
+                <td class="edge">yellow</td>
+                <td class="num">136</td><td class="num edge">#af8700</td>
+                <td class="num">60</td><td class="num">10</td><td class="num edge">65</td>
+                <td class="num">181</td><td class="num">137</td><td class="num edge">0</td>
+                <td class="num">45</td><td class="num">100</td><td class="num edge">71</td>
+                <td>Accent</td></tr>
+            <tr><td><div class="swatch" style="background-color: #cb4b16;"></div></td>
+                <td class="edge">orange</td>
+                <td class="edge">#cb4b16</td>
+                <td class="num edge">9/3</td>
+                <td class="edge">brred</td>
+                <td class="num">166</td><td class="num edge">#d75f00</td>
+                <td class="num">50</td><td class="num">50</td><td class="num edge">55</td>
+                <td class="num">203</td><td class="num">75</td><td class="num edge">22</td>
+                <td class="num">18</td><td class="num">89</td><td class="num edge">80</td>
+                <td>Accent</td></tr>
+            <tr><td><div class="swatch" style="background-color: #dc322f;"></div></td>
+                <td class="edge">red</td>
+                <td class="edge">#dc322f</td>
+                <td class="num edge">1/1</td>
+                <td class="edge">red</td>
+                <td class="num">160</td><td class="num edge">#d70000</td>
+                <td class="num">50</td><td class="num">65</td><td class="num edge">45</td>
+                <td class="num">220</td><td class="num">50</td><td class="num edge">47</td>
+                <td class="num">1</td><td class="num">79</td><td class="num edge">86</td>
+                <td>Accent</td></tr>
+            <tr><td><div class="swatch" style="background-color: #d33682;"></div></td>
+                <td class="edge">magenta</td>
+                <td class="edge">#d33682</td>
+                <td class="num edge">5/5</td>
+                <td class="edge">magenta</td>
+                <td class="num">125</td><td class="num edge">#af005f</td>
+                <td class="num">50</td><td class="num">65</td><td class="num edge">-05</td>
+                <td class="num">211</td><td class="num">54</td><td class="num edge">130</td>
+                <td class="num">331</td><td class="num">74</td><td class="num edge">83</td>
+                <td>Accent</td></tr>
+            <tr><td><div class="swatch" style="background-color: #6c71c4;"></div></td>
+                <td class="edge">violet</td>
+                <td class="edge">#6c71c4</td>
+                <td class="num edge">13/5</td>
+                <td class="edge">brmagenta</td>
+                <td class="num">61</td><td class="num edge">#5f5faf</td>
+                <td class="num">50</td><td class="num">15</td><td class="num edge">-45</td>
+                <td class="num">108</td><td class="num">113</td><td class="num edge">196</td>
+                <td class="num">237</td><td class="num">45</td><td class="num edge">77</td>
+                <td>Accent</td></tr>
+            <tr><td><div class="swatch" style="background-color: #268bd2;"></div></td>
+                <td class="edge">blue</td>
+                <td class="edge">#268bd2</td>
+                <td class="num edge">4/4</td>
+                <td class="edge">blue</td>
+                <td class="num">33</td><td class="num edge">#0087ff</td>
+                <td class="num">55</td><td class="num">-10</td><td class="num edge">-45</td>
+                <td class="num">38</td><td class="num">139</td><td class="num edge">210</td>
+                <td class="num">205</td><td class="num">82</td><td class="num edge">82</td>
+                <td>Accent</td></tr>
+            <tr><td><div class="swatch" style="background-color: #2aa198;"></div></td>
+                <td class="edge">cyan</td>
+                <td class="edge">#2aa198</td>
+                <td class="num edge">6/6</td>
+                <td class="edge">cyan</td>
+                <td class="num">37</td><td class="num edge">#00afaf</td>
+                <td class="num">60</td><td class="num">-35</td><td class="num edge">-05</td>
+                <td class="num">42</td><td class="num">161</td><td class="num edge">152</td>
+                <td class="num">175</td><td class="num">74</td><td class="num edge">63</td>
+                <td>Accent</td></tr>
+            <tr><td><div class="swatch" style="background-color: #859900;"></div></td>
+                <td class="edge">green</td>
+                <td class="edge">#859900</td>
+                <td class="num edge">2/2</td>
+                <td class="edge">green</td>
+                <td class="num">64</td><td class="num edge">#5f8700</td>
+                <td class="num">60</td><td class="num">-20</td><td class="num edge">65</td>
+                <td class="num">133</td><td class="num">153</td><td class="num edge">0</td>
+                <td class="num">68</td><td class="num">100</td><td class="num edge">60</td>
+                <td>Accent</td></tr>
+            </tbody>
+        </table>
+
+        <h1>Themes</h1>
+
+        <h2>Writing</h2>
+
+        <table class="theme">
+            <thead>
+                <tr><th>Role</th><th>Color</th><th>HTML Elements</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Page Background</td><td>base3</td><td>body</td></tr>
+                <tr><td>Main Text</td><td>base03</td><td>body</td></tr>
+                <tr><td>Link</td><td>blue</td><td>a:link</td></tr>
+                <tr><td>Visited Link</td><td>violet</td><td>a:visited</td></tr>
+                <tr><td>Quote</td><td>base01</td><td>q, blockquote</td></tr>
+                <tr><td>Borders, lines</td><td>base1</td><td>table, hr</td></tr>
+            </tbody>
+        </table>
+
+        <pre>
+body {
+    background: #fdf6e3;
+    color: #002b36;
+}
+hr {
+    color: #93a1a1;
+}
+table {
+    border-color: #93a1a1;
+}
+q, blockquote {
+    color: #586e75;
+}
+a:link {
+    color: #268bd2;
+}
+a:visited {
+    color: #6c71c4;
+}
+        </pre>
+
+    <p>&nbsp;</p>
+    </body>
+</html>
