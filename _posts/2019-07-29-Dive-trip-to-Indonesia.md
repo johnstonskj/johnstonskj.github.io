@@ -2,7 +2,7 @@
 title: Dive trip to Indonesia
 layout: postx
 category: diving
-tags: [Indonesia, Java, Borneo, Aggressor]
+tags: [indonesia, java, borneo, aggressor]
 ---
 
 In under a week we'll be off on our amazing trip to Indonesia for a 7 day live-aboard

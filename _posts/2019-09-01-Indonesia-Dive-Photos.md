@@ -2,7 +2,7 @@
 title: Indonesia Dive Photos
 layout: postx
 category: diving
-tags: [Indonesia, Borneo, Aggressor]
+tags: [indonesia, borneo, aggressor]
 ---
 
 Some photos from the trip to the Derawan Islands. All with Sony α7R III in an Ikelite housing, Ikelite DS160 strobe and 

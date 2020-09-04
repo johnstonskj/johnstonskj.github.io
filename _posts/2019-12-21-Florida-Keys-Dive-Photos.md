@@ -2,7 +2,7 @@
 title: Florida Keys Dive Photos
 layout: postx
 category: diving
-tags: [Florida, KeyWest, KeyLargo]
+tags: [florida, key-west, key-largo]
 ---
 
 Just a few photos from a quick trip down to Florida to dive along the key. Actually got a really good batch of pictures
