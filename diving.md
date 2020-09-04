@@ -39,6 +39,8 @@ but it's not always as up to date as it should be. I use [DiveLogDT](http://www.
 as my primary log, syncing from my Atomic Aquatics [Cobalt II](https://www.atomicaquatics.com/computer.html) 
 computer.
 
+<script language='Javascript' src='https://en.divelogs.de/mylatestdivebig.php?user=johnstonskj' type='text/javascript'></script>
+
 Our next adventure, an [Aggressor](https://aggressor.com/) live-aboard trip to the Derawan 
 Islands (Kepulauan Derawan) in Indonesia, stay tuned for a trip report.
 
