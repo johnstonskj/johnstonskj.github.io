@@ -19,7 +19,7 @@ pages -- but wherever possible I write with [LaTeX](https://www.latex-project.or
 and really like [texpad](https://www.texpad.com/) for the Mac.
 
 With my wife I love to [SCUBA dive]({% link diving.md %}), in warm and cold water. 
-We have been lucky to make some amazing frineds and visit some incredible
+We have been lucky to make some amazing friends and visit some incredible
 places over the last few years together.
 
 I also share with her a love of music, especially live. I might also be 
