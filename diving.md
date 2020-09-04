@@ -39,7 +39,7 @@ but it's not always as up to date as it should be. I use [DiveLogDT](http://www.
 as my primary log, syncing from my Atomic Aquatics [Cobalt II](https://www.atomicaquatics.com/computer.html) 
 computer.
 
-<div id="divelog-latest" style="display: flex; justify-content: center;">
+<div id="divelog-latest" style="display: flex; justify-content: center; margin-bottom: 15px;">
   <script language='Javascript' src='https://en.divelogs.de/mylatestdivebig.php?user=johnstonskj' type='text/javascript'></script>
 </div>
 
