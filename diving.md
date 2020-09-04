@@ -34,10 +34,10 @@ photography course, thanks!
 
 ![Sony and ikelite](assets/img/diving/dive-camera-2020.jpg)
 
-I do try and remember to upload dives to [Dive Logs](https://en.divelogs.de/profile/johnstonskj)
+I do try to remember to upload dives to [Dive Logs](https://en.divelogs.de/profile/johnstonskj)
 but it's not always as up to date as it should be. I use [DiveLogDT](http://www.moremobilesoftware.com/DiveLogDT/)
-as my primary log, syncing from my Atomic Aquatics [Cobalt II](https://www.atomicaquatics.com/computer.html) 
-computer.
+as my primary log, syncing from my Shearwater Nerd2 and Perdix (and my previous Atomic 
+Aquatics [Cobalt II](https://www.atomicaquatics.com/computer.html)) computers.
 
 <div id="divelog-latest" style="display: flex; justify-content: center; margin-bottom: 15px;">
   <script language='Javascript' src='https://en.divelogs.de/mylatestdivebig.php?user=johnstonskj' type='text/javascript'></script>
