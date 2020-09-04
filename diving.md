@@ -39,8 +39,10 @@ but it's not always as up to date as it should be. I use [DiveLogDT](http://www.
 as my primary log, syncing from my Atomic Aquatics [Cobalt II](https://www.atomicaquatics.com/computer.html) 
 computer.
 
-<div id="divelog-latest" style="display: inline-block; margin-left: auto; margin-right: auto; margin-bottom: 15px;">
-  <script language='Javascript' src='https://en.divelogs.de/mylatestdivebig.php?user=johnstonskj' type='text/javascript'></script>
+<div id="divelog-latest" style="display: inline; margin-left: auto; margin-right: auto; margin-bottom: 15px;">
+  <div id="divelog-latest-inner" style="display: inline-block;">
+    <script language='Javascript' src='https://en.divelogs.de/mylatestdivebig.php?user=johnstonskj' type='text/javascript'></script>
+  </div>
 </div>
 
 Our next adventure, an [Aggressor](https://aggressor.com/) live-aboard trip to the Derawan 
