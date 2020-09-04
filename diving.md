@@ -32,7 +32,7 @@ cameras and decided to build myself a nice rig. A shout out to
 [Annie Crawley](https://www.anniecrawley.com/) who runs a really good underwater 
 photography course, thanks!
 
-![Sony and ikelite](assets/img/diving/dive-camera-1.jpg)
+![Sony and ikelite](assets/img/diving/dive-camera-2020.jpg)
 
 I do try and remember to upload dives to [Dive Logs](https://en.divelogs.de/profile/johnstonskj)
 but it's not always as up to date as it should be. I use [DiveLogDT](http://www.moremobilesoftware.com/DiveLogDT/)
@@ -42,29 +42,6 @@ computer.
 <div id="divelog-latest" style="display: flex; justify-content: center; margin-bottom: 15px;">
   <script language='Javascript' src='https://en.divelogs.de/mylatestdivebig.php?user=johnstonskj' type='text/javascript'></script>
 </div>
-
-Our next adventure, an [Aggressor](https://aggressor.com/) live-aboard trip to the Derawan 
-Islands (Kepulauan Derawan) in Indonesia, stay tuned for a trip report.
-
-## Certifications
-
-* Open Water (Seattle)
-* Dry Suit (Seattle)
-* Advanced Open Water (Seattle, Bonaire)
-* Nitrox (Bonaire)
-* Wreck (Bonaire)
-* Full-face mask (Bonaire)
-
-## Stuff Links
-
-* [mares](https://www.mares.com/us-US/home/) -- BC, boots, fins, regulators, and back-up computer
-* [Atomic Aquatics](https://www.atomicaquatics.com/) -- primary computer and mask
-* [Ocean Reef](https://diving.oceanreefgroup.com/) -- full-face mask
-* [waterproof](http://waterproof-usa.com/) -- dry suit, gloves, hood
-* [bigblue](https://bigbluedivelights.com/) -- many many lights
-* [ikelite](https://www.ikelite.com/) -- dive housing for camera, with arms, and strobe
-* [Sony (cameras)](https://www.sony.com/electronics/interchangeable-lens-camera-products/t/interchangeable-lens-cameras) -- primary dive camera
-* [GoPro](https://gopro.com/en/us/) -- secondary dive camera (attached to the ikelite housing)
 
 ## Photos
 
@@ -79,7 +56,7 @@ comes a pretty close second.
 
 ![Sandi, Cenote The Pit](assets/img/diving/dive-pit-sandi.png)
 
-We also dive in the cold, a lot more work but it can be really rewarding. This year we 
+We also dive in the cold, a lot more work but it can be really rewarding. In 2019 we 
 took part in a community clean-up dive as part of Earth Day under the docks at the 
 Kirkland, WA waterfront.
 
@@ -91,15 +68,57 @@ Apparently at some point I took a rest...
 
 ## Places Dived So Far
 
-* Bora Bora
-* Seattle
-* Mexico
-  * Isla Mujeres
-  * Yucatan Cenotes
-  * Cozumel
-  * Mahahual
-* La Jolla, CA
-* Grand Turk
-* St. Kitts
-* Bonaire
-* Indonesia (Derawan Islands)
+* US
+  * Seattle, Kirkland
+  * La Jolla, CA
+  * Key West and Key Largo, FL
+* Caribbean
+  * Isla Mujeres, Cozumel, Playa del Carmen, and Mahahual MX
+  * Grand Turk and St Kitts
+  * Bonaire
+* Asia
+  * Indonesia Derawan Islands
+* South Pacific
+  * Bora Bora
+
+## Gear
+
+The following picture was our August 2020 trip to Mexico, three sets of gear for two people. We still haven't mastered
+the ability to pack light.
+
+![3 sets for 2 people](assets/img/diving/dive-gear-2020.jpg)
+
+* Backmount
+  * [Mares](https://www.mares.com/us-US/home/) Pure Hybrid BC
+  * Mares Abyss II Navy regulator
+  * [Ocean Reef](https://diving.oceanreefgroup.com/) full-face mask with [Shearwater](https://www.shearwater.com/products/) Nerd2 AI
+  * Mares Quattro+ _or_ Mares X-Stream fins
+* Sidemount
+  * [xDeep](https://www.xdeep.eu/) Stealth 2.0 Tec RB
+  * Pair [Hollis](https://www.hollis.com/) DC1/212 regulators
+  * [Atomic Aquatics](https://www.atomicaquatics.com/) venom mask
+  * Shearwater Perdix
+* Cold Water
+  * [Waterproof](http://waterproof-usa.com/) Hybrid D1 drysuit
+  * Waterproof hood and gloves
+  * [XS Scuba](https://www.xsscuba.com/fins) Turtle fins
+* [Dive Rite](https://www.diverite.com/product-categories/lights/) HP50 primary light _and_ Big Blue AL1100NP backup light
+* Mares Smart backup computer
+* Camera
+  * [Sony](https://www.sony.com/electronics/interchangeable-lens-camera-products/t/interchangeable-lens-cameras) a7RIII
+  * Sony FE 28mm f/2-22 with either Sony 21mm f/2.8-22 Ultra Wide Converter _or_ Sony 16mm f/3.5-22 Fisheye Converter
+  * Sony FE 90mm F/2.8 Macro G OSS
+* [Ikelite](https://www.ikelite.com/) Housing with either 8" dome port _or_ flat macro port
+* Pair Ikelite DS-160 Strobes with dome diffusers
+* [Big Blue](https://bigbluedivelights.com/) VL7200P-TC-18 primary _and_ VL3500P secondary/focus lights
+* [Kraken](https://krakensports.ca/product-category/photography-lighting/)/Weefine 3000 macro ring light
+
+## Certifications
+
+* Open Water (Seattle)
+* Dry Suit (Seattle)
+* Advanced Open Water (Seattle, Bonaire)
+* Nitrox (Bonaire)
+* Wreck (Bonaire)
+* Full-face mask (Bonaire)
+
