@@ -110,7 +110,7 @@ the ability to pack light.
   * Sci-tech dry gloves
   * [XS Scuba](https://www.xsscuba.com/fins) Turtle fins
 * Mares Smart backup computer
-* Seiko dive watch
+* Seiko Prospex 200m dive watch
 * Camera
   * [Sony](https://www.sony.com/electronics/interchangeable-lens-camera-products/t/interchangeable-lens-cameras) a7RIII camera body
   * Sony FE 28mm f/2-22 with either Sony 21mm f/2.8-22 Ultra Wide Converter _or_ Sony 16mm f/3.5-22 Fisheye Converter
