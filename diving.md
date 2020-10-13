@@ -102,8 +102,8 @@ the ability to pack light.
   * 2 × [Hollis](https://www.hollis.com/) DC1/212 regulators, one short and one long hose, with Hollis SPGs
   * Shearwater Perdix computer
   * [Atomic Aquatics](https://www.atomicaquatics.com/) venom mask
-  * [Dive Rite](https://www.diverite.com/product-categories/lights/) HP50 primary light 
-  * Big Blue AL1100NP backup light
+  * [Dive Rite](https://www.diverite.com/product-categories/lights/) HP50 primary torch 
+  * Big Blue AL1100NP backup torch
   * Mares Quattro+ fins
 * Cold Water (add to above)
   * [Waterproof](http://waterproof-usa.com/) Hybrid D1 drysuit and hood
