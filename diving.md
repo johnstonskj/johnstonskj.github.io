@@ -91,27 +91,33 @@ the ability to pack light.
 * Backmount
   * [Mares](https://www.mares.com/us-US/home/) Pure Hybrid BC
   * Mares Abyss II Navy regulator
-  * [Ocean Reef](https://diving.oceanreefgroup.com/) full-face mask with [Shearwater](https://www.shearwater.com/products/) Nerd2 AI
+  * [Shearwater](https://www.shearwater.com/products/) Nerd2 AI computer
+  * 2 × [Big Blue](https://bigbluedivelights.com/) AL1100NP primary/backup torch
+  * [Ocean Reef](https://diving.oceanreefgroup.com/) full-face mask 
   * Mares Quattro+ _or_ Mares X-Stream fins
 * Sidemount
   * [xDeep](https://www.xdeep.eu/) Stealth 2.0 Tec RB
-  * Pair [Hollis](https://www.hollis.com/) DC1/212 regulators
+    * xDeep expandable pouch and bolt snaps
+    * xDeep tank cam-bands and bolt snaps
+  * Pair [Hollis](https://www.hollis.com/) DC1/212 regulators, with Hollis SPGs
+  * Shearwater Perdix computer
   * [Atomic Aquatics](https://www.atomicaquatics.com/) venom mask
-  * Shearwater Perdix
-* Cold Water
-  * [Waterproof](http://waterproof-usa.com/) Hybrid D1 drysuit
-  * Waterproof hood and gloves
+  * [Dive Rite](https://www.diverite.com/product-categories/lights/) HP50 primary light 
+  * Big Blue AL1100NP backup light
+  * Mares Quattro+ fins
+* Cold Water (add to above)
+  * [Waterproof](http://waterproof-usa.com/) Hybrid D1 drysuit and hood
+  * Sci-tech dry gloves
   * [XS Scuba](https://www.xsscuba.com/fins) Turtle fins
-* [Dive Rite](https://www.diverite.com/product-categories/lights/) HP50 primary light _and_ Big Blue AL1100NP backup light
 * Mares Smart backup computer
 * Camera
-  * [Sony](https://www.sony.com/electronics/interchangeable-lens-camera-products/t/interchangeable-lens-cameras) a7RIII
+  * [Sony](https://www.sony.com/electronics/interchangeable-lens-camera-products/t/interchangeable-lens-cameras) a7RIII camera body
   * Sony FE 28mm f/2-22 with either Sony 21mm f/2.8-22 Ultra Wide Converter _or_ Sony 16mm f/3.5-22 Fisheye Converter
   * Sony FE 90mm F/2.8 Macro G OSS
-* [Ikelite](https://www.ikelite.com/) Housing with either 8" dome port _or_ flat macro port
-* Pair Ikelite DS-160 Strobes with dome diffusers
-* [Big Blue](https://bigbluedivelights.com/) VL7200P-TC-18 primary _and_ VL3500P secondary/focus lights
-* [Kraken](https://krakensports.ca/product-category/photography-lighting/)/Weefine 3000 macro ring light
+  * [Ikelite](https://www.ikelite.com/) Housing with either 8" dome port _or_ flat macro port
+  * Pair Ikelite DS-160 Strobes with dome diffusers
+  * Big Blue VL7200P-TC-18 primary/video _and_ VL3500P secondary/focus lights
+  * [Kraken](https://krakensports.ca/product-category/photography-lighting/)/Weefine 3000 macro ring light
 
 ## Certifications
 
