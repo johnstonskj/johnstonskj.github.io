@@ -36,7 +36,11 @@ and [Zortec](http://www.edm2.com/index.php/Zortech_C%2B%2B) on
 experimental [Modula-3](http://modula3.org/) usage. This was a great 6 years, I learned 
 so much not just as a professional programmer but also about how to work in teams
 and the fact that there are always people smarter than you to learn from and 
-so much to learn.
+so much to learn. I also got to do some exploratory Ada work, also wrote a fun paper 
+entitled [Ada-95: A guide for C and C++ programmers](https://www.adahome.com/Ammo/Cplpl2Ada.html)
+which eventually turned into a book. Through this I got to meet some of the leading
+lights in the language's design including John Barnes who was very generous with his
+time as reviewer.
 
 Having moved to the US in 1998 for a brief stint at Microsoft I joined 
 [Rational Software](https://en.wikipedia.org/wiki/Rational_Software) in Redmond WA.
