@@ -22,12 +22,10 @@ list, the [Half Moon Caye Wall](https://www.divessi.com/uk/mydiveguide/divesite/
 [The Aquarium at Long Caye](https://www.divessi.com/en/mydiveguide/divesite/18103) were some of the most spectacular
 diving we've seen. 
 
-One of the most memorable moments was a group of six dolphins that decided to come down and play around us for a 
-while.
+One of the most memorable moments was a [group of six dolphins](https://youtu.be/1q-H6vFMAZM) that decided to come 
+down and play around us for a while.
 
 ## Belize
-
-![Playful dolphins](https://youtu.be/1q-H6vFMAZM)
 
 ![The Blue Hole](/assets/img/diving/belize-blue-hole.jpg)
 
@@ -41,3 +39,12 @@ while.
 
 ## Playa del Carmen
 
+![Wreck time](/assets/img/diving/playa-wreck-01.jpg)
+
+![Cenote el Pit](/assets/img/diving/the-pit-01.jpg)
+
+![Cenote el Pit](/assets/img/diving/the-pit-02.jpg)
+
+![Cenote el Pit](/assets/img/diving/the-pit-03.jpg)
+
+![Cenote Tajma Ha](/assets/img/diving/tajma-ha.jpg)
