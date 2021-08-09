@@ -25,10 +25,19 @@ diving we've seen.
 One of the most memorable moments was a group of six dolphins that decided to come down and play around us for a 
 while.
 
-![Playful dolphins](/assets/img/diving/belize-dolphins.mp4)
+## Belize
+
+![Playful dolphins](https://youtu.be/1q-H6vFMAZM)
 
 ![The Blue Hole](/assets/img/diving/belize-blue-hole.jpg)
 
 ![Sandi and shark](/assets/img/diving/belize-shark.jpg)
 
 ![One of many Turtles](/assets/img/diving/belize-turtle.jpg)
+
+## Seattle
+
+![Redondo entry](/assets/img/diving/redondo.jpg)
+
+## Playa del Carmen
+
