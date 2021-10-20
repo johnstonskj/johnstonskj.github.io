@@ -13,9 +13,9 @@ This key is used for signing and/or encrypting documents, like email messages or
 
 ## Using My Key
 
-You can download my [current PGP key](/assets/keys/644CF77829C7C3BB5B868DC896A0664B9D482667.asc) or from the key server [keys.openpgp.org/](https://keys.openpgp.org/).
+You can download my current PGP key from the key server [keys.openpgp.org/](https://keys.openpgp.org/vks/v1/by-fingerprint/644CF77829C7C3BB5B868DC896A0664B9D482667). If you do not have access to a keyserver, you can download the [PGP public key file](/assets/keys/644CF77829C7C3BB5B868DC896A0664B9D482667.asc) from this site.
 
-If you do not have access to a keyserver, you can download the [PGP public key file](/assets/keys/644CF77829C7C3BB5B868DC896A0664B9D482667.asc) and then perform the following command:
+Once you have the key file perform the following command:
 
 ```bash
 $ gpg --import /assets/keys/644CF77829C7C3BB5B868DC896A0664B9D482667.asc
@@ -35,4 +35,4 @@ I use [OpenPGP](https://www.openpgp.org/) via [GnuPG](http://www.gnupg.org/). On
 
 For my personal identity I use [ProtonMail](https://protonmail.com/) (as well as the excellent [ProtonVPN](https://protonvpn.com/)).
 
-[![PGP key](https://img.shields.io/badge/pgp-5337DCA90E415DEB-inactive)](https://keys.openpgp.org/vks/v1/by-fingerprint/FB67DDD277A98138222B014A5337DCA90E415DEB)
+[![PGP key](https://img.shields.io/badge/pgp-5337DCA90E415DEB-blue)](https://keys.openpgp.org/vks/v1/by-fingerprint/FB67DDD277A98138222B014A5337DCA90E415DEB)

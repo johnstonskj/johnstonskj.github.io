@@ -25,6 +25,9 @@ places over the last few years together.
 I also share with her a love of music, especially live. I might also be 
 considered an [audiophile]({% link audio.md %}) at home.
 
+I use [OpenPGP](https://www.openpgp.org/) for secure email, you can find more
+details on my keys [here](/pgp-keys).
+
 Thanks.
 
 [![made with Jekyll](https://img.shields.io/badge/made%20with-Jekyll-%23fc0?style=flat)](https://jekyllrb.com/)
