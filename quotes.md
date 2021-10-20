@@ -37,7 +37,7 @@ _Every program has (at least) two purposes: the one for which it was written, an
 
 _Object oriented programs are offered as alternatives to correct ones_ — **Edsger W. Dijkstra**
 
-_Lisp has jokingly been called "the most intelligent way to misuse a computer." I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts._  -- *Edsger Dijkstra*
+_Lisp has jokingly been called "the most intelligent way to misuse a computer." I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts._  -- **Edsger Dijkstra**
 
 _All problems in computer science can be solved by another level of indirection... Except for the problem of too many layers of indirection._ — **David Wheeler**
 
