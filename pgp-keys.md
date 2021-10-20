@@ -13,7 +13,7 @@ This key is used for signing and/or encrypting documents, like email messages or
 
 ## Using My Key
 
-You can download my current PGP key from the key server [keys.openpgp.org/](https://keys.openpgp.org/vks/v1/by-fingerprint/644CF77829C7C3BB5B868DC896A0664B9D482667). If you do not have access to a keyserver, you can download the [PGP public key file](/assets/keys/644CF77829C7C3BB5B868DC896A0664B9D482667.asc) from this site.
+You can download my current PGP key from the key server [keys.openpgp.org](https://keys.openpgp.org/vks/v1/by-fingerprint/644CF77829C7C3BB5B868DC896A0664B9D482667). If you do not have access to a keyserver, you can download the [PGP public key file](/assets/keys/644CF77829C7C3BB5B868DC896A0664B9D482667.asc) from this site.
 
 Once you have the key file perform the following command:
 
