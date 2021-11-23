@@ -5,6 +5,7 @@ layout: page
 
 # Published
 
+1. _Scent-Based Spoilage Sensing Refrigerator_, [US 11,181,515](assets/doc/patents/US11181515.pdf), Nov. 23, 2021
 1. _Digital File Structure for Garment Production_, [US 11,112,772](assets/doc/patents/US11112772.pdf), Sep. 7, 2021
 1. _Contributed test management in deployment pipelines_, [US 10,719,427](assets/doc/patents/US10719427.pdf), Jul. 21, 2020
 1. _Scent-Based Spoilage Sensing Refrigerator_, [US 10,373,472](assets/doc/patents/US10373472.pdf), Aug. 6, 2019 and [WO 2017/160499 A2](assets/doc/patents/WO2017160499A2.pdf), Sep. 21, 2017
