@@ -10,7 +10,8 @@ hang out in local venues as well as travel to see live shows and festivals. We a
 big collection of recorded music as well as heavy use of [Spotify](https://www.spotify.com/us/) 
 and [TIDAL](https://tidal.com/). My personal tastes range from Baroque classical to Scandinavian 
 melodic death metal, although the latter tends to have more representation in t-shirt choice 
-than the former. 
+than the former. I am not a musician, this is easily determined by my current hobby -- [modular synthesizers](/synth-audio/)
+and sound design.
 
 The following are a few recent shows; the Rammstein show was New Years eve, on the beach, to a 
 small 4,000 person crowd.
