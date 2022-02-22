@@ -2,35 +2,42 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Fira Sans", sans-serif !default;
-$base-font-size:   16px !default;
-$base-font-weight: 200 !default;
-$small-font-size:  $base-font-size * 0.8 !default;
-$base-line-height: 1.5 !default;
+$base-font-family:  "Fira Sans", sans-serif !default;
 
-$spacing-unit:     30px !default;
+$base-font-size:    16px !default;
+$small-font-size:   0.8em !default;
 
-$text-color:       #3c484e !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$base-font-weight:  200 !default;
+$bold-font-weight:  $base-font-weight * 2 !default;
+$light-font-weight: $base-font-weight * 0.5 !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$base-line-height:  1.6 !default;
 
-$table-text-align: left !default;
+$spacing-unit:      30px !default;
 
-$code-bg-color:    #f6f8fa;
-$code-font-family: "Fira Code", monospace !default;
-$code-font-weight: 300;
-$code-font-size:   90%;
-$code-line-height: 1.4;
+$text-color:        #3c484e !default;
+$background-color:  #fdfdfd !default;
+$brand-color:       #2a7ae2 !default;
+$link-color:        #0037B3 !default;
+
+$grey-color:        #828282 !default;
+$grey-color-light:  lighten($grey-color, 40%) !default;
+$grey-color-dark:   darken($grey-color, 25%) !default;
+
+
+$table-text-align:  left !default;
+
+$code-bg-color:     #f6f8fa;
+$code-font-family:  "Fira Code", monospace !default;
+$code-font-size:    0.9em;
+$code-font-weight:  300;
+$code-bold-weight:  $code-font-weight * 2;
+$code-line-height:  1.4;
 
 // Width of the content area
-$content-width:    800px !default;
-
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$content-width:     45em !default;
+$on-palm:           36px !default;
+$on-laptop:         45px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -69,8 +76,16 @@ main.book-style p:first-of-type {
   text-indent: 0em;
 }
 
+main h1, main h2, main h3, main h4 {
+  font-weight: $light-font-weight;
+}
+
+h3 > .post-link {
+  margin: 0px;
+}
+
 strong {
-  font-weight: 200%;
+  font-weight: $bold-font-weight;
 }
 
 figure {
@@ -78,7 +93,7 @@ figure {
 }
 
 a, a:visited {
-  color: #0037B3;
+  color: $link-color;
 }
 
 .meta {
@@ -86,31 +101,36 @@ a, a:visited {
   font-size: $small-font-size;
 }
 
-h3 > .post-link {
-  margin: 0px;
+.social-media-list {
+    font-size: $small-font-size
 }
 
-main h1, main h2, main h3, main h4 {
-  font-weight: 50%;
+.footnote::before {
+    content: "[";
+}
+
+.footnote::after {
+    content: "]";
+}
+
+.footnotes {
+    font-size: $small-font-size;
 }
 
 pre, code {
+  background-color: $code-bg-color;
   font-family: $code-font-family;
   font-size: $code-font-size;
   font-weight: $code-font-weight;
   line-height: $code-line-height;
 }
 
-.highlight .o, .highlight .k {
-  font-weight: 200%;
-}
-
-pre, code {
-    background-color: $code-bg-color;
-}
-
 .highlighter-rouge .highlight {
     background-color: $code-bg-color;
+}
+
+.highlight .o, .highlight .k {
+  font-weight: $code-bold-weight !important;
 }
 
 .rouge-table {
