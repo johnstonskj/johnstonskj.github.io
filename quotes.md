@@ -23,6 +23,8 @@ _The lurking suspicion that something could be simplified is the world’s riche
 
 _Simplicity is prerequisite for reliability._ — **Edsger W. Dijkstra**
 
+_Truth is ever to be found in simplicity; and not in the multiplicity and confusion of things._ - **Sir Isaac Newton**
+
 _The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague._ — **Edsger W. Dijkstra**
 
 _I don't know how many of you have ever met Dijkstra, but you probably know that arrogance in computer science is measured in nano-Dijkstras_ — **Alan Kay**
