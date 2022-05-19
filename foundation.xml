@@ -1,0 +1,1856 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.amazon.com/ontologies/ceco/2022/foundation#"
+     xml:base="http://www.amazon.com/ontologies/ceco/2022/foundation"
+     xmlns:dc="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation">
+        <owl:versionIRI rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation/1.0.0"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:description xml:lang="en">The CeCO foundation layer is intended to provide a basic layer that may even be applicable beyond eCommerce or even Commerce in general although this is not an explicit goal. The foundation layer covers these general areas 1) agreements and contracts, 2) identifiers and classifiers, 3) legal artifacts and identifiers, 4) legal entities, and 5) geo-spatial encoding.</dc:description>
+        <dc:publisher>Amazon.com</dc:publisher>
+        <rdfs:label xml:lang="en">Common eCommerce Ontology (CeCO) Foundation Layer</rdfs:label>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#type -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/mbox -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/mbox"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#assertationArtifact -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#assertationArtifact">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#IdentityClaim"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalDocument"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:28:43Z</dc:date>
+        <dc:description xml:lang="en">An artifact used as proof supporting an identity claim.</dc:description>
+        <rdfs:label xml:lang="en">Assertation Artifact</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#assertedIdentifier -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#assertedIdentifier">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#IdentityClaim"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalIdentifier"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:27:16Z</dc:date>
+        <dc:description xml:lang="en">The legal identifier that is assigned to the legal entity as part of a successful identity claim.</dc:description>
+        <rdfs:label xml:lang="en">Asserted (Legal) Identifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#broaderClassification -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#broaderClassification">
+        <owl:inverseOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#narrowerClassification"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:17:45Z</dc:date>
+        <rdfs:label xml:lang="en">Broader Classification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#broaderPartitive -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#broaderPartitive">
+        <owl:inverseOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#narrowerPartitive"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-13T15:17:45Z</dc:date>
+        <rdfs:label xml:lang="en">Broader Partitive</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#claimsIdentity -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#claimsIdentity">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#IdentityClaim"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:27:16Z</dc:date>
+        <dc:description xml:lang="en">The application for proof of identity that associates some legal artifact and identifier with a legal entity.</dc:description>
+        <rdfs:label xml:lang="en">Claims Identity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#containsArtifact -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#containsArtifact">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#ArtifactContainer"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:description xml:lang="en">Denotes a relationship between an artifact container and a contained artifact.</dc:description>
+        <rdfs:label xml:lang="en">Contains Artifact</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#contractuallyConstructs -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#contractuallyConstructs">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Contract"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Claim"/>
+                    <rdf:Description rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Obligation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:10:30Z</dc:date>
+        <rdfs:label xml:lang="en">Contractually Constructs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#contractuallyEntails -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#contractuallyEntails">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Contract"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Consideration"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:10:54Z</dc:date>
+        <rdfs:label xml:lang="en">Contractually Entails</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#dependsUponArtifact -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#dependsUponArtifact">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:description xml:lang="en">Denotes the relationship between a dependent artifact and the artifact upon which it depends.</dc:description>
+        <rdfs:label xml:lang="en">Depends-Upon Artifact</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#enforceableWithin -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#enforceableWithin">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalJurisdiction"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:19:54Z</dc:date>
+        <rdfs:label xml:lang="en">Enforceable Within</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#equivalentLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#equivalentLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialLocationReference"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialLocationReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:41:17Z</dc:date>
+        <dc:description xml:lang="en">Denotes that two location references describe the same referent, even if they have different spacial schemes.</dc:description>
+        <rdfs:label xml:lang="en">Equivalent Location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#equivalentRegion -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#equivalentRegion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:41:57Z</dc:date>
+        <dc:description xml:lang="en">Denotes that two region references describe the same referent, even if they have different spacial schemes.</dc:description>
+        <rdfs:label xml:lang="en">Equivalent Region</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#groupMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#groupMember">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntityGroup"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:16:51Z</dc:date>
+        <dc:description xml:lang="en">Refers to a legal entity that is a member of the entity group.</dc:description>
+        <rdfs:label xml:lang="en">Group Member</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#groupParentGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#groupParentGroup">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#HierarchicalEntityGroup"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#HierarchicalEntityGroup"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:17:37Z</dc:date>
+        <rdfs:label xml:lang="en">Group Parent Group</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasClause -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasClause">
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Clause"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-11T14:52:18Z</dc:date>
+        <rdfs:label xml:lang="en">Has Clause</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasCondition">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#hasClause"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Condition"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T20:17:35Z</dc:date>
+        <rdfs:label xml:lang="en">Has Condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasFormalOrganization -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasFormalOrganization">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+                    <rdf:Description rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentalEntity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#FormalOrganization"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <rdfs:label xml:lang="en">Has Formal Organization</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasInvariant -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasInvariant">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#hasCondition"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T20:19:05Z</dc:date>
+        <rdfs:label xml:lang="en">Has Invariant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasLegalJurisdiction -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasLegalJurisdiction">
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalJurisdiction"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:11:10Z</dc:date>
+        <rdfs:label xml:lang="en">Has Legal Jurisdiction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasPostCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasPostCondition">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#hasCondition"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T20:19:05Z</dc:date>
+        <rdfs:label xml:lang="en">Has Post Condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasPreCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasPreCondition">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#hasCondition"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T20:19:05Z</dc:date>
+        <rdfs:label xml:lang="en">Has Pre Condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasSubContract -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasSubContract">
+        <owl:inverseOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#subContractOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Contract"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SubContract"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:03:40Z</dc:date>
+        <rdfs:label xml:lang="en">HasSub Contract</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#hasTerm -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#hasTerm">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#hasClause"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Term"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T20:17:09Z</dc:date>
+        <rdfs:label xml:lang="en">Has Term</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#inClassificationScheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#inClassificationScheme">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#inScheme"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#ClassificationScheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T20:32:30Z</dc:date>
+        <rdfs:label xml:lang="en">In Classifications Scheme</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#inIdentityScheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#inIdentityScheme">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#inScheme"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Identifier"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#IdentifierScheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T20:31:54Z</dc:date>
+        <rdfs:label xml:lang="en">In Identity Scheme</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#inScheme -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#inScheme">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Reference"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Scheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T20:31:20Z</dc:date>
+        <rdfs:label xml:lang="en">In Scheme</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#includesParty -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#includesParty">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Agreement"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Referent"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:40:46Z</dc:date>
+        <rdfs:label xml:lang="en">Includes Party</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#isClassifiedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#isClassifiedBy">
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:46:26Z</dc:date>
+        <rdfs:label xml:lang="en">Is Classified By</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#isIdentifiedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#isIdentifiedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Identifier"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:45:57Z</dc:date>
+        <rdfs:label xml:lang="en">Is Identified By</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#isLegalOwnerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#isLegalOwnerOf">
+        <owl:inverseOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#isLegalyOwnedBy"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T23:07:37Z</dc:date>
+        <rdfs:label xml:lang="en">Is Legal Owner Of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#isLegalyOwnedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#isLegalyOwnedBy">
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T22:26:24Z</dc:date>
+        <rdfs:label xml:lang="en">Is Legaly Owned By</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#isReferenceTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#isReferenceTo">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Reference"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Referent"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T21:00:15Z</dc:date>
+        <rdfs:label xml:lang="en">Is Reference To</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#narrowerClassification -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#narrowerClassification">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:18:00Z</dc:date>
+        <rdfs:label xml:lang="en">Narrower Classification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#narrowerPartitive -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#narrowerPartitive">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-13T15:17:45Z</dc:date>
+        <rdfs:label xml:lang="en">Narrower Partitive</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#promisee -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#promisee">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Claim"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Referent"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <rdfs:label xml:lang="en">Promisee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#promisor -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#promisor">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Obligation"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Referent"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:11:38Z</dc:date>
+        <rdfs:label xml:lang="en">Promisor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#schemeAuthority -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#schemeAuthority">
+        <rdfs:subPropertyOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#includesParty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Scheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T15:41:09Z</dc:date>
+        <rdfs:label xml:lang="en">Scheme Authority</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#spaciallyEnclosedWithin -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#spaciallyEnclosedWithin">
+        <owl:inverseOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#spaciallyEncloses"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialReference"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:41:17Z</dc:date>
+        <dc:description xml:lang="en">Denotes that this spacial region or location is fully enclosed within another spacial region.</dc:description>
+        <rdfs:label xml:lang="en">Spacially Enclosed Within</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#spaciallyEncloses -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#spaciallyEncloses">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:41:17Z</dc:date>
+        <dc:description xml:lang="en">Denotes that this spacial region fully encloses another spacial region or location.</dc:description>
+        <rdfs:label xml:lang="en">Spacially Encloses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#subContractOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#subContractOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SubContract"/>
+        <rdfs:range rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Contract"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:12:18Z</dc:date>
+        <dc:description xml:lang="en">Identifies the contract to which this sub-contract belongs.</dc:description>
+        <rdfs:label xml:lang="en">Sub Contract Of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#assertationExpiration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#assertationExpiration">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#IdentityClaim"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:29:58Z</dc:date>
+        <dc:description xml:lang="en">Denotes the date where the assertion made by the IdentityClaim expires.</dc:description>
+        <rdfs:label xml:lang="en">Assertation Expiration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#effectiveDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#effectiveDate">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Agreement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:37:17Z</dc:date>
+        <dc:description xml:lang="en">The date where the agreement becomes effective.</dc:description>
+        <rdfs:label xml:lang="en">Effective Date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#terminationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#terminationDate">
+        <rdfs:domain rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Agreement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:34:54Z</dc:date>
+        <dc:description xml:lang="en">The date where the agreement terminates, with the exception of any surviving obligations.</dc:description>
+        <rdfs:label xml:lang="en">Termination Date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Agreement -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Agreement">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:31:17Z</dc:date>
+        <rdfs:label xml:lang="en">Agreement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact">
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <rdfs:label xml:lang="en">Artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#ArtifactContainer -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#ArtifactContainer">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:30:33Z</dc:date>
+        <rdfs:label xml:lang="en">Artifact Container</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#JuridicalPerson"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:06:27Z</dc:date>
+        <rdfs:label xml:lang="en">Business Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#CharitableOrganization -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#CharitableOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:08:16Z</dc:date>
+        <rdfs:label xml:lang="en">Charitable Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Claim -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Claim">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:08:18Z</dc:date>
+        <rdfs:label xml:lang="en">Claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#ClassificationScheme -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#ClassificationScheme">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Scheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:14:17Z</dc:date>
+        <rdfs:label xml:lang="en">Classification Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Classifier">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Reference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:18:42Z</dc:date>
+        <rdfs:label xml:lang="en">Classifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Clause -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Clause">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-11T14:51:06Z</dc:date>
+        <rdfs:label xml:lang="en">Clause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Condition -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Condition">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Clause"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T20:11:44Z</dc:date>
+        <rdfs:label xml:lang="en">Condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Consideration -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Consideration">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:08:41Z</dc:date>
+        <rdfs:label xml:lang="en">Consideration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Contract -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Contract">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Agreement"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:49:37Z</dc:date>
+        <rdfs:label xml:lang="en">Contract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Cooperative -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Cooperative">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:08:16Z</dc:date>
+        <rdfs:label xml:lang="en">Cooperative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Corporation -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Corporation">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:08:16Z</dc:date>
+        <rdfs:label xml:lang="en">Corporation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:description xml:lang="en"></dc:description>
+        <rdfs:label xml:lang="en">Dependent Artifact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Document -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Document">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Artifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <rdfs:label xml:lang="en">Document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#FormalOrganization -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#FormalOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#HierarchicalEntityGroup"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:13:11Z</dc:date>
+        <rdfs:label xml:lang="en">Formal Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#GeographicalEncodingScheme -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#GeographicalEncodingScheme">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialEncodingScheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:36:31Z</dc:date>
+        <rdfs:label xml:lang="en">Geographical Encoding Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#GeographicalLocation -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#GeographicalLocation">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialLocationReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:38:19Z</dc:date>
+        <rdfs:label xml:lang="en">Geographical Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#GeographicalRegion -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#GeographicalRegion">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:39:10Z</dc:date>
+        <rdfs:label xml:lang="en">Geographical Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentAgency -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentAgency">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:10:11Z</dc:date>
+        <rdfs:label xml:lang="en">Government Agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentalEntity -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentalEntity">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#JuridicalPerson"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:06:40Z</dc:date>
+        <rdfs:label xml:lang="en">Governmental Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#HierarchicalEntityGroup -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#HierarchicalEntityGroup">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntityGroup"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:13:02Z</dc:date>
+        <rdfs:label xml:lang="en">Hierarchical Entity Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Identifier -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Identifier">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Reference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:13:44Z</dc:date>
+        <rdfs:label xml:lang="en">Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#IdentifierScheme -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#IdentifierScheme">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Scheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:14:01Z</dc:date>
+        <rdfs:label xml:lang="en">Identifier Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#IdentityClaim -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#IdentityClaim">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalDocument"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:23:20Z</dc:date>
+        <rdfs:label xml:lang="en">Identity Claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#IntergovernmentalOrganization -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#IntergovernmentalOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:10:11Z</dc:date>
+        <rdfs:label xml:lang="en">Inter-Governmental Organization (IGO)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#JuridicalPerson -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#JuridicalPerson">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:06:20Z</dc:date>
+        <rdfs:label xml:lang="en">Juridical Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#LegalDocument -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalDocument">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Document"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <rdfs:label xml:lang="en">Legal Document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Referent"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:03:51Z</dc:date>
+        <rdfs:label xml:lang="en">Legal Entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntityGroup -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntityGroup">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Referent"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:12:45Z</dc:date>
+        <rdfs:label xml:lang="en">Legal Entity Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#LegalIdentifier -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalIdentifier">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Identifier"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:04:11Z</dc:date>
+        <rdfs:label xml:lang="en">Legal Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#LegalJurisdiction -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalJurisdiction">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:10:26Z</dc:date>
+        <rdfs:label xml:lang="en">Legal Jurisdiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#LimitedLiabilityCompany -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#LimitedLiabilityCompany">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:08:16Z</dc:date>
+        <rdfs:label xml:lang="en">Limited Liability Company (LLC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#NaturalPerson -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#NaturalPerson">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#LegalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:06:09Z</dc:date>
+        <rdfs:label xml:lang="en">Natural Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#NonGovernmentalOrganization -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#NonGovernmentalOrganization">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:08:16Z</dc:date>
+        <rdfs:label xml:lang="en">Non-Governmental Organization (NGO)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Obligation -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Obligation">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#DependentArtifact"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:08:26Z</dc:date>
+        <rdfs:label xml:lang="en">Obligation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Partnership -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Partnership">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:08:16Z</dc:date>
+        <rdfs:label xml:lang="en">Partnership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#PostalAddress -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#PostalAddress">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialLocationReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:38:10Z</dc:date>
+        <rdfs:label xml:lang="en">Postal Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#PostalAddressEncodingScheme -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#PostalAddressEncodingScheme">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialEncodingScheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:36:14Z</dc:date>
+        <rdfs:label xml:lang="en">Postal Address Encoding Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#PostalCode -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#PostalCode">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:38:10Z</dc:date>
+        <rdfs:label xml:lang="en">Postal Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#PostalCodeEncodingScheme -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#PostalCodeEncodingScheme">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialEncodingScheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:36:14Z</dc:date>
+        <rdfs:label xml:lang="en">Postal Code Encoding Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Reference -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Reference">
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T20:22:29Z</dc:date>
+        <dc:description xml:lang="en">A name, designation, or denotation, that is used as a way to identify or classify an object, concept, or event, etc.</dc:description>
+        <rdfs:label xml:lang="en">Reference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Referent -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Referent">
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-12T20:28:06Z</dc:date>
+        <dc:description xml:lang="en">The object, concept, or event, etc. addressed by an identifier, classifier, or other reference.</dc:description>
+        <rdfs:label xml:lang="en">Referent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Scheme -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Scheme">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Agreement"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:08:57Z</dc:date>
+        <rdfs:label xml:lang="en">Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SoleProprietorship -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SoleProprietorship">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#BusinessEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:08:16Z</dc:date>
+        <rdfs:label xml:lang="en">Sole Proprietorship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SovereignState -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SovereignState">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:10:11Z</dc:date>
+        <rdfs:label xml:lang="en">Sovereign State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialEncodingScheme -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialEncodingScheme">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Scheme"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:34:48Z</dc:date>
+        <rdfs:label xml:lang="en">Spacial Encoding Scheme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialLocationReference -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialLocationReference">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:34:57Z</dc:date>
+        <rdfs:label xml:lang="en">Spacial Location Reference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialReference -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialReference">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Reference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:34:36Z</dc:date>
+        <rdfs:label xml:lang="en">Spacial Reference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialRegionReference">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#SpacialReference"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:35:05Z</dc:date>
+        <rdfs:label xml:lang="en">Spacial Region Reference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SubContract -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SubContract">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Contract"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T15:50:55Z</dc:date>
+        <rdfs:label xml:lang="en">Sub-Contract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SupranationalUnion -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SupranationalUnion">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#GovernmentalEntity"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T17:10:11Z</dc:date>
+        <rdfs:label xml:lang="en">Supra-National Union</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#SurvivingObligation -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#SurvivingObligation">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Obligation"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T16:08:35Z</dc:date>
+        <rdfs:label xml:lang="en">Surviving Obligation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.amazon.com/ontologies/ceco/2022/foundation#Term -->
+
+    <owl:Class rdf:about="http://www.amazon.com/ontologies/ceco/2022/foundation#Term">
+        <rdfs:subClassOf rdf:resource="http://www.amazon.com/ontologies/ceco/2022/foundation#Clause"/>
+        <dc:creator>
+            <rdf:Description rdf:nodeID="genid1">
+                <foaf:Organization xml:lang="en">Amazon.com</foaf:Organization>
+                <foaf:mbox>simonjo@amazon.com</foaf:mbox>
+                <foaf:name>Simon Johnston</foaf:name>
+            </rdf:Description>
+        </dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-10T20:11:54Z</dc:date>
+        <rdfs:label xml:lang="en">Term</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
