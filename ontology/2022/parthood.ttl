@@ -1,0 +1,222 @@
+@prefix : <https://simonkjohnston.life/ontology/2022/parthood#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ceco: <http://www.amazon.com/ontologies/ceco/2022/foundation#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@base <https://simonkjohnston.life/ontology/2022/parthood> .
+
+<https://simonkjohnston.life/ontology/2022/parthood> rdf:type owl:Ontology ;
+                                                     owl:versionIRI <https://simonkjohnston.life/ontology/2022/parthood/1.0.0> ;
+                                                     dc:creator [ foaf:mbox "johnstonskj@gmail.com" ;
+                                                                  foaf:name "Simon Johnston"
+                                                                ] ;
+                                                     dc:identifier "parthood.owl" ;
+                                                     dc:issued "2022-08-06"^^xsd:date ;
+                                                     skos:prefLabel "Simple Parthood Ontology"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+dc:creator rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/date
+dc:date rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+dc:description rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dc:identifier rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dc:issued rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+rdf:type rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/mbox
+foaf:mbox rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:AnnotationProperty .
+
+skos:prefLabel rdf:type owl:AnnotationProperty .
+
+skos:altLabel rdf:type owl:AnnotationProperty .
+
+skos:definition rdf:type owl:AnnotationProperty .
+
+skos:example rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://simonkjohnston.life/v/2022/parthood#componentOf
+:componentOf rdf:type owl:ObjectProperty ;
+             owl:inverseOf :hasComponent ;
+             rdf:type owl:AsymmetricProperty ,
+                      owl:TransitiveProperty ,
+                      owl:ReflexiveProperty ;
+             skos:definition "hasComponent and componentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating components."@en ;
+             skos:prefLabel "component-of" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#constituentOf
+:constituentOf rdf:type owl:ObjectProperty ;
+               owl:inverseOf :hasConstituent ;
+               rdf:type owl:AsymmetricProperty ,
+                        owl:TransitiveProperty ,
+                        owl:ReflexiveProperty ;
+               skos:definition "hasConstituent and constituentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating constituents."@en ;
+               skos:prefLabel "constituent-of" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#hasComponent
+:hasComponent rdf:type owl:ObjectProperty ,
+                       owl:AsymmetricProperty ,
+                       owl:TransitiveProperty ,
+                       owl:ReflexiveProperty ;
+              skos:definition "hasComponent and componentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating components."@en ;
+              skos:prefLabel "has component" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#hasConstituent
+:hasConstituent rdf:type owl:ObjectProperty ,
+                         owl:AsymmetricProperty ,
+                         owl:TransitiveProperty ,
+                         owl:ReflexiveProperty ;
+                skos:definition "hasConstituent and constituentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating constituents."@en ;
+                skos:prefLabel "has constituent" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#hasPart
+:hasPart rdf:type owl:ObjectProperty ;
+         owl:inverseOf :partOf ;
+         rdf:type owl:AsymmetricProperty ,
+                  owl:TransitiveProperty ,
+                  owl:ReflexiveProperty ;
+         skos:definition "hasPart and partOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating parts."@en ;
+         skos:prefLabel "has part" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#hasProperComponent
+:hasProperComponent rdf:type owl:ObjectProperty ;
+                    owl:inverseOf :properComponentOf ;
+                    rdf:type owl:AsymmetricProperty ,
+                             owl:TransitiveProperty ,
+                             owl:IrreflexiveProperty ;
+                    skos:definition "hasProperComponent and properComponentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating components."@en ;
+                    skos:prefLabel "has proper component" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#hasProperConstituent
+:hasProperConstituent rdf:type owl:ObjectProperty ;
+                      owl:inverseOf :properConstituentOf ;
+                      rdf:type owl:AsymmetricProperty ,
+                               owl:TransitiveProperty ,
+                               owl:IrreflexiveProperty ;
+                      skos:definition "hasProperConstituent and properConstituentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating constituents."@en ;
+                      skos:prefLabel "has proper constituent" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#hasProperPart
+:hasProperPart rdf:type owl:ObjectProperty ;
+               owl:inverseOf :properPartOf ;
+               rdf:type owl:AsymmetricProperty ,
+                        owl:TransitiveProperty ,
+                        owl:IrreflexiveProperty ;
+               skos:definition "hasProperPart and properPartOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating parts."@en ;
+               skos:prefLabel "has proper part" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#partOf
+:partOf rdf:type owl:ObjectProperty ,
+                 owl:AsymmetricProperty ,
+                 owl:TransitiveProperty ,
+                 owl:ReflexiveProperty ;
+        skos:definition "hasPart and partOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating parts."@en ;
+        skos:prefLabel "part-of" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#properComponentOf
+:properComponentOf rdf:type owl:ObjectProperty ,
+                            owl:AsymmetricProperty ,
+                            owl:TransitiveProperty ,
+                            owl:IrreflexiveProperty ;
+                   skos:definition "hasProperComponent and properComponentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating components."@en ;
+                   skos:prefLabel "proper component-of" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#properConstituentOf
+:properConstituentOf rdf:type owl:ObjectProperty ,
+                              owl:AsymmetricProperty ,
+                              owl:TransitiveProperty ,
+                              owl:IrreflexiveProperty ;
+                     skos:definition "hasProperConstituent and properConstituentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating constituents."@en ;
+                     skos:prefLabel "proper constituent-of" .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#properPartOf
+:properPartOf rdf:type owl:ObjectProperty ,
+                       owl:AsymmetricProperty ,
+                       owl:TransitiveProperty ,
+                       owl:IrreflexiveProperty ;
+              skos:definition "hasProperPart and properPartOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating parts."@en ;
+              skos:prefLabel "proper part-of" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://simonkjohnston.life/v/2022/parthood#atom
+:atom rdf:type owl:Class ;
+      skos:definition "Some object that has no identifiable parts."@en ;
+      skos:prefLabel "Atom"@en .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#component
+:component rdf:type owl:Class ;
+           rdfs:subClassOf :part, :whole ;
+           owl:disjointWith :constituent ;
+           skos:definition "A kind of part which has it's own identity as a whole in some context."@en ;
+           skos:prefLabel "Component"@en .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#constituent
+:constituent rdf:type owl:Class ;
+             rdfs:subClassOf :part ;
+             owl:disjointWith :component ;
+             skos:definition "A kind of part that, when described as a part of the whole, is no longer identifiable."@en ;
+             skos:prefLabel "Constituent"@en .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#part
+:part rdf:type owl:Class ;
+      skos:definition "Some object that is a part, in a broad mereological term, of some whole."@en ;
+      skos:prefLabel "Part"@en .
+
+
+###  https://simonkjohnston.life/v/2022/parthood#whole
+:whole rdf:type owl:Class ;
+       skos:definition "Some object that is made of parts."@en ;
+       skos:prefLabel "Whole"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

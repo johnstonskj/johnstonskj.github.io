@@ -1,0 +1,64 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@base <https://simonkjohnston.life/ontology/2022/domains> .
+@prefix : <https://simonkjohnston.life/ontology/2022/domains#> .
+
+:   a owl:Ontology ;
+    owl:versionInfo "0.1.0" ;
+    owl:versionIRI <https://simonkjohnston.life/ontology/2022/domains/0.1.0> ;
+    owl:imports skos: ;
+    skos:prefLabel "Domains in Ontologies"@en ;
+    dc:description ""@en ;
+    dc:creator [
+        foaf:mbox "johnstonskj@gmail.com" ;
+        foaf:name "Simon Johnston"
+    ] .
+
+
+:Domain
+    a owl:Class ;
+
+    skos:prefLabel "Domain"@en ;
+    dc:description "A domain is simply a term that defines some logical grouping within, or across Ontologies. It may be used to group elements into named logical units or to form strata across multiple ontologies used in a particular application."@en ;
+    rdfs:isDefinedBy <https://simonkjohnston.life/ontologies/2022/onto-domains/0.1.0> .
+
+
+:inDomain
+    a owl:ObjectProperty ;
+    rdfs:range :Domain ;
+
+    skos:prefLabel "in domain"@en ;
+    dc:description "This relation can be used to relate any item in an ontology to a domain. It is most commonly used (and expected to be used) to relate top-level definitions to domains."@en ;
+    rdfs:isDefinedBy <https://simonkjohnston.life/ontologies/2022/onto-domains/0.1.0> .
+
+
+:hasSubDomain
+    a owl:ObjectProperty ;
+    owl:inverseOf :hasSuperDomain ;
+    rdfs:domain :Domain ;
+    rdfs:range :Domain ;
+    owl:propertyDisjointWith :inDomain ;
+    
+    skos:prefLabel "has sub-domain"@en ;
+    dc:description "Denotes a narrower, or less general domain than the current."@en ;
+    skos:example "biology *has sub-domain* cellular biology."@en ;
+    rdfs:isDefinedBy <https://simonkjohnston.life/ontologies/2022/onto-domains/0.1.0> .
+
+
+:hasSuperDomain
+    a owl:ObjectProperty ;
+    rdfs:domain :Domain ;
+    rdfs:range :Domain ;
+    owl:propertyDisjointWith :inDomain ;
+    
+    skos:prefLabel "has super-domain"@en ;
+    dc:description "Denotes a broader, or more general domain than the current."@en ;
+    skos:example "quantum computing *has super-domain* computer science."@en ;
+    rdfs:isDefinedBy <https://simonkjohnston.life/ontologies/2022/onto-domains/0.1.0> .
+
+
