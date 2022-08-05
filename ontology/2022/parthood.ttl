@@ -17,7 +17,8 @@
     dc:identifier "parthood.ttl" ;
     
     skos:prefLabel "Simple Parthood Ontology"@en ;
-    dc:description ""@en ;
+    dc:description "A simple mereological ontology that models simple part/whole relations. Note that this also recognizes the difference between parts, components, and constituents of a whole."@en ;
+    rdfs:seeAlso <https://plato.stanford.edu/entries/mereology/> ;
     dc:creator [
         foaf:mbox "johnstonskj@gmail.com" ;
         foaf:name "Simon Johnston"
