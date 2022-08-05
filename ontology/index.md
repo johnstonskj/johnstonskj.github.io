@@ -1,9 +1,7 @@
 ---
 title: Ontologies
-layout: home
+layout: content-only
 ---
-
-# Ontologies
 
 The following Ontologies are maintained here.
 
