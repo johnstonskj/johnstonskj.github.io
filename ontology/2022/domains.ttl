@@ -16,7 +16,7 @@
 
     owl:imports skos: ;
 
-    skos:prefLabel "Domains in Ontologies"@en ;
+    skos:prefLabel "Ontology Domains"@en ;
     dc:description "Provides the class Domain that models a general notion of a *domain of discourse* allowing an ontology to identify the \"assumed or expressed limit within which the subjects of its operation are confined\" [George Boole, 1854]."@en ;
     dc:references <https://en.wikipedia.org/wiki/Domain_of_discourse> ;
     dc:creator [
