@@ -3,7 +3,8 @@ title: Quotes for Software Geeks
 layout: page
 ---
 
-_In software systems, it is often the early bird that makes the worm._ — **Alan J. Perlis**
+_In software systems, it is often the early bird that makes the worm._ —
+**Alan J. Perlis** from [_Epigrams on Programming_](http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html)
 
 _Einstein argued that there must be simplified explanations of nature, because God is not capricious or arbitrary. No such faith comforts the software engineer_ — **Fred Brooks**
 
@@ -38,6 +39,8 @@ _... we do not consider it as good engineering practice to consume a resource la
 _Every program has (at least) two purposes: the one for which it was written, and another for which it wasn’t._ — **Alan J. Perlis**
 
 _Object oriented programs are offered as alternatives to correct ones_ — **Edsger W. Dijkstra**
+
+_A programming language is low level when its programs require attention to the irrelevant._ — **Alan J. Perlis**
 
 _Lisp has jokingly been called "the most intelligent way to misuse a computer." I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts._  -- **Edsger Dijkstra**
 
