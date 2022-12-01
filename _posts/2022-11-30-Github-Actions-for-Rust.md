@@ -100,3 +100,13 @@ check_tests:
 I'm sure there will be more iterations, but this was a pretty good step
 forward and it will be the new baseline to add to my project template and
 slowly add back into existing projects.
+
+You can find this workflow at
+[rust.tml](https://github.com/johnstonskj/rust-codes/blob/main/.github/workflows/rust.yml),
+along with my
+[security-audit.yml](https://github.com/johnstonskj/rust-codes/blob/main/.github/workflows/security-audit.yml)
+(which includes a schedule to be notified of issues), and
+[release.yml](https://github.com/johnstonskj/rust-codes/blob/main/.github/workflows/release.yml)
+workflows. I also use the cool
+[typos.yml](https://github.com/johnstonskj/rust-codes/blob/main/.github/workflows/typos.yml)
+workflow on pull requests. 
