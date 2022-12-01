@@ -22,7 +22,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
 
-    runs-on: \${{ matrix.os }}
+    runs-on: {% raw %}${{ matrix.os }}{% endraw %}
 
     steps:
       - uses: actions/checkout@v1
@@ -82,8 +82,8 @@ check_tests:
   runs-on: ubuntu-latest
   
   outputs:
-    has_benchmarks: ${{ steps.check_benchmarks.outputs.has_benchmarks }}
-    has_examples: ${{ steps.check_examples.outputs.has_examples }}
+    has_benchmarks: {% raw %}${{ steps.check_benchmarks.outputs.has_benchmarks }}{% endraw %}
+    has_examples: {% raw %}${{ steps.check_examples.outputs.has_examples }}{% endraw %}
     
   steps:
     - name: Check for benchmarks
