@@ -73,7 +73,7 @@ conditionals in scripts that fake success if there are no tests. So, I added
 the following simple job which generates a flag for each directory and can
 then gate subsequent tests based on these flags. Specifically the two
 downstream jobs have the following: `if:
-needs.check_tests.outputs.has_benchmarks` or `has_examples`.
+needs.check_tests.outputs.has_benchmarks` or `...has_examples`.
 
 ```yaml
 check_tests:
@@ -102,7 +102,7 @@ forward and it will be the new baseline to add to my project template and
 slowly add back into existing projects.
 
 You can find this workflow at
-[rust.tml](https://github.com/johnstonskj/rust-codes/blob/main/.github/workflows/rust.yml),
+[rust.yml](https://github.com/johnstonskj/rust-codes/blob/main/.github/workflows/rust.yml),
 along with my
 [security-audit.yml](https://github.com/johnstonskj/rust-codes/blob/main/.github/workflows/security-audit.yml)
 (which includes a schedule to be notified of issues), and
