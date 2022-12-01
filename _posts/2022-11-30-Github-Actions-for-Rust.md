@@ -22,7 +22,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
 
-    runs-on: ${{ matrix.os }}
+    runs-on: \${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v1
@@ -51,7 +51,7 @@ projects evolving my Rust workflow (which I still call pipelines), using jobs,
 dependencies, and some inputs/outputs between jobs to get too this:
 
 
-![Action Screenshot](assets/img/posts/rust_workflow.png)
+![Action Screenshot](/assets/img/posts/rust_workflow.png)
 
 This new workflow is clearly a lot more complex but it has some nice
 separation of concerns and allows quite a bit of parallelism. My test matrix
