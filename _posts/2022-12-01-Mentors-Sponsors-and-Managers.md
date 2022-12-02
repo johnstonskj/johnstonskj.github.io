@@ -33,7 +33,7 @@ admit that actually there is a spectrum of interactions, goals, skills, and
 interests wrapped up in these different rôles. Managers have specific
 responsibilities but are also generally rewarded for the growth of their
 employees and so some level of mentoring advice can be expected from your
-manager. On the other hand, it may be that your managed doesn't have a
+manager. On the other hand, it may be that your manager doesn't have a
 background in your discipline, or sees a specific need that an external mentor
 can help with. Mentoring is an informal process and has to work for both
 mentor and mentee but in general the scope is negotiated between both.
@@ -66,14 +66,14 @@ published on [LinkedIn](https://www.linkedin.com/).
 > The critical difference in a sponsorship relationship versus mentorship, is
 > the dynamic of a position of influence, or authority. A person can only
 > truly be a sponsor if they are able to create an opportunity for you that
-> you otherwise would not be able to access on your own. your sponsor not only
+> you otherwise would not be able to access on your own. Your sponsor not only
 > has more experience than you in a certain area, but also has the ability to
 > bring you "up" alongside them.
 
 One behavior often needed of mentors, and managers, is to listen to the
 frustrations and insecurities of your mentee. Bordering on therapy some days
 your position as a trusted ear allows a mentee in particular to open up about
-the non-technical issues that they may feel hold them back. In some case this
+the non-technical issues that they may feel hold them back. In some cases this
 may spark a conversation about coping behaviors, in others you may be in a
 position to point out the problem to others or fix it yourself, and in some
 it's an opening to discuss whether they may need a change in team or rôle.
@@ -90,14 +90,14 @@ by Management Training Specialists (MTD).
 
 > Each apprenticeship standard is made up of knowledge, skills and behaviours.
 > 
-> **The Knowledge** during the apprenticeship you will acquire the facts, 
+> **The Knowledge** -- during the apprenticeship you will acquire the facts, 
 > information, theory and technical information of the subject required to 
-> enable you to be effective in their rôle.
+> enable you to be effective in their [sic] rôle.
 > 
-> **The Skills** – the expertise, practical skills and talent needed in order 
+> **The Skills** –- the expertise, practical skills and talent needed in order 
 > to do a job, or task. The Job skills allow you to do a specific job.
 > 
-> **Behaviours** – these are the way you act, approach activities and work with 
+> **Behaviours** –- these are the way you act, approach activities and work with 
 > others and support you to be effective in your rôle and future career.
 
 The missing piece in the description above is the sponsor rôle of advocating
