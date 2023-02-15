@@ -46,6 +46,8 @@ _Lisp has jokingly been called "the most intelligent way to misuse a computer." 
 
 _All problems in computer science can be solved by another level of indirection... Except for the problem of too many layers of indirection._ — **David Wheeler**
 
+_Everybody has a testing environment. Some people are lucky enough to have a totally separate environment to run production in._ - **Michael Stahnke**
+
 _There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors_ — ?
 
 _Most of you are familiar with the virtues of a programmer.  There are three, of course: laziness, impatience, and hubris._ — **Larry Wall**
