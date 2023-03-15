@@ -42,20 +42,20 @@ these items in technical discussions and so you get to give it a name.
   - A set of biases based upon much of the above, but also including
     inter-personal and unconscious biases.
 
-- *Risks* – the set of known concerns that . It is common for risks to
-  derive from the last two items; for example, some constraints may
-  require a more complex design than would otherwise suffice, or an
-  assumption may prove untrue and cause re-work of a design. Risks may
-  be non-technical, and we do have a professional obligation (see
-  [4](#professional-practice)) to ensure that we raise those as we see
+- *Risks* – the set of known concerns that . It is common for risks to derive
+  from the last two items; for example, some constraints may require a more
+  complex design than would otherwise suffice, or an assumption may prove
+  untrue and cause re-work of a design. Risks may be non-technical, and we do
+  have a professional obligation (see [Professional
+  Practice](#professional-practice)) to ensure that we raise those as we see
   them.
 
-- *Effort* – the enumeration of resources required to accomplish the
-  design. While it may make sense to expand *effort* to include *cost* I
-  believe this is invalid. If a cost budget, or calendar deadline is the
-  focus of the design it is a *constraint*. This does not mean we do not
-  consider costs, it should always be a part of our
-  [4](#professional-practice) to carefully balance the costs (and other
+- *Effort* – the enumeration of resources required to accomplish the design.
+  While it may make sense to expand *effort* to include *cost* I believe this
+  is invalid. If a cost budget, or calendar deadline is the focus of the
+  design it is a *constraint*. This does not mean we do not consider costs, it
+  should always be a part of our [professional
+  practice](#professional-practice) to carefully balance the costs (and other
   impacts) of our work.
 
 # Using CARE in design decisions
