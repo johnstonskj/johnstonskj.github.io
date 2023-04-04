@@ -4,70 +4,129 @@ layout: page
 ---
 
 _In software systems, it is often the early bird that makes the worm._ —
-**Alan J. Perlis** from [_Epigrams on Programming_](http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html)
+**Alan J. Perlis** from [_Epigrams on
+Programming_](http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html)
 
-_Einstein argued that there must be simplified explanations of nature, because God is not capricious or arbitrary. No such faith comforts the software engineer_ — **Fred Brooks**
+_Einstein argued that there must be simplified explanations of nature, because
+God is not capricious or arbitrary. No such faith comforts the software
+engineer_ — **Fred Brooks**
 
-_Re graphics: A picture is worth 10K words — but only those to describe the picture. Hardly any sets of 10K words can be adequately described with pictures._ — **Alan J. Perlis**
+_Re graphics: A picture is worth 10K words — but only those to describe the
+picture. Hardly any sets of 10K words can be adequately described with
+pictures._ — **Alan J. Perlis**
 
-_There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult. It demands the same skill, devotion, insight, and even inspiration as the discovery of the simple physical laws which underlie the complex phenomena of nature. It also requires a willingness to accept objectives which are limited by physical, logical, and technological constraints, and to accept a compromise when conflicting objectives cannot be met. No committee will ever do this until it is too late.  ... The price of reliability is the pursuit of the utmost simplicity. It is a price which the very rich find most hard to pay._ — **C.A.R. Hoare**
+_There are two ways of constructing a software design. One way is to make it
+so simple that there are obviously no deficiencies. And the other way is to
+make it so complicated that there are no obvious deficiencies. The first
+method is far more difficult. It demands the same skill, devotion, insight,
+and even inspiration as the discovery of the simple physical laws which
+underlie the complex phenomena of nature. It also requires a willingness to
+accept objectives which are limited by physical, logical, and technological
+constraints, and to accept a compromise when conflicting objectives cannot be
+met. No committee will ever do this until it is too late. ... The price of
+reliability is the pursuit of the utmost simplicity. It is a price which the
+very rich find most hard to pay._ — **C.A.R. Hoare**
 
-_Premature optimization is the root of all evil in programming._ — **C. A. R. Hoare**
+_Premature optimization is the root of all evil in programming._ — **C. A. R.
+Hoare**
 
 _Some problems are better evaded than solved._ — **C. A. R. Hoare**
 
-_Software is not limited by physics, like buildings are. It is limited by imagination, by design, by organization. In short, it is limited by properties of people, not by properties of the world._ — **Ralph Johnson**
+_Software is not limited by physics, like buildings are. It is limited by
+imagination, by design, by organization. In short, it is limited by properties
+of people, not by properties of the world._ — **Ralph Johnson**
 
-_Controlling complexity is the essence of computer programming._ — **Brian W. Kernighan**
+_Controlling complexity is the essence of computer programming._ — **Brian W.
+Kernighan**
 
-_The lurking suspicion that something could be simplified is the world’s richest source of rewarding challenges._ — **Edsger W. Dijkstra**
+_The lurking suspicion that something could be simplified is the world’s
+richest source of rewarding challenges._ — **Edsger W. Dijkstra**
 
 _Simplicity is prerequisite for reliability._ — **Edsger W. Dijkstra**
 
-_Truth is ever to be found in simplicity; and not in the multiplicity and confusion of things._ - **Sir Isaac Newton**
+_Truth is ever to be found in simplicity; and not in the multiplicity and
+confusion of things._ - **Sir Isaac Newton**
 
-_The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague._ — **Edsger W. Dijkstra**
+_The competent programmer is fully aware of the strictly limited size of his
+own skull; therefore he approaches the programming task in full humility, and
+among other things he avoids clever tricks like the plague._ — **Edsger W.
+Dijkstra**
 
-_I don't know how many of you have ever met Dijkstra, but you probably know that arrogance in computer science is measured in nano-Dijkstras_ — **Alan Kay**
+_I don't know how many of you have ever met Dijkstra, but you probably know
+that arrogance in computer science is measured in nano-Dijkstras_ — **Alan
+Kay**
 
-_We should forget about small efficiences, say, about 97% of the time. Premature optimization is the root of all evil._ — **Donald Knuth**
+_We should forget about small efficiences, say, about 97% of the time.
+Premature optimization is the root of all evil._ — **Donald Knuth**
 
-_Software gets slower faster than hardware gets faster._ — **Niklaus E. Wirth** (Wirth’s Law)
+_Software gets slower faster than hardware gets faster._ — **Niklaus E.
+Wirth** (Wirth’s Law)
 
-_... we do not consider it as good engineering practice to consume a resource lavishly just because it happens to be cheap._ — **Niklaus E. Wirth**
+_Whenever a major organization develops a new system as an official standard
+for X, the primary result is the widespread adoption of some simpler system as
+a de facto standard for X._ - **John F. Sowa** (Sowa's Law of Standards)
 
-_Every program has (at least) two purposes: the one for which it was written, and another for which it wasn’t._ — **Alan J. Perlis**
+_... we do not consider it as good engineering practice to consume a resource
+lavishly just because it happens to be cheap._ — **Niklaus E. Wirth**
 
-_Object oriented programs are offered as alternatives to correct ones_ — **Edsger W. Dijkstra**
+_Every program has (at least) two purposes: the one for which it was written,
+and another for which it wasn’t._ — **Alan J. Perlis**
 
-_A programming language is low level when its programs require attention to the irrelevant._ — **Alan J. Perlis**
+_Object oriented programs are offered as alternatives to correct ones_ —
+**Edsger W. Dijkstra**
 
-_Lisp has jokingly been called "the most intelligent way to misuse a computer." I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts._  -- **Edsger Dijkstra**
+_A programming language is low level when its programs require attention to
+the irrelevant._ — **Alan J. Perlis**
 
-_All problems in computer science can be solved by another level of indirection... Except for the problem of too many layers of indirection._ — **David Wheeler**
+_Lisp has jokingly been called "the most intelligent way to misuse a
+computer." I think that description is a great compliment because it transmits
+the full flavor of liberation: it has assisted a number of our most gifted
+fellow humans in thinking previously impossible thoughts._ -- **Edsger
+Dijkstra**
 
-_Everybody has a testing environment. Some people are lucky enough to have a totally separate environment to run production in._ - **Michael Stahnke**
+_All problems in computer science can be solved by another level of
+indirection... Except for the problem of too many layers of indirection._ —
+**David Wheeler**
 
-_There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors_ — ?
+_Everybody has a testing environment. Some people are lucky enough to have a
+totally separate environment to run production in._ - **Michael Stahnke**
 
-_Most of you are familiar with the virtues of a programmer.  There are three, of course: laziness, impatience, and hubris._ — **Larry Wall**
+_There are 2 hard problems in computer science: cache invalidation, naming
+things, and off-by-1 errors_ — ?
 
-_It has been said that the great scientific disciplines are examples of giants standing on the shoulders of other giants.  It has also been said that the software industry is an example of midgets standing on the toes of other midgets._ — **Alan Cooper**
+_Most of you are familiar with the virtues of a programmer. There are three,
+of course: laziness, impatience, and hubris._ — **Larry Wall**
 
-_Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning._ — **Rick Cook**
+_It has been said that the great scientific disciplines are examples of giants
+standing on the shoulders of other giants. It has also been said that the
+software industry is an example of midgets standing on the toes of other
+midgets._ — **Alan Cooper**
 
-_The three most dangerous things in the world are a programmer with a soldering iron, a hardware type with a program patch and a user with an idea._ — **Rick Cook**
+_Programming today is a race between software engineers striving to build
+bigger and better idiot-proof programs, and the Universe trying to produce
+bigger and better idiots. So far, the Universe is winning._ — **Rick Cook**
 
-_Without requirements or design, programming is the art of adding bugs to an empty text file._ -- **Louis Srygley**
+_The three most dangerous things in the world are a programmer with a
+soldering iron, a hardware type with a program patch and a user with an idea._
+— **Rick Cook**
 
-_Real stupidity beats artificial intelligence every time._ — **Terry Pratchett**
+_Without requirements or design, programming is the art of adding bugs to an
+empty text file._ -- **Louis Srygley**
 
-_Oh, I’ve certainly never been short of pleasure. Do you know what real pleasure is? A creative act. A pleasure without creativity is dead boring._ -- **Gianni Agnelli**
+_Real stupidity beats artificial intelligence every time._ — **Terry
+Pratchett**
+
+_Oh, I’ve certainly never been short of pleasure. Do you know what real
+pleasure is? A creative act. A pleasure without creativity is dead boring._ --
+**Gianni Agnelli**
 
 _A thing done well can be done better._ -- **Gianni Agnelli**
 
-_Writing improves in direct ratio to the number of things we can keep out of it that shouldn't be there_ -- **William Zinsser**
+_Writing improves in direct ratio to the number of things we can keep out of
+it that shouldn't be there_ -- **William Zinsser**
 
 _Writing is thinking on paper_ — **William Zinsser**
 
-_Judge a man by his questions rather than by his answers_ and the corollary _He must be very ignorant for he answers every question he is asked._ -- **Voltaire (François-Marie Arouet)**
+_Judge a man by his questions rather than by his answers_ and the corollary
+_He must be very ignorant for he answers every question he is asked._ --
+**Voltaire (François-Marie Arouet)**
