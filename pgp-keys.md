@@ -31,8 +31,15 @@ Only someone who can access my computer and then unlock my PGP keyring can sign 
 
 I use [OpenPGP](https://www.openpgp.org/) via [GnuPG](http://www.gnupg.org/). On macos I use [GPG Suite](https://gpgtools.org/) via [Homebrew](https://brew.sh/) (packages `gpg`, `gpg-suite-no-mail`, `gpg-suite-pinentry`). 
 
-## Personal Identity
+## Other Identities
 
 For my personal identity I use [ProtonMail](https://protonmail.com/) (as well as the excellent [ProtonVPN](https://protonvpn.com/)).
 
-[![PGP key](https://img.shields.io/badge/pgp-5337DCA90E415DEB-blue)](https://keys.openpgp.org/vks/v1/by-fingerprint/FB67DDD277A98138222B014A5337DCA90E415DEB)
+[![PGP
+key](https://img.shields.io/badge/pgp-5337DCA90E415DEB-blue)](https://keys.openpgp.org/vks/v1/by-fingerprint/FB67DDD277A98138222B014A5337DCA90E415DEB)
+
+The following is my key for work.
+
+[![PGP
+key](https://img.shields.io/badge/pgp-B2DB6FC33732C4B8-blue)](https://keys.openpgp.org/vks/v1/by-fingerprint/30773E50D1FCC91F79B6F392B2DB6FC33732C4B8)
+
