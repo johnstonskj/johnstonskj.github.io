@@ -50,13 +50,13 @@ these items in technical discussions and so you get to give it a name.
   Practice](#professional-practice)) to ensure that we raise those as we see
   them.
 
-- *Effort* – the enumeration of resources required to accomplish the design.
-  While it may make sense to expand *effort* to include *cost* I believe this
-  is invalid. If a cost budget, or calendar deadline is the focus of the
-  design it is a *constraint*. This does not mean we do not consider costs, it
-  should always be a part of our [professional
-  practice](#professional-practice) to carefully balance the costs (and other
-  impacts) of our work.
+- *Effort* – the enumeration of resources required to accomplish the design,
+  **and** operate/maintain the resulting system(s). While it may make sense to
+  expand *effort* to include *cost* I believe this is invalid. If a cost
+  budget, or calendar deadline is the focus of the design it is a
+  *constraint*. This does not mean we do not consider costs, it should always
+  be a part of our [professional practice](#professional-practice) to
+  carefully balance the costs (and other impacts) of our work.
 
 # Using CARE in design decisions
 
@@ -73,7 +73,7 @@ different in each.
 - Problem – What constraints does the existing system impose on our
   choices? What assumptions do we have about the current state? What
   risks exist in the current system? What effort are we expending to
-  keep the current status quo?
+  keep the current status quo?d
 - Potential Solutions – What additional constraints do they impose on
   us? What assumptions do we have about the solution and how it works?
   What risks do we see with the solution, and what effort will we need
