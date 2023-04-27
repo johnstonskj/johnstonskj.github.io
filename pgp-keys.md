@@ -18,7 +18,7 @@ You can download my current PGP key from the key server [keys.openpgp.org](https
 Once you have the key file perform the following command:
 
 ```bash
-$ gpg --import /assets/keys/644CF77829C7C3BB5B868DC896A0664B9D482667.asc
+$ gpg --import 644CF77829C7C3BB5B868DC896A0664B9D482667.asc
 ```
 
 Please feel free to sign my key, if you feel that you’ve verified my identity and that the key is mine. But don’t sign it with an exportable signature.
