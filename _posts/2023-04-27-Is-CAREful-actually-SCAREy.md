@@ -5,8 +5,9 @@ category: work
 tags: [design]
 ---
 
-I had some useful, and awkward, feedback from a colleague on my recent {% post_url 2023-03-14-CAREful-design-documents
-%} post. The feedback was basically "*I read the CARE attributes, but you always tell us the most* **important** *thing
+I had some useful, and awkward, feedback from a colleague on my recent 
+{% post_url 2023-03-14-CAREful-design-documents %}
+post. The feedback was basically "*I read the CARE attributes, but you always tell us the most* **important** *thing
 to bring to a review is* **scope**". This is absolutely true, I do. So how does *scope* relate to CARE (henceforth the
 CARE framework)?
 
