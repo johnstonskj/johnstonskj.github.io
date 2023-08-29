@@ -5,6 +5,7 @@ layout: page
 
 # Published
 
+1. _Event-Based Composition Model for Workflow Systems_, [US 11,741,412](assets/doc/patents/US11741412.pdf), Aug. 29, 2023
 1. _Generating Digital Files for Garment Production_, [US 11,559,098](assets/doc/patents/US11559098.pdf), Jan. 24 2023
 1. _Scent-Based Spoilage Sensing Refrigerator_, [US 11,181,515](assets/doc/patents/US11181515.pdf), Nov. 23, 2021
 1. _Digital File Structure for Garment Production_, [US 11,112,772](assets/doc/patents/US11112772.pdf), Sep. 7, 2021
