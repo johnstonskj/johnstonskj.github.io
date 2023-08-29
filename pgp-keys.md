@@ -27,7 +27,8 @@ Please feel free to sign my key, if you feel that you’ve verified my identity 
 
 PGP (Pretty Good Privacy) allows me to digitally sign, or even encrypt, emails or files. Signed emails or files means that you can be sure it is I who sent them. Encrypted emails and files means that only someone using the proper PGP key can decrypt them.
 
-Only someone who can access my computer and then unlock my PGP keyring can sign anything as me. But given that only I know the password for my PGP keyring, it is rather unlikely that my signature be forged.
+Only someone who can access my computer and then unlock my PGP keyring can sign anything as me. But given that only I
+know the password for my PGP keyring, it is rather unlikely that my signature be forged.
 
 I use [OpenPGP](https://www.openpgp.org/) via [GnuPG](http://www.gnupg.org/). On macos I use [GPG Suite](https://gpgtools.org/) via [Homebrew](https://brew.sh/) (packages `gpg`, `gpg-suite-no-mail`, `gpg-suite-pinentry`). 
 
