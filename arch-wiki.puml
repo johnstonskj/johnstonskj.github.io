@@ -1,0 +1,103 @@
+/' ********** Common Configuration ********** '/
+skinparam linetype ortho
+skinparam shadowing false
+
+hide methods
+hide circle
+
+/' ********** System Structure ********** '/
+!procedure $system($id, $label="")
+!if ($label == "")
+package "<&layers> $id" as $id <<system>>
+!else
+package "<&layers> $label" as $id <<system>>
+!endif
+!endprocedure
+!procedure $library($id, $label="")
+!if ($label == "")
+component "<&briefcase> $id" as $id <<library>>
+!else
+component "<&briefcase> $label" as $id <<library>>
+!endif
+!endprocedure
+!procedure $service($id, $label="")
+!if ($label == "")
+component "<&cog> $id" as $id <<service>>
+!else
+component "<&cog> $label" as $id <<service>>
+!endif
+!endprocedure
+!procedure $database($id, $label="")
+!if ($label == "")
+database "$id" as $id
+!else
+database "$label" as $id
+!endif
+!endprocedure
+!procedure $api($id, $label="")
+!if ($label == "")
+interface $id <<api>>
+!else
+interface "$label" as $id <<api>>
+!endif
+!endprocedure
+
+/' ********** Database Schema ********** '/
+!procedure $schema($id, $label="")
+!if ($label == "")
+package "<&layers> $id" as $id <<schema>>
+!else
+package "<&layers> $label" as $id <<schema>>
+!endif
+!endprocedure
+
+!procedure $table($id, $label="")
+!if ($label == "")
+class "<b>$id</b>" as $id <<table>>
+!else
+class "<b>$label</b>" as $id <<table>>
+!endif
+!endprocedure
+
+!procedure $primary_key($id, $ty)
+<b><color:#b8861b><&key></color> $id</b> : $ty <<PK>>
+!endprocedure
+!procedure $foreign_key($id, $ty)
+<b><color:#aaaaaa><&key></color> $id</b> : $ty <<FK>>
+!endprocedure
+!procedure $hash_key($id, $ty)
+<b><color:#b8861b><&arrow-right></color> $id</b> : $ty <<HK>>
+!endprocedure
+!procedure $range_key($id, $ty)
+<b><color:#aaaaaa><&sort-descending></color> $id</b> : $ty <<RK>>
+!endprocedure
+!procedure $generated($id, $ty)
+<i>$id : $ty <<generated>></i>
+!endprocedure
+!procedure $column($id, $ty)
+id : ty
+!endprocedure
+
+!procedure $one_to_one($lhs, $rhs, $label="1:1")
+$lhs ||--|| $rhs : "$label"
+!endprocedure
+!procedure $zeroorone_to_one($lhs, $rhs, $label="0..1:1")
+$lhs |o--|| $rhs : "$label"
+!endprocedure
+!procedure $zeroorone_to_zeroorone($lhs, $rhs, $label="0..1:0..1")
+$lhs |o--o| $rhs : "$label"
+!endprocedure
+!procedure $one_to_many($lhs, $rhs, $label="1:n")
+$lhs ||--|{ $rhs : "$label"
+!endprocedure
+!procedure $zeroorone_to_many($lhs, $rhs, $label="0..1:n")
+$lhs |o--|{ $rhs : "$label"
+!endprocedure
+!procedure $one_to_zeroormany($lhs, $rhs, $label="1:0..n")
+$lhs ||--o{ $rhs : "$label"
+!endprocedure
+!procedure $zeroorone_to_zeroormany($lhs, $rhs, $label="0..1:0..n")
+$lhs |o--o{ $rhs : "$label"
+!endprocedure
+
+/' ********** End of Configuration ********** '/
