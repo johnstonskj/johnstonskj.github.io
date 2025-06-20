@@ -33,7 +33,7 @@ _In software systems, it is often the early bird that makes the worm._
 _Einstein argued that there must be simplified explanations of nature, because
 God is not capricious or arbitrary. No such faith comforts the software
 engineer_
-— **Fred Brooks**
+— **Frederick "Fred" P. Brooks**
 
 _Hardware eventually fails. Software eventually works._
 — **Michael Hartung**
@@ -52,6 +52,10 @@ midgets._
 _Software is eating the world, but AI is going to eat software._
 — **Jensen Huang**
 
+_Artificial intelligence is the science of making machines do things that would
+require intelligence if done by men._
+— **Marvin Minsky**
+
 _The question of whether a computer can think is no more interesting than the
 question of whether a submarine can swim._
 — **Edsger W. Dijkstra**
@@ -66,6 +70,13 @@ _Real stupidity beats artificial intelligence every time._
 _The danger of computers becoming like humans is not as great as the danger of
 humans becoming like computers._
 — **Konrad Zuse**
+
+_Computers are like humans — they do everything except think._
+— **John von Neumann**
+
+_No computer has ever been designed that is ever aware of what it's doing; 
+but most of the time, we aren't either._
+— **Marvin Minsky**
 
 ### Standards
 
@@ -103,7 +114,12 @@ _Conceptual integrity is the most important consideration in system design._
 
 _Software is not limited by physics, like buildings are. It is limited by
 imagination, by design, by organization. In short, it is limited by properties
-of people, not by properties of the world._ — **Ralph Johnson**
+of people, not by properties of the world._
+— **Ralph Johnson**
+
+_Just because people tell you it can't be done, that doesn't necessarily mean
+that it can't be done. It just means that they can't do it._
+— **Anders Hejlsberg**
 
 _...the purpose of abstraction is not to be vague, but to create a new semantic
 level in which one can be absolutely precise._
@@ -112,6 +128,10 @@ level in which one can be absolutely precise._
 _A common mistake that people make when trying to design something completely
 foolproof was to underestimate the ingenuity of complete fools._
 — **Douglas Adams**
+
+_A good designer must rely on experience, on precise, logic thinking; and on
+pedantic exactness. No magic will do._
+— **Niklaus Wirth**
 
 _Assumptions are the mother of all failures._
 — **Said Ouissal**
@@ -141,12 +161,31 @@ _The lurking suspicion that something could be simplified is the world’s
 richest source of rewarding challenges._
 — **Edsger W. Dijkstra**
 
+_Increasingly, people seem to misinterpret complexity as sophistication,
+which is baffling -- the incomprehensible should cause suspicion rather
+than admiration._
+— **Niklaus Wirth**
+
 _Developers are drawn to complexity like moths to a flame, frequently with the
 same result._
 — **Neal Ford**
 
 _Simplicity is prerequisite for reliability._
 — **Edsger W. Dijkstra**
+
+_The belief that complex systems require armies of designers and programmers
+is wrong. A system that is not understood in its entirety, or at least to a
+significant degree of detail by a single individual, should probably not be
+built._
+— **Niklaus Wirth**
+
+_UNIX is basically a simple operating system, but you have to be a genius to
+understand the simplicity._
+— **Dennis Ritchie**
+
+_A primary cause of complexity is that software vendors uncritically adopt
+almost any feature that users want._
+— **Niklaus Wirth**
 
 ## The Art of Programming
 
@@ -172,6 +211,10 @@ substantial chance of introducing another._
 — **Frederick "Fred" P. Brooks**
 
 _Immutability changes everything._ — **Pat Helland**
+
+_A good programmer is someone who always looks both ways before crossing a
+one-way street._
+— **Doug Linder**
 
 _The competent programmer is fully aware of the strictly limited size of his
 own skull; therefore he approaches the programming task in full humility, and
@@ -199,24 +242,11 @@ _Every program has (at least) two purposes: the one for which it was written,
 and another for which it wasn’t._
 — **Alan J. Perlis**
 
-_Object oriented programs are offered as alternatives to correct ones._
-— **Edsger W. Dijkstra**
-
-_The greatest single programming language ever designed._
-— **Alan Kay**, on Lisp
-
-_A programming language is low level when its programs require attention to
-the irrelevant._
-— **Alan J. Perlis**
-
-_Lisp has jokingly been called "the most intelligent way to misuse a
-computer." I think that description is a great compliment because it transmits
-the full flavor of liberation: it has assisted a number of our most gifted
-fellow humans in thinking previously impossible thoughts._
-— **Edsger W. Dijkstra**
-
 _Good programmers never write what they can steal or borrow._
 — **Jeff Atwood**
+
+_Programming is not a science. Programming is a craft._
+— **Richard Stallman**
 
 _You cannot teach beginners top-down programming, because they don't know which
 end is up._
@@ -233,6 +263,10 @@ totally separate environment to run production in._
 _There are 2 hard problems in computer science: cache invalidation, naming
 things, and off-by-1 errors_
 — **Unknown**
+
+_The trouble with programmers is that you can never tell what a programmer
+is doing until it's too late._
+— **Seymour Cray**
 
 _Most of you are familiar with the virtues of a programmer. There are three,
 of course: laziness, impatience, and hubris._
@@ -267,15 +301,15 @@ _We don't do this because it's easy. We do this because we thought it would be
 easy._
 — **Unknown** (The Programmer's Credo)
 
-_Measuring programming progress by lines of code is like measuring aircraft
-building progress by weight._
-— **Bill Gates**
+_Much of the excitement we get out of our work is that we don't really know
+what we are doing._
+— **Edsger Dijkstra**
 
 _To iterate is human, to recurse divine._
 — **Peter Deutsch**
 
 _Good programmers don't just write programs. They build a working vocabulary._
-— **Guy Steele**
+— **Guy L. Steele Jr.**
 
 _On two occasions, I have been asked [by members of Parliament], "if you put
 into the machine wrong figures, will the right answers come out?"...I am not
@@ -291,11 +325,142 @@ _Without requirements or design, programming is the art of adding bugs to an
 empty text file._
 — **Louis Srygley**
 
+_The key to understanding complicated things is knowing what not to look at._
+— **Gerald Jay Sussman**
+
+_Nothing brings fear to my heart more than a floating point number._
+— **Gerald Jay Sussman**
+
+### On Languages (Especially Lisp)
+
+_A programming language is a tool that has profound influence on our thinking habits._
+— **Edsger Dijkstra**
+
+_Computer language design is just like a stroll in the park. Jurassic Park,
+that is._
+— **Larry Wall**
+
+_Some people prefer not to commingle the functional, lambda-calculus part of a
+language with the parts that do side effects. It seems they believe in the
+separation of Church and state._
+— **Guy L. Steele Jr.**
+
+_C treats you like a consenting adult. Pascal treats you like a naughty child.
+Ada treats you like a criminal._
+— **Bruce Powel Douglass**
+
+_If you give someone Fortran, he has Fortran. If you give someone Lisp, he has
+any language he pleases._
+— **Guy L. Steele Jr.**
+
+_I did write some code in Java once, but that was the island in Indonesia._
+— **Richard Stallman**
+
+_I made up the term "object-oriented," and I can tell you I did not have C++ in mind._
+— **Alan Kay**
+
+_SQL, Lisp, and Haskell are the only programming languages that I've seen where
+one spends more time thinking than typing._
+— **Philip Greenspun**
+
+_My being a teacher had a decisive influence on making language and systems as
+simple as possible so that in my teaching, I could concentrate on the essential
+issues of programming rather than on details of language and notation._
+— **Niklaus Wirth**
+
+_Anyone could learn Lisp in one day, except that if they already knew Fortran,
+it would take three days._
+— **Marvin Minsky**
+
+_A good programming language is a conceptual universe for thinking about programming._
+— **Alan Perlis**
+
+_I remember being impressed with Ada because you could write an infinite loop
+without a faked up condition. The idea being that in Ada the typical infinite
+loop would be normally be terminated by detonation._
+— **Larry Wall**
+
+_Programming in Basic causes brain damage._
+— **Edsger Dijkstra**
+
+_Job Control Language is the worst programming language ever designed anywhere
+by anybody for any purpose._
+— **Frederick "Fred" P. Brooks**
+
+_Lisp has all the visual appeal of oatmeal with fingernail clippings mixed in._
+— **Larry Wall**
+
+_C makes it easy to shoot yourself in the foot; C++ makes it harder, but when
+you do it blows your whole leg off._
+— **Bjarne Stroustrup**
+
+_FORTRAN was the language of choice for the same reason that three-legged races
+are popular._
+— **Ken Thompson**
+
+_As a linguist, I don't think of Ada as a big language. Now, English and
+Japanese, those are big languages. Ada is just a medium-sized language._
+— **Larry Wall**
+
+_Object oriented programs are offered as alternatives to correct ones._
+— **Edsger W. Dijkstra**
+
+_The greatest single programming language ever designed._
+— **Alan Kay**, on Lisp
+
+_Lisp has jokingly been called "the most intelligent way to misuse a
+computer." I think that description is a great compliment because it transmits
+the full flavor of liberation: it has assisted a number of our most gifted
+fellow humans in thinking previously impossible thoughts._
+— **Edsger W. Dijkstra**
+
+_Computer languages of the future will be more concerned with goals and less
+with procedures specified by the programmer._
+— **Marvin Minsky**
+
+_Take Lisp, you know its the most beautiful language in the world — at least
+up until Haskell came along._
+— **Larry Wall**
+
+_A programming language is low level when its programs require attention to
+the irrelevant._
+— **Alan J. Perlis**
+
+_The use of COBOL cripples the mind; its teaching should, therefore, be
+regarded as a criminal offense._
+— **Edsger Dijkstra**
+
+_Lisp isn't a language, it's a building material._
+— **Alan Kay**
+
+_Lisp is worth learning for the profound enlightenment experience you will
+have when you finally get it; that experience will make you a better programmer
+for the rest of your days, even if you never actually use Lisp itself a lot._
+— **Eric S. Raymond**
+
+_Greenspun's Tenth Rule of Programming: any sufficiently complicated C or
+Fortran program contains an ad hoc informally-specified bug-ridden slow
+implementation of half of Common Lisp._
+— **Philip Greenspun**
+
+_A language that doesn't affect the way you think about programming is not
+worth knowing._
+— **Alan Perlis**
+
+_Lisp ... made me aware that software could be close to executable mathematics._
+— **L Peter Deutsch**
+
+_[Emacs] is written in Lisp, which is the only computer language that is beautiful._
+— **Neal Stephenson**
+
 ### Writing
 
 _Writing improves in direct ratio to the number of things we can keep out of
 it that shouldn't be there_
 — **William Zinsser**
+
+_I didn't have time to write a short letter, so I wrote a long one instead._
+— **Mark Twain**
 
 _Writing is thinking on paper_
 — **William Zinsser**
@@ -306,26 +471,51 @@ _Success is a lousy teacher. It seduces smart people into thinking they can't
 lose._
 — **Bill Gates**
 
+_I, myself, have had many failures and I've learned that if you are not failing
+a lot, you are probably not being as creative as you could be, you aren't
+stretching your imagination._
+— **John Backus**
+
 _The only real mistake is the one from which we learn nothing._
 — **John Powell**
 
 _Good judgment comes from experience and experience comes from bad judgment._
 — **Frederick "Fred" P.  Brooks**
 
+_You need the willingness to fail all the time. You have to generate many ideas
+and then you have to work very hard only to discover that they don’t work. And
+you keep doing that over and over until you find one that does work._
+— **John Backus**
+
+_I have never let my schooling interfere with my education._
+— **Mark Twain**
+
+_You can learn more from failure than success. In failure you're forced to find
+out what part did not work. But in success you can believe everything you did
+was great, when in fact some parts may not have worked at all. Failure forces
+you to face reality._
+— **Frederick "Fred" P, Brooks**
+
 ## Project Management
 
 _I have always found that plans are useless, but planning is indispensable._
 — **Dwight D. Eisenhower**
-
-_If we want to build great products, we need great people. If we want to attract
-and keep great people, we need great principles._
-— **Jim Highsmith**
 
 _Later Equals Never._
 — **Dave LeBlanc** (LeBlanc's Law)
 
 _Weeks of programming can save you hours of planning._
 — **Anonymous**
+
+_Adding manpower to a late software project makes it later_
+— **Frederick "Fred" P. Brooks**
+
+_Nine people can't make a baby in a month_ or sometimes _the bearing of a child
+takes nine months, no matter how many women are assigned._
+— **Frederick "Fred" P. Brooks**
+
+_Never put off till tomorrow what may be done day after tomorrow just as well._
+— **Mark Twain**
 
 _Technology is dominated by two types of people: Those who understand what they
 do not manage. Those who manage what they do not understand._
@@ -339,10 +529,6 @@ _When to use iterative development? You should use iterative development only on
 projects that you want to succeed._
 — **Martin Fowler**
 
-_A primary cause of complexity is that software vendors uncritically adopt
-almost any feature that users want._
-— **Niklaus Wirth**
-
 _The best way to get a project done faster is to start sooner._
 — **Jim Highsmith**
 
@@ -351,6 +537,31 @@ _First law of Bad Management: If something isn’t working, do more of it._
 
 _How does a project get to be a year late? One day at a time._
 — **Frederick "Fred" P.  Brooks**
+
+_I love deadlines. I love the whooshing noise they make as they go by._
+— **Douglas Adams**
+
+_Measuring programming progress by lines of code is like measuring aircraft
+building progress by weight._
+— **Bill Gates**
+
+_If we wish to count lines of code, we should not regard them as "lines
+produced" but as "lines spent."_
+— **Edsger Dijkstra**
+
+### People and Teams
+
+_True greatness is measured by how much freedom you give to others, not by how
+much you can coerce others to do what you want._
+— **Larry Wall**
+
+_If we want to build great products, we need great people. If we want to attract
+and keep great people, we need great principles._
+— **Jim Highsmith**
+
+_We can debug relationships, but it's always good policy to consider the people
+themselves to be features. People get annoyed when you try to debug them._
+— **Larry Wall**
 
 _The quality of results from any collaboration effort are driven by trust and
 respect._
