@@ -5,7 +5,7 @@ category: audio
 permalink: /synth-audio/
 ---
 
-Along with many others I picked up a new hobby during the Covid years, and while we [are](https://www.usatoday.com/in-depth/life/health-wellness/2021/03/16/new-hobbies-new-connections-unexpected-joys-during-covid-19-pandemic/4664961001/) [told](https://academic.oup.com/innovateage/article/5/Supplement_1/14/6464869) this is good for our mental health, this particular hobby hasn't been kind to my wallet. It all started because I had a crazy idea that I was going to learn how to play a Theramin. I know, you either love them or hate them and my wife had given me a [Theramin mini kit](https://www.amazon.com/Gakken-Theremin-mini-plus/dp/4057002138) as a gift, I decided on the real thing a [moog Etherwave](https://www.moogmusic.com/products/etherwave-plus-theremin). Unfortunately, I also saw videos on using the Etherwave as a CV controller for modular synthesizers as well as running the Etherwave output through a synth for effects. 
+Along with many others I picked up a new hobby during the Covid years, and while we [are](https://www.usatoday.com/in-depth/life/health-wellness/2021/03/16/new-hobbies-new-connections-unexpected-joys-during-covid-19-pandemic/4664961001/) [told](https://academic.oup.com/innovateage/article/5/Supplement_1/14/6464869) this is good for our mental health, this particular hobby hasn't been kind to my wallet. It all started because I had a crazy idea that I was going to learn how to play a Theramin. I know, you either love them or hate them and my wife had given me a [Theramin mini kit](https://www.amazon.com/Gakken-Theremin-mini-plus/dp/4057002138) as a gift, I decided on the real thing a [moog Etherwave](https://www.moogmusic.com/products/etherwave-plus-theremin). Unfortunately, I also saw videos on using the Etherwave as a CV controller for modular synthesizers as well as running the Etherwave output through a synth for effects.
 
 This led to purchase #2, a [moog Grandmother](https://www.moogmusic.com/products/grandmother) _semi-modular analog synthesizer with a built-in arpeggiator, sequencer and spring reverb tank_. Add a Korg [Guitar Tuner](https://smile.amazon.com/gp/product/B015ZLHNM6) on the output of the Etherwave to help with learning the note distances, and I have a pretty nice setup. For a short time anyway.
 
@@ -38,7 +38,7 @@ Note that most racks include at least one Doepfer [A-180-9](https://www.modularg
 
 ## Percussion Rack
 
-The case for [this rack](https://www.modulargrid.net/e/racks/view/1848379) was a fun project, I had a spare [Nanuk 920](https://nanuk.com/products/nanuk-920?variant=36845685801120) waterproof hard case and the addition of a Synthrotek [case power](https://store.synthrotek.com/Case-Power_p_585.html) noise filtering distribution board, 3U power panel as well as 3U eurorack bracket ears with rails gives a nice little box. After a few different configurations I settled on using it for my percussion set. 
+The case for [this rack](https://www.modulargrid.net/e/racks/view/1848379) was a fun project, I had a spare [Nanuk 920](https://nanuk.com/products/nanuk-920?variant=36845685801120) waterproof hard case and the addition of a Synthrotek [case power](https://store.synthrotek.com/Case-Power_p_585.html) noise filtering distribution board, 3U power panel as well as 3U eurorack bracket ears with rails gives a nice little box. After a few different configurations I settled on using it for my percussion set.
 
 The core of this is the [METRON](https://wmdevices.com/collections/eurorack-modules/products/metron) sequencer, to which I've added a [Voltera](https://wmdevices.com/collections/eurorack-modules/products/voltera) expander. The voice is and a mix of Erica Synths ([Bass Drum](https://www.ericasynths.lv/shop/eurorack-modules/by-series/drum-series/bass-drum/), [Snare Drum](https://www.ericasynths.lv/shop/eurorack-modules/by-series/drum-series/snare-drum/), [Drum2](https://www.ericasynths.lv/shop/eurorack-modules/by-series/pico-series/pico-drum2/), and [Drums](https://www.ericasynths.lv/shop/eurorack-modules/by-series/pico-series/pico-drums/)) and WMD ([Crucible](https://wmdevices.com/collections/eurorack-modules/products/crucible)) percussion modules. I added a Blue Lantern [Subharmonics Generator](https://www.bluelanternstore.com/store/p1/4hp_Subharmonic_Generator_Module.html#/) for the base drum, it's a 4HP good-enough replacement for the Erica Synths Black Double Bass. I also have a Delptronics [LDB-2e](https://delptronics.com/ldb2e.php) analog drums module for a more retro sound although it gets swapped in and out as needed.
 
@@ -54,7 +54,7 @@ Finally, I really like the Happy Nerding [PanMix](https://happynerding.com/categ
 
 ## Interface Rack
 
-[This rack](https://www.modulargrid.net/e/racks/view/1457228) is built into the right-hand side of the Output platform and acts as the audio interface for my MacBook Pro. The core of the interface is an Expert Sleepers [ES-9](https://www.expert-sleepers.co.uk/es9.html) with [ESX-8GT mk3](https://www.expert-sleepers.co.uk/esx8gt.html), [ESX-8CV mk2](https://www.expert-sleepers.co.uk/esx8cv.html), [ES-5 mk3](https://www.expert-sleepers.co.uk/es5.html), and [MIDI breakout](https://www.expert-sleepers.co.uk/dm4midibreakout.html) expansions. Alongside this there are a pair of [Little Mikey](https://www.expert-sleepers.co.uk/littlemikey.html) mic/instrument pre-amps. 
+[This rack](https://www.modulargrid.net/e/racks/view/1457228) is built into the right-hand side of the Output platform and acts as the audio interface for my MacBook Pro. The core of the interface is an Expert Sleepers [ES-9](https://www.expert-sleepers.co.uk/es9.html) with [ESX-8GT mk3](https://www.expert-sleepers.co.uk/esx8gt.html), [ESX-8CV mk2](https://www.expert-sleepers.co.uk/esx8cv.html), [ES-5 mk3](https://www.expert-sleepers.co.uk/es5.html), and [MIDI breakout](https://www.expert-sleepers.co.uk/dm4midibreakout.html) expansions. Alongside this there are a pair of [Little Mikey](https://www.expert-sleepers.co.uk/littlemikey.html) mic/instrument pre-amps.
 
 I've included the usual Doepfer [A-180-9 Multicore](https://doepfer.de/A1809.htm) for rack-to-rack connectivity, a simple [A-182-2](https://doepfer.de/a1822.htm) switch and MST ['07 buffered multipl](https://www.synthrotek.com/products/mst-eurorack-modules/mst-07-buffered-multiple/) for signal routing.
 
@@ -63,9 +63,9 @@ I've included the usual Doepfer [A-180-9 Multicore](https://doepfer.de/A1809.htm
 ## Stand-alone Stuff
 
 * Effects
-  * moog [Moogerfooger MF-102](https://www.moogmusic.com/products/moogerfooger-mf-102-ring-modulator) ring modulator.
-  * moog [Minifooger MF Delay](https://www.moogmusic.com/products/minifooger-mf-delay).
-  * T-Rex [Replicator](https://www.t-rex-effects.com/replicator-module) analog tape delay effect in 4MS [Pod 48X Powered](https://4mscompany.com/pod48x.php) case with a Doepfer [A-180-9 Multicore](https://doepfer.de/A1809.htm). 
+  * moog [Moogerfooger MF-102](https://www.moogmusic.com/products/moogerfooger-mf-102-ring-modulator) ring modulator
+  * moog [Minifooger MF Delay](https://www.moogmusic.com/products/minifooger-mf-delay)
+  * T-Rex [Replicator](https://www.t-rex-effects.com/replicator-module) analog tape delay effect in 4MS [Pod 48X Powered](https://4mscompany.com/pod48x.php) case with a Doepfer [A-180-9 Multicore](https://doepfer.de/A1809.htm)
 * Controllers
   * Make Noise [0-Ctrl](https://www.makenoisemusic.com/synthesizers/ohctrl) controller and step sequencer
   * IK Multimedia [Uno Synth Pro Desktop](https://www.ikmultimedia.com/products/unosynthpro) 32 Key Synthesizer
@@ -74,10 +74,10 @@ I've included the usual Doepfer [A-180-9 Multicore](https://doepfer.de/A1809.htm
 * Input
   * Tascam [DR-40](https://tascam.com/us/product/dr-40/top) Field Recorder
 * Output
-  * Behringer [Xenyx 1002B](https://www.behringer.com/product.html) portable mixer.
-  * Schiit audio [SYS](https://www.schiit.com/products/sys) volume control and switch, [Modi](https://www.schiit.com/products/modi-1) DAC (for MacBook output), and a [Vali](https://www.schiit.com/products/vali-3) headphone amp.
-  * PreSonus [Eris 4.5](https://www.presonus.com/products/Eris-E45) studio monitors.
-  * AKG Pro Audio [K240](https://www.akg.com/Headphones/Professional%20Headphones/K240-Studio.html) STUDIO headphones.
+  * Behringer [Xenyx 1002B](https://www.behringer.com/product.html) portable mixer
+  * Schiit audio [SYS](https://www.schiit.com/products/sys) volume control and switch, [Modi](https://www.schiit.com/products/modi-1) DAC (for MacBook output), and a [Vali](https://www.schiit.com/products/vali-3) headphone amp
+  * PreSonus [Eris 4.5](https://www.presonus.com/products/Eris-E45) studio monitors
+  * AKG Pro Audio [K240](https://www.akg.com/Headphones/Professional%20Headphones/K240-Studio.html) STUDIO headphones
 
 ## Software
 
@@ -85,16 +85,16 @@ I've included the usual Doepfer [A-180-9 Multicore](https://doepfer.de/A1809.htm
 * [VCVRack](https://vcvrack.com/Rack) 2 Pro virtual eurorack
 * Native Instruments [Reaktor](https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/) 6
 * Cherry Audio [Voltage Modular](https://cherryaudio.com/products/voltage-modular), and [CA2600](https://cherryaudio.com/products/ca2600)
-* Arturia [ARP2600 V3](https://www.arturia.com/products/analog-classics/arp2600v) and [Modular V3](https://www.arturia.com/products/analog-classics/modular-v/overview) software instruments.
+* Arturia [ARP2600 V3](https://www.arturia.com/products/analog-classics/arp2600v) and [Modular V3](https://www.arturia.com/products/analog-classics/modular-v/overview) software instruments
 
-Also tried Softube [Modular](https://www.softube.com/modular) but, while it didn't seem as slick as VCVRack, it has a lot of licensed emulated hardware modules. 
+Also tried Softube [Modular](https://www.softube.com/modular) but, while it didn't seem as slick as VCVRack, it has a lot of licensed emulated hardware modules.
 
 ## Stuff Links
 
 * Stores
-  * [Patchwerks](https://patchwerks.com/), here in Seattle and great staff!
-  * [Perfect Circuit](https://www.perfectcircuit.com/), always good selection and fast shipping.
-  * [Reverb](https://reverb.com/), the place for great deals, great scams[^1], and the odd rare find.
+  * Patchwerks, unfortunately gone now, they were here in Seattle and great staff!
+  * [Perfect Circuit](https://www.perfectcircuit.com/), always good selection and fast shipping
+  * [Reverb](https://reverb.com/), the place for great deals, great scams[^1], and the odd rare find
 * Makers
   * 2hp
   * 4ms

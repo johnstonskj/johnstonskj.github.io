@@ -3,7 +3,7 @@ title: Patents
 layout: page
 ---
 
-# Published
+## Published
 
 1. _Event-Based Composition Model for Workflow Systems_, [US 11,741,412](assets/doc/patents/US11741412.pdf), Aug. 29, 2023
 1. _Generating Digital Files for Garment Production_, [US 11,559,098](assets/doc/patents/US11559098.pdf), Jan. 24 2023
@@ -35,10 +35,10 @@ layout: page
 1. _System and Method for Describing Method Process Using Guided Architectural Decisions_, [US 8,010,936 B2](assets/doc/patents/US8010936.pdf), Aug. 30, 2011
 1. _Method and System for Visualization of Threaded Email Conversations_, [US 7,506,263 B1](assets/doc/patents/US7506263.pdf), Mar. 17,2009
 
+## Applications
 
-# Applications
-
-1. _Event-Based Composition Model for Workflow Systems_, [US 2019/0213510 A1](assets/doc/patents/US20190213510A1.pdf), Jul. 11, 2019
 1. _Defining Operations Elements in a Business Process Model_, [US 2009/0138249 A1](assets/doc/patents/US20090138249A1.pdf), May 28, 2009
 1. _Automatic Destination Determination for Multiple Travelers Departing From Multiple Source Locations Based on User Specified Criteria_, [US 2009/0105941 A1](assets/doc/patents/US20090105941A1.pdf), Apr. 23, 2009
 1. _Message Flow Model of interactions Between Distributed Service_, [US 2008/0259,30 A1](assets/doc/patents/US20080259930A1.pdf), Oct. 23, 2008
+
+See also my list of [publications](publications.md).
