@@ -1,7 +1,6 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -10,12 +9,11 @@
 @base <https://simonkjohnston.life/ontology/2022/parthood.ttl> .
 @prefix : <https://simonkjohnston.life/ontology/2022/parthood.ttl#> .
 
-:   a owl:Ontology ;
+: a owl:Ontology ;
     owl:versionInfo "0.1.0" ;
     owl:versionIRI <https://simonkjohnston.life/ontology/2022/parthood/1.0.0> ;
     dc:issued "2022-08-06"^^xsd:date ;
     dc:identifier "parthood.ttl" ;
-    
     skos:prefLabel "Simple Parthood Ontology"@en ;
     dc:description "A simple mereological ontology that models simple part/whole relations. Note that this also recognizes the difference between parts, components, and constituents of a whole."@en ;
     rdfs:seeAlso <https://plato.stanford.edu/entries/mereology/> ;
@@ -28,213 +26,113 @@
 #    Object Properties
 #################################################################
 
-:componentOf
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:ReflexiveProperty ;
+:componentOf rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:ReflexiveProperty ;
     owl:inverseOf :hasComponent ;
     rdfs:domain :component ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-    
     skos:definition "hasComponent and componentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating components."@en ;
     skos:prefLabel "component-of" .
 
-
-:constituentOf
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:ReflexiveProperty ;
+:constituentOf rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:ReflexiveProperty ;
     owl:inverseOf :hasConstituent ;
     rdfs:domain :constituent ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasConstituent and constituentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating constituents."@en ;
     skos:prefLabel "constituent-of" .
 
-
-:hasComponent
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:ReflexiveProperty ;
+:hasComponent rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:ReflexiveProperty ;
     rdfs:range :component ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasComponent and componentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating components."@en ;
-;74;43M    skos:prefLabel "has component" .
+    skos:prefLabel "has component" .
 
-
-:hasConstituent
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:ReflexiveProperty ;
+:hasConstituent rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:ReflexiveProperty ;
     rdfs:range :constituent ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasConstituent and constituentOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating constituents."@en ;
     skos:prefLabel "has constituent" .
 
-
-:hasPart
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:ReflexiveProperty ;
+:hasPart rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:ReflexiveProperty ;
     owl:inverseOf :partOf ;
     rdfs:range :part ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasPart and partOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating parts."@en ;
     skos:prefLabel "has part" .
 
-
-:hasProperComponent
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:IrreflexiveProperty ;
+:hasProperComponent rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:IrreflexiveProperty ;
     owl:inverseOf :properComponentOf ;
     rdfs:range :component ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasProperComponent and properComponentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating components."@en ;
     skos:prefLabel "has proper component" .
 
-
-:hasProperConstituent
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:IrreflexiveProperty ;
+:hasProperConstituent rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:IrreflexiveProperty ;
     owl:inverseOf :properConstituentOf ;
     rdfs:range :constituent ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasProperConstituent and properConstituentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating constituents."@en ;
     skos:prefLabel "has proper constituent" .
 
-
-:hasProperPart
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:IrreflexiveProperty ;
+:hasProperPart rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:IrreflexiveProperty ;
     owl:inverseOf :properPartOf ;
     rdfs:range :part ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasProperPart and properPartOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating parts."@en ;
     skos:prefLabel "has proper part" .
 
-
-:partOf
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:ReflexiveProperty ;
+:partOf rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:ReflexiveProperty ;
     rdfs:domain :part ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasPart and partOf represent a non-strict partial ordering, a reflexive and anti-symmetric relation relating parts."@en ;
     skos:prefLabel "part-of" .
 
-
-:properComponentOf
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:IrreflexiveProperty ;
+:properComponentOf rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:IrreflexiveProperty ;
     rdfs:domain :component ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasProperComponent and properComponentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating components."@en ;
     skos:prefLabel "proper component-of" .
 
-
-:properConstituentOf
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:IrreflexiveProperty ;
+:properConstituentOf rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:IrreflexiveProperty ;
     rdfs:domain :constituent ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasProperConstituent and properConstituentOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating constituents."@en ;
     skos:prefLabel "proper constituent-of" .
 
-
-:properPartOf
-    rdf:type
-        owl:ObjectProperty ,
-        owl:AsymmetricProperty ,
-        owl:TransitiveProperty ,
-        owl:IrreflexiveProperty ;
+:properPartOf rdf:type owl:ObjectProperty, owl:AsymmetricProperty, owl:TransitiveProperty, owl:IrreflexiveProperty ;
     rdfs:domain :part ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "hasProperPart and properPartOf represent a strict partial ordering, an irreflexive and anti-symmetric relation relating parts."@en ;
     skos:prefLabel "proper part-of" .
-
 
 #################################################################
 #    Classes
 #################################################################
 
-:atom
-    rdf:type owl:Class ;
+:atom rdf:type owl:Class ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "Some object that has no identifiable parts."@en ;
     skos:prefLabel "Atom"@en .
 
-
-:component
-    rdf:type owl:Class ;
-    rdfs:subClassOf
-        :part,
-        :whole ;
+:component rdf:type owl:Class ;
+    rdfs:subClassOf :part, :whole ;
     owl:disjointWith :constituent ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "A kind of part which has it's own identity as a whole in some context."@en ;
     skos:prefLabel "Component"@en .
 
-
-:constituent
-    rdf:type owl:Class ;
+:constituent rdf:type owl:Class ;
     rdfs:subClassOf :part ;
     owl:disjointWith :component ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "A kind of part that, when described as a part of the whole, is no longer identifiable."@en ;
     skos:prefLabel "Constituent"@en .
 
-
-:part
-    rdf:type owl:Class ;
+:part rdf:type owl:Class ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "Some object that is a part, in a broad mereological term, of some whole."@en ;
     skos:prefLabel "Part"@en .
 
-
-:whole
-    rdf:type owl:Class ;
+:whole rdf:type owl:Class ;
     rdfs:isDefinedBy <https://simonkjohnston.life/ontology/2022/parthood/0.1.0> ;
-
     skos:definition "Some object that is made of parts."@en ;
     skos:prefLabel "Whole"@en .

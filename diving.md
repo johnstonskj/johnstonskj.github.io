@@ -6,17 +6,17 @@ permalink: /diving/
 ---
 
 Diving is something I have wanted to try off and on since I was young, unfortunately
-it never seemed to be the right time. In 2014 on honeymoon I got the chance to do a 
-guided dive in Bora Bora and was hooked, I loved it. It still took a year and a half 
+it never seemed to be the right time. In 2014 on honeymoon I got the chance to do a
+guided dive in Bora Bora and was hooked, I loved it. It still took a year and a half
 to get myself enrolled in a class in Seattle and get certified.
 
 ![Bora Bora](assets/img/diving/dive-bora-bora.jpg)
 
-I have been seriously diving now since February 2016, and convinced my wife to start in 
-March. We have both certified to advanced open water and love to be in the water as much 
-as we can. Although I would prefer warm water there is a pleasure in diving locally even 
+I have been seriously diving now since February 2016, and convinced my wife to start in
+March. We have both certified to advanced open water and love to be in the water as much
+as we can. Although I would prefer warm water there is a pleasure in diving locally even
 if it masochistic -- dry suits are a pain!. We had the great pleasure of a wonderful
-trip to Bonaire and spent a week aboard the [Bonaire from the sea](http://bonairefromthesea.org/index.html) 
+trip to Bonaire and spent a week aboard the [Bonaire from the sea](http://bonairefromthesea.org/index.html)
 AMORAY with Sue, Richard, and Rob. The diving was great, as well as finishing our
 advanced certification we also complete the wreck certification on the
 [Hilma Hooker](https://en.wikipedia.org/wiki/Hilma_Hooker).
@@ -25,18 +25,18 @@ advanced certification we also complete the wreck certification on the
 
 I have slowly worked up to an expensive camera setup as I found that the GoPro I was
 using (HERO6, with Super Suit housing and filters) was fun as a record of the dive
-and the 4K video it took could be truly spectacular, but... when people asked what we 
+and the 4K video it took could be truly spectacular, but... when people asked what we
 saw they expected pictures not hours of video. I started taking stills from the video
 but they were never quite as clear as I hoped and so I skipped the smaller dive
-cameras and decided to build myself a nice rig. A shout out to 
-[Annie Crawley](https://www.anniecrawley.com/) who runs a really good underwater 
+cameras and decided to build myself a nice rig. A shout out to
+[Annie Crawley](https://www.anniecrawley.com/) who runs a really good underwater
 photography course, thanks!
 
 ![Sony and ikelite](assets/img/diving/dive-camera-2020.jpg)
 
 I do try to remember to upload dives to [Dive Logs](https://en.divelogs.de/profile/johnstonskj)
 but it's not always as up to date as it should be. I use [DiveLogDT](http://www.moremobilesoftware.com/DiveLogDT/)
-as my primary log, syncing from my Shearwater Nerd2 and Perdix (and my previous Atomic 
+as my primary log, syncing from my Shearwater Nerd2 and Perdix (and my previous Atomic
 Aquatics [Cobalt II](https://www.atomicaquatics.com/computer.html)) computers.
 
 <div id="divelog-latest" style="display: flex; justify-content: center; margin-bottom: 15px;">
@@ -56,8 +56,8 @@ comes a pretty close second.
 
 ![Sandi, Cenote The Pit](assets/img/diving/dive-pit-sandi.png)
 
-We also dive in the cold, a lot more work but it can be really rewarding. In 2019 we 
-took part in a community clean-up dive as part of Earth Day under the docks at the 
+We also dive in the cold, a lot more work but it can be really rewarding. In 2019 we
+took part in a community clean-up dive as part of Earth Day under the docks at the
 Kirkland, WA waterfront.
 
 ![Simon and Sandi, Kirkland](assets/img/diving/dive-cleanup.jpg)
@@ -69,17 +69,21 @@ Apparently at some point I took a rest...
 ## Places Dived So Far
 
 * US
-  * Seattle, Kirkland
+  * Seattle, WA
+  * Kirkland, WA
   * La Jolla, CA
   * Key West and Key Largo, FL
 * Caribbean
-  * Isla Mujeres, Cozumel, Playa del Carmen, and Mahahual MX
+  * Mexico; Isla Mujeres, Cozumel, Playa del Carmen, and Mahahual
   * Grand Turk and St Kitts
   * Bonaire
+  * Belize
+  * Honduras
 * Asia
-  * Indonesia Derawan Islands
+  * Indonesia; Derawan Islands and Wakitobi
 * South Pacific
   * Bora Bora
+  * Rangiroa
 
 ## Gear
 
@@ -88,13 +92,6 @@ the ability to pack light.
 
 ![3 sets for 2 people](assets/img/diving/dive-gear-2020.jpg)
 
-* Backmount
-  * [Mares](https://www.mares.com/us-US/home/) Pure Hybrid BC
-  * Mares Abyss II Navy regulator
-  * [Shearwater](https://www.shearwater.com/products/) Nerd2 AI computer
-  * 2 × [Big Blue](https://bigbluedivelights.com/) AL1100NP primary/backup torch
-  * [Ocean Reef](https://diving.oceanreefgroup.com/) full-face mask 
-  * Mares Quattro+ _or_ Mares X-Stream fins
 * Sidemount
   * [xDeep](https://www.xdeep.eu/) Stealth 2.0 Tec RB
     * xDeep expandable pouch and bolt snaps
@@ -102,14 +99,13 @@ the ability to pack light.
   * 2 × [Hollis](https://www.hollis.com/) DC1/212 regulators, one short and one long hose, with Hollis SPGs
   * Shearwater Perdix computer
   * [Atomic Aquatics](https://www.atomicaquatics.com/) venom mask
-  * [Dive Rite](https://www.diverite.com/product-categories/lights/) HP50 primary torch 
+  * [Dive Rite](https://www.diverite.com/product-categories/lights/) HP50 primary torch
   * Big Blue AL1100NP backup torch
   * Mares Quattro+ fins
 * Cold Water (add to above)
   * [Waterproof](http://waterproof-usa.com/) Hybrid D1 drysuit and hood
   * Sci-tech dry gloves
   * [XS Scuba](https://www.xsscuba.com/fins) Turtle fins
-* Mares Smart backup computer
 * Seiko Prospex 200m dive watch
 * Camera
   * [Sony](https://www.sony.com/electronics/interchangeable-lens-camera-products/t/interchangeable-lens-cameras) a7RIII camera body
@@ -128,4 +124,4 @@ the ability to pack light.
 * Nitrox (Bonaire)
 * Wreck (Bonaire)
 * Full-face mask (Bonaire)
-
+* Cavern (Playa del Carmen, Mexico)
