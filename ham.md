@@ -16,14 +16,31 @@ layout: page
 └──────────┘    └──┬──┘        └──┬──┘         └──┬──┘    └─────────────┘
                    ├──USB         ├──USB          ├──USB
               ┌────┴────┐    ┌────┴─────┐    ┌────┴─────┐
-              │  GMRS & │    │ Elecraft │    │  IC=705  │
+              │  GMRS & │    │ Elecraft │    │  IC-705  │
               │ Scanner │    │          │    │   sBitz  │
               └─────────┘    └──────────┘    └──────────┘
 ```
 
+The main power input is a
+[WAudio W-5900](https://waudiohifi.com/products/waudio-ac-noise-power-conditioner-mains-purifier-audio-video-noise-filter-surge-protector-with-us-standard-sockets-black)
+providing 8 filtered and 4 unfiltered outlets. Three of the filtered outlets are
+used for [BTech RPS-30PRO](https://baofengtech.com/product/rps-30pro/) 30 Amp
+power supplies.
+
+I run everything off Anderson power pole connectors, so every RPS-30PRO feeds
+into a [Chunzehui F-1005 9 Port 40A Power
+Distributor](https://www.czh-labs.com/products/chunzehui-f-1005-9-port-40a-anderson-powerpole-connector-power-splitter-distributor-source-strip-1-input-and-8-output).
+Because so many small devices and tools use USB power these days I also have a
+[StarTech 10-Port Industrial USB 5Gbps Hub](https://www.startech.com/en-us/usb-hubs/st1030usbm)
+at each power position with a short Anderson power cable.
+
 As much as possible all coax is Messi and Paoloni.
 
 ### GMRS & Scanner
+
+Radioddity DB20-G
+
+Radioddity DB50
 
 ### Elecraft
 
@@ -38,37 +55,46 @@ As much as possible all coax is Messi and Paoloni.
   * [KXPD2](https://elecraft.com/collections/keyer-paddle/products/kxpd2-attached-precision-keyer-paddle)
     precision keyer paddle.
   * Mini microphone by G1JKS, from [Etsy](https://www.etsy.com/listing/4504479593/electraft-kx2-and-kx3-mini-microphone-by).
-  * Old Heathkit speaker.
+  * Old Heathkit HS-24 speaker.
 * PX3 Panadapter
 * [KXPA100](https://elecraft.com/products/kxpa100-100w-amplifier-with-optional-internal-atu)
   100w power amplifier with the optional
   [KXAT100](https://elecraft.com/products/kxat100-internal-100w-atu-kit)
   internal antenna tuner installed.
 
-For mobile usage:
+The KX3 is a wonderful radio for mobile use, scaling from the very simple with
+just the radio and AX1 or small EFHW antenna, to a the full shack experience
+with PX3, KXPA100 and a good power supply.
 
-* [AX1](https://elecraft.com/collections/antennas/products/ax1-antenna) 20, 17,
-  and 15 meter antenna.
-* [AXE1](https://elecraft.com/collections/ax-line-antennas-1/products/axe1_40-meter-antenna-extender)
+* The very small
+  [AX1](https://elecraft.com/collections/antennas/products/ax1-antenna) 20, 17,
+  and 15 meter antenna with the
+  [AXE1](https://elecraft.com/collections/ax-line-antennas-1/products/axe1_40-meter-antenna-extender)
   loading coil for the AX1 for 40m use.
-* [AXB1](https://elecraft.com/products/axb1_axb1-whip-bipod) small bipod mount
-  when using the AX1 directly attached to the KX3.
-* [AXT1](https://elecraft.com/products/axt1_axt1-tripod-adapter) small adapter
+* The [AXB1](https://elecraft.com/products/axb1_axb1-whip-bipod) small bipod
+  mount when using the AX1 directly attached to the KX3, and the
+  [AXT1](https://elecraft.com/products/axt1_axt1-tripod-adapter) adapter
   to mount AX1 on any camera trpod.
-* [ES80](https://elecraft.com/products/es80_es80-kx3-carrying-case) for the KX3,
-  KXPD2, mic, AX1 (and accessories) as well as the following:
+* A [ES80](https://elecraft.com/products/es80_es80-kx3-carrying-case) carrying
+  case for the KX3, KXPD2, mic, AX1 (and accessories) as well as the following:
   * ...
-* [ES80](https://elecraft.com/products/es80_es80-kx3-carrying-case) for the
-  KXPA100.
-* [ES60](https://elecraft.com/collections/compact-cases/products/es60_es60-compact-padded-carrying-case-copy)
-  for the PX3.
+* Another [ES80](https://elecraft.com/products/es80_es80-kx3-carrying-case) for
+  the KXPA100 and cables.
+* A [ES60](https://elecraft.com/collections/compact-cases/products/es60_es60-compact-padded-carrying-case-copy)
+  (smaller) carrying case for the PX3.
 
 ### IC-705
 
 * Icom IC-705
-  * Icom speaker
+  * Icom IC-SP3 speaker
   * Bluetooth CIV and screen
+* AH-705 antenna tuner
+* Peori cage
 * Bencher CW Iambic Paddle
+
+While I rarely use this radio mobile, I do have the Windcamp backpack for it and
+use that to store a number of less-frequently used accessories and some mobile
+parts so that I could just grab the radio if I wanted.
 
 ### sBitz
 
@@ -81,6 +107,32 @@ For mobile usage:
 * Home-made 6M wire dipole
 * 10M Bazooka
 
+Each antenna is mounted in the garage attic and it's cable is fed to a fixed
+SO-239 mount attached to a horizontal beam. These consist of two 8" 90° angle
+brackets in 3/8" stainless steel with four SO-239 pass-thru connectors. These
+allow working in the attic space without having to have cables dangling to the
+floor. I use Messi and Paoloni
+[UltraFlex 10](https://messi.it/en/catalogue/50-ohm-coaxial-cables/standard-cables-list/ultraflex-10-400.htm)
+for antenna to connector,r for some of the lighter antenna the Messi and Paoloni
+[Airborne 5](https://messi.it/en/catalogue/50-ohm-cables-ham-radio/airborne-5.htm).
+I use the UltraFlex 10 exclusively for connector to patch rack and a mix of the
+UltraFlex 10 and Airborne 5 for rack to rig and rack to meter runs.
+
+```text
+antennas ─┐ ┌─ antennas
+          ┴ ┴
+      connectors
+          ┬ ┬
+          ╱ ╱
+meters    │ │
+ ┬ ┬   ┌──┴─┴──┐
+ │ └───┤ Patch │
+ └─────┤  Rack │
+       └──┬─┬──┘
+          │ └───┤ Transceivers
+          └─────┤   Scanners
+```
+
 Antenna patch panel:
 
 A 6U 10" wall mounted rack with (currently) two 1u inserts each with seven
@@ -90,27 +142,20 @@ shack radios. Radios and antennas are matched with 30cm RG58 BNC cables. For
 example, the IC-705 is often switched between the two 2m/70cm antenna as one
 is used for voice (the vertical) and one for data (the horizontal).
 
-Common Usage:
+| # | Radio   | # | Antenna     | # | Meter          |
+|---|---------|---|-------------|---|----------------|
+| 1 | GMRS    | 1 | GMRS        | 1 |                |
+| 2 | Scanner | 2 | Scanner     | 2 |                |
+| 3 | IC-705  | 3 | 20/70 (v)   | 3 | *Blank*        |
+|   | └──     | 4 | 20/70 (h)   | 4 | DG-503 HF in   |
+| 4 | *Bench* | 5 | 6m          | 5 | DG-503 HF out  |
+| 5 | KXPA #1 | 6 | 10m         | 6 | DG-503 VHF in  |
+| 6 | KXPA #2 | 7 | *50W Dummy* | 7 | DG-503 VHF out |
+| 7 | sBitz   |   | --          |   | --             |
 
-| # | Radio   | # | Antenna   |
-|---|---------|---|-----------|
-| 1 | GMRS    | 1 | GMRS      |
-| 2 | Scanner | 2 | Scanner   |
-| 3 | IC-705  | 3 | 20/70 (v) |
-|   | └──     | 4 | 20/70 (h) |
-| 4 | KX3     | 5 | 6m        |
-| 5 | sBitz   | 6 | 10m       |
-|   |         | 7 | *Front*   |
-| 7 | *Desk*  |   |           |
-
-Port 7 in both inserts are special, for the antenna row it is connected to an
-external SO-239 connector on the front of the garage to hook up temporary
-large antenna, or the experimental gutter-tenna. On the radio front, the port
-connects to a BNC connector fixed to the shack desk so that any mobile or HT can
-be connected on the bench to any of the antenna for testing.
-
-Additionally, another row provides 3 pairs of in/out connectors for meters
-allowing the meters to be patched in to any radio/antenna pair as needed.
+Port 4 on the radio row connects to a BNC connector fixed to
+the shack desk so that any mobile or HT can be connected on the bench to any of
+the antenna for testing.
 
 ### Computer
 
@@ -153,12 +198,16 @@ Software
 
 ## Mobile
 
-### Handhelds
+### Car
 
+* Icom IC-2730B
 * Yaesu VX-6
-* Baofeng F8
 
-### Elecraft KX3 (Again)
+### Other Handhelds
+
+* Baofeng F8
+* Explorer
+* Baofeng UV5R mini
 
 ### Lab599 TX-500
 
