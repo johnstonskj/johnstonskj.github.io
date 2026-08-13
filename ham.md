@@ -3,6 +3,10 @@ title: Ham Radio
 layout: page
 ---
 
+Boafeng [BF-F8HP PRO](https://baofengtech.com/product/bf-f8hp-pro) a 10W tri-
+band Ham (2, 1.25m, a and 70cm) radio, with GPS, 1,000 channels, supporting
+airband, NOAA, and FM receive, IP54, USB-C Charging, and Firmware Updatable.
+
 ## Shack
 
 ```text
@@ -46,25 +50,25 @@ My first *grown up* radio.
 
 * Icom [IC-705](https://www.icomamerica.com/lineup/products/IC-705/) 160m-70cm
   all-mode transceiver.
-  * Icom [IC-SP3](https://www.universal-radio.com/catalog/hamhf/sp3b.html)
-    speaker from a ham fleamarket.
-  * VE2DX Electronics [IM1-HDMI V2](https://www.dxengineering.com/parts/vex-im1-hdmiv2)
-    bluetooth CIV to HDMI meter display with [5.5" camera field monitor](https://www.amazon.com/dp/B0FN4G3NX6).
-    The monitor has fantastic resolution, but more importantly has HDMI inputs
-    and tripod mounts, **and** a detachable recharchable battery!
-  * I Also have the VE2DX
-    [IM1-4BTPLUS V2](https://www.dxengineering.com/parts/vex-im14btplusv2)
-    Icom stand-alone digital meter and TrueCIV interface for mobile use,
-    and a [CT17B-7DM V2](https://www.dxengineering.com/parts/VEX-CT17B-7DMV2)
-    bluetooth and USB Icom interface 5-port TrueCIV data hub.
+* Icom [IC-SP3](https://www.universal-radio.com/catalog/hamhf/sp3b.html)
+  speaker from a ham fleamarket.
+* VE2DX Electronics [IM1-HDMI V2](https://www.dxengineering.com/parts/vex-im1-hdmiv2)
+  bluetooth CIV to HDMI meter display with [5.5" camera field monitor](https://www.amazon.com/dp/B0FN4G3NX6).
+  The monitor has fantastic resolution, but more importantly has HDMI inputs
+  and tripod mounts, **and** a detachable recharchable battery!
+* I Also have the VE2DX
+  [IM1-4BTPLUS V2](https://www.dxengineering.com/parts/vex-im14btplusv2)
+  Icom stand-alone digital meter and TrueCIV interface for mobile use,
+  and a [CT17B-7DM V2](https://www.dxengineering.com/parts/VEX-CT17B-7DMV2)
+  bluetooth and USB Icom interface 5-port TrueCIV data hub.
 * Icom [AH-705](https://www.icomjapan.com/lineup/options/AH-705/) antenna
   tuner.
 * The Peovi® [carry cage](https://peovi.com/products/ic705-tatical-cage) with
   optional *back wrap*, *front cover*, and *nato rail*. I specifically use the
-  nato rail and a small tripod adapter to mount the camera monitor directly on
-  top of the radio.
-* Bencher [BY-1](https://www.vibroplex.com/contents/en-us/p199.html) Iambic
-  Paddle, although my CW is not yet readcy for for the airwaves.
+  nato rail and a small tripod adapter so I can mount the camera monitor
+  directly on top of the radio when mobile.
+* A Bencher [BY-1](https://www.vibroplex.com/contents/en-us/p199.html) Iambic
+  Paddle, although my CW is not yet ready for for the airwaves.
 
 While I rarely use this radio mobile, I do have the Windcamp Touring Series
 [Field Pack](https://www.windcamp.cn/productinfo/1458116.html) for it and
@@ -129,10 +133,14 @@ KXPD2, mic, and the following:
   mount when using the AX1 directly attached to the KX3, and the
   [AXT1](https://elecraft.com/products/axt1_axt1-tripod-adapter) adapter
   to mount AX1 on any camera trpod.
-* LifePO4 battery
-* Anderson power meter
+* Ultra light tabletop tripod, with a separate ball head just in case.
+* 6Ah LifePO4 battery with spade to power pole cable.
+* Power pole Y-cable for KX3 and PX3.
+* Power pole inline power meter.
+* Power pole 1:2 splitter with USB A and C out.
 * EFHW
-* 75' throw line
+* 75' throw line.
+* Nifty guide.
 
 If I am going to have the space, time, *and* power, I may also take another
 [ES80](https://elecraft.com/products/es80_es80-kx3-carrying-case) for the
@@ -147,21 +155,30 @@ TBD.
 ### GMRS & Scanner
 
 As we use GMRS for family activities and for emergency preparedness the shack
-has a permanent GMRS base consisting of a Radioddity DB20-G 20W radio and
-antenna.
+has a permanent GMRS base consisting of a Radioddity
+[DB20-G](https://www.radioddity.com/products/radioddity-db20g) 20W radio and
+17" 2.5dBi gain base antenna.
 
 It's nice to have a completely separate scanner while looking for activity on
-the local 2m/70cm bands, and so a dedicated Radioddity DB50 with a simple but
+the local 2m/70cm bands, and so a dedicated Radioddity
+[DB50](https://www.radioddity.com/products/radioddity-db50) with a simple but
 effective discone works very well.
 
 ### Fixed Antenna
 
-* GMRS ground base
-* Discone scanner
-* 2M/70cm J-Pole
-* Arrow Antenna 2m/70cm J-Pole, mounted horizontally for digital modes.
-* Home-made 6M wire dipole
-* Radiowavz 10M Bazooka
+* GMRS 400-470mhz fiberglass antenna with ground plane, base antenna. This is a
+  17" 100W vertical with 2.5dBi gain. [Amazon](https://www.amazon.com/dp/B0C7CBRQYR)
+* Gabil [GRA-D220](https://www.amazon.com/dp/B07RRSBTVW) 50W wideband, 100 to
+  1600 MHz, discone antenna. This will transmit in the 144, 430, 904, 1200 MHz
+  bands with a gain of 2.15dBi and stated VSWR of *less than 1.5:1*.
+* [Roll-Up J-Pole](https://www.etsy.com/listing/4354370297/roll-up-j-pole-antenna-dual-band-2)
+  for 2m/70cm by WACOMhamradio.
+* Arrow Antenna 2m/70cm [Open Stub J-Pole](https://www.arrowantennas.com/osj/j-pole.html),
+  1000W mounted horizontally for digital modes.
+* Home-made 6M wire dipole, made with DX Commander [DX10](https://www.dxengineering.com/parts/DXC-DX10WIRE)
+  antenna wire, with an average 1.2-1.5:1 SWR.
+* RadioWavz [10M Bazooka](https://www.radiowavz.com/product/double-bazooka-antenna/65)
+  built for 1500w SSB/PEP 200W CW!
 
 Each antenna is mounted in the garage attic and it's cable is fed to a fixed
 SO-239 mount attached to a horizontal beam. These consist of two 8" 90° angle
@@ -182,7 +199,7 @@ UltraFlex 10 and Airborne 5 for rack to rig and rack to meter runs.
              ╱ ╱
    meters    │ │
     ┬ ┬   ┌──┴─┴──┐
-    │ └───┤ Patch ├─ left ground bus
+    │ └───┤ Patch ├┈┈┈ left ground bus
     └─────┤  Rack │
           └──┬─┬──┘
              │ └───┤ Transceivers
@@ -215,38 +232,36 @@ testing.
 
 Software
 
-* Logging
-  * RUMlogNG (macos and ios)
-  * HAMRS Pro (macos and ios)
-  * QSO Upload Utility
-  * tsql
-* Operating
-  * SDR-Control -- IC-705 remote control
-  * KX3UI -- KX3 remote control
-  * WSPR Watch
-  * MacDoppler
-  * DX Toolbox
-  * Ham Pulse
-  * wfview
-  * xCluster
-  * CW Keyer
-  * iDigi
-  * QTH
-  * QRV
-  * Rotor
-  * Multimode Cocoa
-* Radio Tools
-  * Elecraft KX3 Utility
-  * K3MemoryManager
-  * SignalScope X
-  * Serial
-* Antenna Tools
-  * VNAmate
-  * RF MatchMaker
-  * MININEC Pro
-  * SimNEC
-  * RF Toolbox
-  * Ham Toolbox
+| Categpry          | Name                  | Mac   | iPad  | Phone | Comments                |
+| ----------------- | --------------------- | :---: | :---: | :---: | ----------------------- |
+| **Logging**       | RUMlogNG              | Y     | Y     | N     |                         |
+|                   | HAMRS Pro             | Y     | Y     | N     |                         |
+|                   | QSO Upload Utility    | Y     | N     | N     |                         |
+|                   | tsql                  | Y     | N     | N     |                         |
+| **Operating**     | SDR-Control           | Y     | Y     | N     | IC-705 remote control   |
+|                   | KX3UI                 | Y     | N     | N     | KX3 remote control      |
+|                   | WSPR Watch            | Y     | N     | N     |                         |
+|                   | MacDoppler            | Y     | N     | N     |                         |
+|                   | DX Toolbox            | Y     | N     | N     |                         |
+|                   | Ham Pulse             | Y     | N     | N     |                         |
+|                   | wfview                | Y     | N     | N     |                         |
+|                   | xCluster              | Y     | N     | N     |                         |
+|                   | CW Keyer              | Y     | N     | N     |                         |
+|                   | iDigi                 | Y     | Y     | N     |                         |
+|                   | QTH                   | Y     | Y     | N     |                         |
+|                   | QRV                   | Y     | Y     | N     |                         |
+|                   | Rotor                 | Y     | N     | N     |                         |
+|                   | Multimode Cocoa       | Y     | N     | N     |                         |
+| **Radio Tools**   | Elecraft KX3 Utility  | Y     | N     | N     |                         |
+|                   | K3MemoryManager       | Y     | N     | N     |                         |
+|                   | SignalScope X         | Y     | N     | N     |                         |
+|                   | Serial                | Y     | N     | N     |                         |
+| **Antenna Tools** | VNAmate               | Y     | N     | N     |                         |
+|                   | RF MatchMaker         | Y     | N     | N     |                         |
+|                   | MININEC Pro           | Y     | N     | N     |                         |
+|                   | SimNEC                | Y     | N     | N     |                         |
+|                   | RF Toolbox            | Y     | N     | N     |                         |
+|                   | Ham Toolbox           | Y     | N     | N     |                         |
 
 -----
 
@@ -261,18 +276,49 @@ Really useful things:
 ### Car
 
 * Icom IC-2730B with Diamond Antenna NR770HB
-* Yaesu VX-6
-* GMRS
+* Yaesu [VX-6](https://www.yaesu.com/product-detail.aspx?Model=VX-6R&CatName=VHF/UHF%20Handhelds)
+  an incredibly rugged handheld to keep close for hiking or emergencies it's
+  even submersible! Paired with the TWAYRDIO [RH770](https://www.amazon.com/dp/B0753G6P29)
+  antenna for fair-weather use gives some additional gain.
+* BTECH [GMRS-V2](https://www.amazon.com/dp/B09Z1NJ1M3) 5W with FM radio and
+  NOAA weather. This one lives in the car full time with an
+  [ABBREE](https://www.amazon.com/dp/B0B1QK4W23) 42.5-inch "tactical" folding
+  antenna with a reported 5.0dbi gain.
+* Gabil [GRA-CFS20](https://www.amazon.com/dp/B0G5XFY2T2) 20m carbon fiber
+  mobile antenna; only added when operating.
+* Comet [UHV-4](https://www.amazon.com/dp/B00QIZ4SBS) multi-band (80, 40, 20,
+  15, 10, 6, 2m, 70cm) mobile antenna with fold-over design and adjustable
+  coils; only added when operating.
 
 ### Other Handhelds
 
-* Baofeng F8
-* Explorer QRZ-1
-* Baofeng UV5R mini
+* Boafeng [BF-F8HP PRO](https://baofengtech.com/product/bf-f8hp-pro); see above.
+* Boafeng [UV-5R Mini](https://www.baofengradio.com/products/5r-mini)
+  5W dual band ham radio.
+* Explorer [QRZ-1](https://www.gigaparts.com/explorer-qrz-1-5w-vhf-uhf-handheld-transceiver.html)
+  5W dual band ham radio.
+* Cobra [Trailblazer 450](https://www.amazon.com/dp/B0DWCTZPG8) IP54 weather
+  resistant 2.5W GMRS with NOA weather channels and weather alerts. We have 4 of
+  these for emergency use, with ABREE [AR-771C](https://www.amazon.com/dp/B0FJ1XZ791)
+  15.3inch flexible whip antennas (2.15dBi gain). All four, and antennas, along
+  with one roll-up J-pole antenna are kept in a Nanuk orange hard case.
 
 ### Lab599 TX-500
 
-* Transceiver with battery box
+* Discovery [TX-500](http://lab599.com/products/tproduct/506522908-147130382471-tx-500-discovery) 160-6m all mode and incredibly rugged transceiver.
+* [BP-550](http://lab599.com/products/tproduct/957371911-275215165371-bp-550-smart-battery-pack) battery box for 3 or 6 18650 rechargable batteries.
+* Tufteln protective cover from Etsy?
+* POTA Explorer 20 with guy system from Etsy
+* Choke
+* 75' throw line
+* Chameleon throw bag
+* LiFePo4 battery
+* Power pole inline battery monitor
+* 50' RG316
+* 25' RG8
+* Antenna
+* Digirig and cables
+* IEM
 
 ### Radio Box
 
@@ -280,11 +326,26 @@ Really useful things:
 * GMRS
 * 2m/70cm
 
-### Boafeng Repeater Box
+### Mobile Repeater Box
 
-* 2 Boafeng UV5R
-* Repeater
-* USB Power Bank
+* 2 Boafeng [UV-5RM Plus](https://www.baofengradio.com/products/uv-5rm-plus-8w-multi-band-radio)
+  10W dual band ham radio.
+* Surecom [SR-629](https://www.surecom.com.hk/sr629) 2-in-1 duplex cross band
+  radio repeater controller.
+* [NOBIS](https://www.amazon.com/dp/B0GHC4LMHP) 20000mAh/90W laptop portable
+  power bank.
+* 2 [HYS 2m/70cm](https://www.amazon.com/dp/B07V4S4Q6M) gooseneck 11.8in antenna.
+* [Apache 1800](https://www.harborfreight.com/1800-weatherproof-protective-case-small-black-64550.html)
+  weatherproof protective case.
+
+To complete the repeater I used two BNC female/female bulkhead connectors to
+mount the antenna, and two 4" SMA to BNC cables to connect the radios to the
+bulkhead connectors. A Penglin USB C bulkhead thru port with waterproof screw
+cap allows me to charge the power bank without opening the case, and then a set
+of *as short as possible* USB cables to connect the power bank to the external
+port, the Surecom controller, and both radios. The radios have their ports on
+the back which is a pain and so cabl with 90 degreeb USB C connectors are very
+useful.
 
 -----
 
