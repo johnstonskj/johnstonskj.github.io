@@ -6,26 +6,28 @@ layout: page
 ## Shack
 
 ```text
-                             ┌────────────┐
-       ┌─────────────────────┤ Main Power ├────────────────────────┐
-       │             ┌───────┤  Filtered  ├─────────┐              │
-       │             │       └──────┬─────┘         │              │
-       │             │              │               │              │
-  ┌────┴─────┐    ┌──┴──┐        ┌──┴──┐         ┌──┴──┐    ┌──────┴──────┐
-  │ Computer │    │ PSU │        │ PSU │         │ PSU │    │ HT charging │
-  └──────────┘    └──┬──┘        └──┬──┘         └──┬──┘    └─────────────┘
-                     ├──USB         ├──USB          ├──USB
-                ┌────┴────┐    ┌────┴─────┐    ┌────┴─────┐
-                │  GMRS & │    │ Elecraft │    │  IC-705  │
-                │ Scanner │    │          │    │   sBitz  │
-                └─────────┘    └──────────┘    └──────────┘
+  left ground bus ┈┈┈┈┈┈┈┈┈┈┈┈┊┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ right ground bus
+                             ┌────────────────┐
+       ┌─────────────────────┤   Main Power   ├───────────────────────┐
+       │              ┌──────┤    Filtered    ├────────┐              │
+       │              │      └────────┬───────┘        │              │
+       │              │       ┊       │                │              │
+  ┌────┴─────┐     ┌──┴──┐    ┊    ┌──┴──┐          ┌──┴──┐    ┌──────┴──────┐
+  │ Computer │     │ PSU │    ┊    │ PSU │          │ PSU │    │ HT charging │
+  └──────────┘     └──┬──┘    ┊    └──┬──┘          └──┬──┘    └─────────────┘
+                      ├──USB  ┊       ├──USB           ├──USB
+                ┌─────┴────┐  ┊  ┌────┴─────┐     ┌────┴─────┐
+                │  GMRS &  │  ┊  │ Elecraft │     │  IC-705  │
+                │ Scanner  │  ┊  │          │     │   sBitz  │
+                └──────────┘  ┊  └──────────┘     └──────────┘
 ```
 
-The main power input is a
+The main power input is handled by a
 [WAudio W-5900](https://waudiohifi.com/products/waudio-ac-noise-power-conditioner-mains-purifier-audio-video-noise-filter-surge-protector-with-us-standard-sockets-black)
 providing 8 filtered and 4 unfiltered outlets. Three of the filtered outlets are
 used for [BTech RPS-30PRO](https://baofengtech.com/product/rps-30pro/) 30 Amp
-power supplies.
+power supplies. The computer, monitors, and the chargers for various HTs and
+accessories are not using filtered outlets.
 
 I run everything off Anderson power pole connectors, so every RPS-30PRO feeds
 into a [Chunzehui F-1005 9 Port 40A Power Distributor](https://www.czh-labs.com/products/chunzehui-f-1005-9-port-40a-anderson-powerpole-connector-power-splitter-distributor-source-strip-1-input-and-8-output).
@@ -33,15 +35,47 @@ Because so many small devices and tools use USB power these days I also have a
 [StarTech 10-Port Industrial USB 5Gbps Hub](https://www.startech.com/en-us/usb-hubs/st1030usbm)
 at each power position with a short Anderson power cable.
 
-### GMRS & Scanner
+There are two main ground busses, large copper heavy duty, on either side of
+bench with the sides slightly assymmetrical and shown with the dashed line in
+the figure above. Each of the left bus is bonded to the right which is in turn
+bonded to the case of the WAudio W-5900.
 
-As we use GMRS for family activities and for emergency preparedness the shack
-has a permanent GMRS base consisting of a Radioddity DB20-G 20W radio and
-antenna.
+### IC-705
 
-It's nice to have a completely separate scanner while looking for activity on
-the local 2m/70cm bands, and so a dedicated Radioddity DB50 with a simple but
-effective discone works very well.
+My first *grown up* radio.
+
+* Icom [IC-705](https://www.icomamerica.com/lineup/products/IC-705/) 160m-70cm
+  all-mode transceiver.
+  * Icom [IC-SP3](https://www.universal-radio.com/catalog/hamhf/sp3b.html)
+    speaker from a ham fleamarket.
+  * VE2DX Electronics [IM1-HDMI V2](https://www.dxengineering.com/parts/vex-im1-hdmiv2)
+    bluetooth CIV to HDMI meter display with [5.5" camera field monitor](https://www.amazon.com/dp/B0FN4G3NX6).
+    The monitor has fantastic resolution, but more importantly has HDMI inputs
+    and tripod mounts, **and** a detachable recharchable battery!
+  * I Also have the VE2DX
+    [IM1-4BTPLUS V2](https://www.dxengineering.com/parts/vex-im14btplusv2)
+    Icom stand-alone digital meter and TrueCIV interface for mobile use,
+    and a [CT17B-7DM V2](https://www.dxengineering.com/parts/VEX-CT17B-7DMV2)
+    bluetooth and USB Icom interface 5-port TrueCIV data hub.
+* Icom [AH-705](https://www.icomjapan.com/lineup/options/AH-705/) antenna
+  tuner.
+* The Peovi® [carry cage](https://peovi.com/products/ic705-tatical-cage) with
+  optional *back wrap*, *front cover*, and *nato rail*. I specifically use the
+  nato rail and a small tripod adapter to mount the camera monitor directly on
+  top of the radio.
+* Bencher [BY-1](https://www.vibroplex.com/contents/en-us/p199.html) Iambic
+  Paddle, although my CW is not yet readcy for for the airwaves.
+
+While I rarely use this radio mobile, I do have the Windcamp Touring Series
+[Field Pack](https://www.windcamp.cn/productinfo/1458116.html) for it and
+use that to store a number of less-frequently used accessories (the AH-705 lives
+in it) and some mobile parts so that I could just grab the radio if I wanted.
+Another really useful add-on from Windcamp is the
+[RC-1](https://www.windcamp.cn/productinfo/23663.html) quick remove antenna
+support, or the [RC-2](https://www.windcamp.cn/productinfo/732728.html)
+antenna support. I also like their power cables, and have the
+[power pole](https://www.windcamp.cn/productinfo/1460910.html) (with ferrites)
+and [vehicle power](https://www.windcamp.cn/productinfo/23668.html?templateId=349170).
 
 ### Elecraft
 
@@ -106,20 +140,19 @@ KXPA100 and cables as well as a (smaller)
 [ES60](https://elecraft.com/collections/compact-cases/products/es60_es60-compact-padded-carrying-case-copy)
 case for the PX3 and it's cables.
 
-### IC-705
-
-* Icom IC-705
-  * Icom IC-SP3 speaker
-  * Bluetooth CIV and screen
-* AH-705 antenna tuner
-* Peori cage
-* Bencher CW Iambic Paddle
-
-While I rarely use this radio mobile, I do have the Windcamp backpack for it and
-use that to store a number of less-frequently used accessories (the AH-705 lives
-in it) and some mobile parts so that I could just grab the radio if I wanted.
-
 ### sBitz
+
+TBD.
+
+### GMRS & Scanner
+
+As we use GMRS for family activities and for emergency preparedness the shack
+has a permanent GMRS base consisting of a Radioddity DB20-G 20W radio and
+antenna.
+
+It's nice to have a completely separate scanner while looking for activity on
+the local 2m/70cm bands, and so a dedicated Radioddity DB50 with a simple but
+effective discone works very well.
 
 ### Fixed Antenna
 
@@ -149,7 +182,7 @@ UltraFlex 10 and Airborne 5 for rack to rig and rack to meter runs.
              ╱ ╱
    meters    │ │
     ┬ ┬   ┌──┴─┴──┐
-    │ └───┤ Patch │
+    │ └───┤ Patch ├─ left ground bus
     └─────┤  Rack │
           └──┬─┬──┘
              │ └───┤ Transceivers
@@ -218,6 +251,12 @@ Software
 -----
 
 ## Mobile
+
+Really useful things:
+
+* Windcamp [AP-4](https://www.windcamp.cn/productinfo/372471.html) 4-port
+  power-pole distribution in a neat flat format, I think I have one in every
+  radio bag.
 
 ### Car
 
