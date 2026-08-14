@@ -39,7 +39,7 @@ Because so many small devices and tools use USB power these days I also have a
 [StarTech 10-Port Industrial USB 5Gbps Hub](https://www.startech.com/en-us/usb-hubs/st1030usbm)
 at each power position with a short Anderson power cable.
 
-There are two main ground busses, large copper heavy duty, on either side of
+There are two main ground busses, large copper & heavy duty, on either side of
 bench with the sides slightly assymmetrical and shown with the dashed line in
 the figure above. Each of the left bus is bonded to the right which is in turn
 bonded to the case of the WAudio W-5900.
@@ -85,16 +85,18 @@ and [vehicle power](https://www.windcamp.cn/productinfo/23668.html?templateId=34
 
 * Elecraft [KX3](https://elecraft.com/products/kx3-all-mode-160-6-m-transceiver)
   with the following installed options:
-  [KXAT3](https://elecraft.com/products/kxat3-20-watt-internal-automatic-antenna-tuner)
-  20w Internal antenna tuner,
-  [KXBC3](https://elecraft.com/products/kxbc3-internal-nimh-charger-real-time-clock)
-  NiMH battery-charger and real-time clock, and
-  [KXFL3](https://elecraft.com/products/kxfl3-dual-roofing-filter-for-the-kx3)
-  roofing filter.
-  * [KXPD2](https://elecraft.com/collections/keyer-paddle/products/kxpd2-attached-precision-keyer-paddle)
-    precision keyer paddle.
-  * Mini microphone by G1JKS, from [Etsy](https://www.etsy.com/listing/4504479593/electraft-kx2-and-kx3-mini-microphone-by).
-  * Vintage Heathkit [HS-24](https://www.radiomuseum.org/r/heath_hs_24_hs2.html) speaker.
+  * [KXAT3](https://elecraft.com/products/kxat3-20-watt-internal-automatic-antenna-tuner)
+    20w Internal antenna tuner,
+  * [KXBC3](https://elecraft.com/products/kxbc3-internal-nimh-charger-real-time-clock)
+    NiMH battery-charger and real-time clock, and
+  * [KXFL3](https://elecraft.com/products/kxfl3-dual-roofing-filter-for-the-kx3)
+    roofing filter.
+* [KXPD2](https://elecraft.com/collections/keyer-paddle/products/kxpd2-attached-precision-keyer-paddle)
+  precision keyer paddle.
+* Mini microphone by G1JKS, from [Etsy](https://www.etsy.com/listing/4504479593/electraft-kx2-and-kx3-mini-microphone-by).
+* Vintage Heathkit [HS-24](https://www.radiomuseum.org/r/heath_hs_24_hs2.html) speaker.
+* QRPworks [SideKar Decoder Edition](https://www.qrpworks.com/sidekar-decoder-edition.html)
+  for CW, PSK, and RTTY with a standard keyboard!
 * PX3 Panadapter
 * [KXPA100](https://elecraft.com/products/kxpa100-100w-amplifier-with-optional-internal-atu)
   100w power amplifier with the optional
@@ -230,38 +232,50 @@ testing.
 
 ### Computer
 
+Hardware, TBD
+
 Software
 
 | Categpry          | Name                  | Mac   | iPad  | Phone | Comments                |
 | ----------------- | --------------------- | :---: | :---: | :---: | ----------------------- |
-| **Logging**       | RUMlogNG              | Y     | Y     | N     |                         |
-|                   | HAMRS Pro             | Y     | Y     | N     |                         |
+| **Logging**       | RUMlogNG              | Y     | Y     | Y     | Primary logging         |
+|                   | HAMRS Pro             | Y     | Y     | Y     |                         |
+|                   | World Radio League    | Y     | Y     | Y     |                         |
 |                   | QSO Upload Utility    | Y     | N     | N     |                         |
 |                   | tsql                  | Y     | N     | N     |                         |
 | **Operating**     | SDR-Control           | Y     | Y     | N     | IC-705 remote control   |
 |                   | KX3UI                 | Y     | N     | N     | KX3 remote control      |
-|                   | WSPR Watch            | Y     | N     | N     |                         |
+|                   | WSPR Watch            | Y     | Y     | Y     |                         |
 |                   | MacDoppler            | Y     | N     | N     |                         |
 |                   | DX Toolbox            | Y     | N     | N     |                         |
-|                   | Ham Pulse             | Y     | N     | N     |                         |
+|                   | Ham Pulse             | Y     | Y     | Y     |                         |
 |                   | wfview                | Y     | N     | N     |                         |
 |                   | xCluster              | Y     | N     | N     |                         |
 |                   | CW Keyer              | Y     | N     | N     |                         |
-|                   | iDigi                 | Y     | Y     | N     |                         |
+|                   | iDigi                 | Y     | Y     | Y     |                         |
 |                   | QTH                   | Y     | Y     | N     |                         |
-|                   | QRV                   | Y     | Y     | N     |                         |
+|                   | QRV                   | Y     | Y     | Y     |                         |
+|                   | Call Search (QRZ)     | N     | Y     | Y     |                         |
+|                   | QTH Locator           | N     | Y     | Y     |                         |
+|                   | Repeaterbook          | N     | Y     | Y     |                         |
 |                   | Rotor                 | Y     | N     | N     |                         |
 |                   | Multimode Cocoa       | Y     | N     | N     |                         |
+|                   | iFTx                  | N     | N     | Y     |                         |
 | **Radio Tools**   | Elecraft KX3 Utility  | Y     | N     | N     |                         |
 |                   | K3MemoryManager       | Y     | N     | N     |                         |
 |                   | SignalScope X         | Y     | N     | N     |                         |
-|                   | Serial                | Y     | N     | N     |                         |
+|                   | CHIRP                 | Y     | N     | N     |                         |
+|                   | **programmers**       | Y     | N     | N     |                         |
+|                   | CHIRP                 | Y     | N     | N     |                         |
+|                   | Ola Radio             | N     | N     | Y     |                         |
 | **Antenna Tools** | VNAmate               | Y     | N     | N     |                         |
 |                   | RF MatchMaker         | Y     | N     | N     |                         |
 |                   | MININEC Pro           | Y     | N     | N     |                         |
 |                   | SimNEC                | Y     | N     | N     |                         |
 |                   | RF Toolbox            | Y     | N     | N     |                         |
 |                   | Ham Toolbox           | Y     | N     | N     |                         |
+|                   | Rig Expert AntScope   | N     | N     | Y     |                         |
+|                   | OdMaster              | N     | N     | Y     |                         |
 
 -----
 
@@ -307,8 +321,9 @@ Really useful things:
 
 * Discovery [TX-500](http://lab599.com/products/tproduct/506522908-147130382471-tx-500-discovery) 160-6m all mode and incredibly rugged transceiver.
 * [BP-550](http://lab599.com/products/tproduct/957371911-275215165371-bp-550-smart-battery-pack) battery box for 3 or 6 18650 rechargable batteries.
-* Tufteln protective cover from Etsy?
-* POTA Explorer 20 with guy system from Etsy
+* Tufteln [protective cover](https://tufteln.com/products/lab599-tx-500-protection-case).
+* Explorer [POTA20](https://www.gigaparts.com/explorer-pota20-portable-handheld-20-ft-telescopic-carbon-fiber-mast.html)
+  20ft telescopic carbon fiber mast, with guy system from Etsy.
 * Choke
 * 75' throw line
 * Chameleon throw bag
@@ -353,6 +368,26 @@ useful.
 
 * Buddipole
 * Arrow Antenna
+
+Masts
+
+* Intellitron [AM-2306K](https://www.gigaparts.com/intellitron-am-2306k-34ft-telescopic-fiberglass-mast-with-quick-release-clamps-7ft-sections.html)
+  34ft Telescopic Fiberglass Mast with Quick-Release Clamps.
+  * with Intellitron [AM-812FX](https://www.gigaparts.com/intellitron-am-812fx-guy-ring-set-fiberglass.html)
+    Fiberglass Guy Ring Set.
+* Chameleon [CHA CFM](https://chameleonantenna.com/products/cha-cfm?variant=49200385360118)
+  34 ft telescopic carbon fiber mast with steel base and 3/8×24 stud.
+* Explorer [POTA33B](https://www.gigaparts.com/explorer-pota33b-33ft-portable-telescopic-carbon-fiber-mast.html)
+  33ft telescopic carbon fiber mast.
+
+Cables
+
+* 50 ft Messi and Paoloni [PotaFlex 7](https://www.gigaparts.com/messi-and-paoloni-potaflex-7-coax-cable.html)
+  high-visibility coax cable, with carry bag and reel.
+* 100 ft Chameleon [CHA COAX](https://chameleonantenna.com/products/cha-coax-with-integrated-rfi-choke?variant=46583992058102)
+  with integrated RFI Choke.
+  * 25 ft Chameleon [CHA RG-316(https://chameleonantenna.com/products/cha-rg-316?variant=46594486927606)
+  with integrated RFI Choke.
 
 -----
 
