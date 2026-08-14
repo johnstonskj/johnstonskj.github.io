@@ -1,13 +1,26 @@
 ---
-title: Ham Radio
+title: Ham Radio -- K7SKJ
 layout: page
 ---
 
+Like many new hams my first radio was a hand-held (HT in the parlance) and these
+days that's most often a Chinese made radio such as a Baofend. For me it was the
 Boafeng [BF-F8HP PRO](https://baofengtech.com/product/bf-f8hp-pro) a 10W tri-
 band Ham (2, 1.25m, a and 70cm) radio, with GPS, 1,000 channels, supporting
 airband, NOAA, and FM receive, IP54, USB-C Charging, and Firmware Updatable.
+This is a super capable radio but I found the size of the screen and buttons
+just fiddly when I'm trying to learn and added frustration to the process that
+didn't need to be there.
+
+I went on to purchase an Icom IC-705 as a larger, more functional rig with a lot
+*more* to learn, but a lot *easier* (for me) to learn. I still use the Baofeng
+but the Icom certain got way more use, and I guess I got really hooked.
 
 ## Shack
+
+This is a little grandiose, my "shack" is actually a second-hand oak roll-top
+desk from Facebook Marketplace which is now living in the garage with antennas
+in the open attic above.
 
 ```text
   left ground bus ┈┈┈┈┈┈┈┈┈┈┈┈┊┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ right ground bus
@@ -44,7 +57,7 @@ bench with the sides slightly assymmetrical and shown with the dashed line in
 the figure above. Each of the left bus is bonded to the right which is in turn
 bonded to the case of the WAudio W-5900.
 
-### IC-705
+### Icom IC-705
 
 My first *grown up* radio.
 
@@ -81,7 +94,13 @@ antenna support. I also like their power cables, and have the
 [power pole](https://www.windcamp.cn/productinfo/1460910.html) (with ferrites)
 and [vehicle power](https://www.windcamp.cn/productinfo/23668.html?templateId=349170).
 
-### Elecraft
+### Elecraft KX3
+
+This has slowly become my favorite radio, I love how everything is so tactile,
+everything is right there usually with it's own button or dial and operating is
+pretty intuitive. The display is simple, although on it's own I do miss the
+panadapter of course. In the shack it's really my 6m and 10m mainstay with the
+KXPA100 connected to both antennas.
 
 * Elecraft [KX3](https://elecraft.com/products/kx3-all-mode-160-6-m-transceiver)
   with the following installed options:
@@ -150,11 +169,15 @@ KXPA100 and cables as well as a (smaller)
 [ES60](https://elecraft.com/collections/compact-cases/products/es60_es60-compact-padded-carrying-case-copy)
 case for the PX3 and it's cables.
 
-### sBitz
+### HF Signals sBitz
 
-TBD.
+Recently added the HF Signals [sBitx v3](https://www.hfsignals.com/index.php/sbitx-v3/),
+a 25W HF hybrid SDR based on a Raspberry Pi, with 7" touch screen. As it's
+HF only my current patch rack really only has the option of the 10m bazooka, so
+I tend to switch the KXPA100's second antenna to the dummy load and then the
+sBitx to the 10m antenna.
 
-### GMRS & Scanner
+### Radioddity GMRS & Scanner
 
 As we use GMRS for family activities and for emergency preparedness the shack
 has a permanent GMRS base consisting of a Radioddity
@@ -166,7 +189,7 @@ the local 2m/70cm bands, and so a dedicated Radioddity
 [DB50](https://www.radioddity.com/products/radioddity-db50) with a simple but
 effective discone works very well.
 
-### Fixed Antenna
+### Fixed Antennas
 
 * GMRS 400-470mhz fiberglass antenna with ground plane, base antenna. This is a
   17" 100W vertical with 2.5dBi gain. [Amazon](https://www.amazon.com/dp/B0C7CBRQYR)
@@ -215,16 +238,15 @@ shack radios. Radios and antennas are matched with 30cm RG58 BNC cables. For
 example, the IC-705 is often switched between the two 2m/70cm antenna as one
 is used for voice (the vertical) and one for data (the horizontal).
 
-| # | Radio   | # | Antenna     | # | Meter          |
-|---|---------|---|-------------|---|----------------|
-| 1 | GMRS    | 1 | GMRS        | 1 |                |
-| 2 | Scanner | 2 | Scanner     | 2 |                |
-| 3 | IC-705  | 3 | 20/70 (v)   | 3 | *Blank*        |
-|   | └──     | 4 | 20/70 (h)   | 4 | DG-503 HF in   |
-| 4 | *Bench* | 5 | 6m          | 5 | DG-503 HF out  |
-| 5 | KXPA #1 | 6 | 10m         | 6 | DG-503 VHF in  |
-| 6 | KXPA #2 | 7 | *50W Dummy* | 7 | DG-503 VHF out |
-| 7 | sBitz   |   | --          |   | --             |
+| # | Radio   | # | Antenna      | # | Meter          |
+|---|---------|---|--------------|---|----------------|
+| 1 | GMRS    | 1 | GMRS         | 1 |                |
+| 2 | Scanner | 2 | Scanner      | 2 |                |
+| 3 | IC-705  | 3 | 20/70 (v)    | 3 | *Blank*        |
+| 4 | *Bench* | 4 | 20/70 (h)    | 4 | DG-503 HF in   |
+| 5 | KXPA #1 | 5 | 6m           | 5 | DG-503 HF out  |
+| 6 | KXPA #2 | 6 | 10m          | 6 | DG-503 VHF in  |
+| 7 | sBitz   | 7 | *100W Dummy* | 7 | DG-503 VHF out |
 
 Port 4 on the radio row connects to a BNC connector fixed to the shack bench so  
 that any mobile or HT can be connected on the bench to any of the antenna for
@@ -265,8 +287,7 @@ Software
 |                   | K3MemoryManager       | Y     | N     | N     |                         |
 |                   | SignalScope X         | Y     | N     | N     |                         |
 |                   | CHIRP                 | Y     | N     | N     |                         |
-|                   | **programmers**       | Y     | N     | N     |                         |
-|                   | CHIRP                 | Y     | N     | N     |                         |
+|                   | RT Systems Programmer | Y     | N     | N     | For IC-705, KX3, BF8    |
 |                   | Ola Radio             | N     | N     | Y     |                         |
 | **Antenna Tools** | VNAmate               | Y     | N     | N     |                         |
 |                   | RF MatchMaker         | Y     | N     | N     |                         |
@@ -289,7 +310,18 @@ Really useful things:
 
 ### Car
 
-* Icom IC-2730B with Diamond Antenna NR770HB
+My car, also known as the *Family Adventure Wagon (JFAW)* is also ham enabled
+with a permanent 2m/70cm mobile, and 7 roof mounted antenna brackets (two SO-239
+and two 3/8×24 with quick releases). Most of the smaller roof mounted antenna
+fit into a 2" diameter PVC tube with one glued and one threaded end that is
+strapped to the cargo basked when needed.
+
+* Icom [IC-2730B](https://www.icomamerica.com/lineup/products/IC-2730B_Black_edition/)
+  VHF/UHF mobile with the body under the driver's seat and the head mounted on
+  dash. Power to the radio runs through a Powerwerx 20 Amp
+  [DC Line Noise Filter](https://powerwerx.com/dc-line-noise-filter-oemt).
+  The antenna is a Diamond Antenna [NR770HB](https://www.diamondantenna.net/nr770hb.html)
+  mounted on one of my ditch light brackets.
 * Yaesu [VX-6](https://www.yaesu.com/product-detail.aspx?Model=VX-6R&CatName=VHF/UHF%20Handhelds)
   an incredibly rugged handheld to keep close for hiking or emergencies it's
   even submersible! Paired with the TWAYRDIO [RH770](https://www.amazon.com/dp/B0753G6P29)
@@ -303,6 +335,10 @@ Really useful things:
 * Comet [UHV-4](https://www.amazon.com/dp/B00QIZ4SBS) multi-band (80, 40, 20,
   15, 10, 6, 2m, 70cm) mobile antenna with fold-over design and adjustable
   coils; only added when operating.
+* Shark [6M mono band vertical](https://www.gigaparts.com/shark-mono-band-verticals-6m-44in.html)
+  (44"), aka ham stick; only added when operating.
+* Shark [10M mono band vertical](https://www.gigaparts.com/shark-mono-band-verticals-10m-44in.html)
+  (44"), aka ham stick; only added when operating.
 
 ### Other Handhelds
 
@@ -337,37 +373,53 @@ Really useful things:
 
 ### Radio Box
 
+A project, more later.
+
 * zBitx HF/6m
 * GMRS
 * 2m/70cm
 
 ### Mobile Repeater Box
 
-* 2 Boafeng [UV-5RM Plus](https://www.baofengradio.com/products/uv-5rm-plus-8w-multi-band-radio)
-  10W dual band ham radio.
-* Surecom [SR-629](https://www.surecom.com.hk/sr629) 2-in-1 duplex cross band
-  radio repeater controller.
-* [NOBIS](https://www.amazon.com/dp/B0GHC4LMHP) 20000mAh/90W laptop portable
-  power bank.
-* 2 [HYS 2m/70cm](https://www.amazon.com/dp/B07V4S4Q6M) gooseneck 11.8in antenna.
-* [Apache 1800](https://www.harborfreight.com/1800-weatherproof-protective-case-small-black-64550.html)
-  weatherproof protective case.
+A project, mainly for fun and to do something with these two UV-5RM radios I
+bought on sale ($60 for the pair!).
 
-To complete the repeater I used two BNC female/female bulkhead connectors to
-mount the antenna, and two 4" SMA to BNC cables to connect the radios to the
-bulkhead connectors. A Penglin USB C bulkhead thru port with waterproof screw
-cap allows me to charge the power bank without opening the case, and then a set
-of *as short as possible* USB cables to connect the power bank to the external
-port, the Surecom controller, and both radios. The radios have their ports on
-the back which is a pain and so cabl with 90 degreeb USB C connectors are very
-useful.
+* 2 Boafeng [UV-5RM Plus](https://www.baofengradio.com/products/uv-5rm-plus-8w-multi-band-radio)
+  10W dual band ham radio $60.
+* Surecom [SR-629](https://www.surecom.com.hk/sr629) 2-in-1 duplex cross band
+  radio repeater controller $42.
+* [NOBIS](https://www.amazon.com/dp/B0GHC4LMHP) 20000mAh/90W laptop portable
+  power bank $49.
+* 2 [HYS 2m/70cm](https://www.amazon.com/dp/B07V4S4Q6M) gooseneck 11.8in antenna
+  2×$15.
+* [Apache 1800](https://www.harborfreight.com/1800-weatherproof-protective-case-small-black-64550.html)
+  weatherproof protective case $15.
+
+To complete the repeater I used two BNC female/female bulkhead connectors ($11
+for four) to mount the antenna, and two 4" SMA to BNC cables (from spares bag)
+to connect the radios to the bulkhead connectors. A Penglin USB C bulkhead thru
+port with waterproof screw cap ($20 for two) allows me to charge the power bank
+without opening the case, and then a set of *as short as possible* USB cables
+(from spares bag) to connect the power bank to the external port, the Surecom
+controller, and both radios. The radios have their ports on the back which is a
+pain and so cable with 90 degreeb USB C connectors ($9) are very useful.
+
+I make the total around $236, with the only actual "work" being drilling three
+holes in the case, applying some silicone around the ports just in case and then
+setting up the radios and the controller.
 
 -----
 
-## Field Antenna
+## Field Antennas
 
-* Buddipole
-* Arrow Antenna
+* Buddipole™ [Deluxe Package](https://www.buddipole.com/debupa.html), an awesome
+  all-in-one tripod, mast, and dipole for 7 to 54MHz continuous, and 144 to
+  148MHz.
+* Arrow Antennas [52-1BP Arrow II Dipole](https://www.arrowantennas.com/arrowii/52-1.html)
+  with the *222 MHz 6 element set* to make this a 6m dipole. Alternatively I use
+  the *146 MHz 4 element set*, *440 MHz 10 element set*, and the
+  [*10W duplexer*](http://www.arrowantennas.com/main/10w.html) for a really nice
+  mobile VHF/UHF setup that can also be used for satellites!
 
 Masts
 
@@ -386,7 +438,7 @@ Cables
   high-visibility coax cable, with carry bag and reel.
 * 100 ft Chameleon [CHA COAX](https://chameleonantenna.com/products/cha-coax-with-integrated-rfi-choke?variant=46583992058102)
   with integrated RFI Choke.
-  * 25 ft Chameleon [CHA RG-316(https://chameleonantenna.com/products/cha-rg-316?variant=46594486927606)
+* 25 ft Chameleon [CHA RG-316(https://chameleonantenna.com/products/cha-rg-316?variant=46594486927606)
   with integrated RFI Choke.
 
 -----
