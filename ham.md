@@ -3,6 +3,9 @@ title: Ham Radio — K7SKJ
 layout: page
 ---
 
+> Right now this page is a bit of a brain dump, I hope to turn some sections
+> into more structured and detailed posts and reduce the size of this page.
+
 Like many new hams my first radio was a hand-held (or HT, in the parlance) and these
 days that's most often a Chinese made radio such as a Baofeng. For me it was the
 Boafeng [BF-F8HP PRO](https://baofengtech.com/product/bf-f8hp-pro) a 10W tri-
@@ -420,29 +423,30 @@ A project, more later.
 ### Mobile Repeater Box
 
 A project, mainly for fun and to do something with these two UV-5RM radios I
-bought on sale ($60 for the pair!).
+bought on sale.
 
 * 2 Boafeng [UV-5RM Plus](https://www.baofengradio.com/products/uv-5rm-plus-8w-multi-band-radio)
-  10W dual band ham radio $60.
+  10W dual band ham radio, $60 for the pair.
 * Surecom [SR-629](https://www.surecom.com.hk/sr629) 2-in-1 duplex cross band
-  radio repeater controller $42.
+  radio repeater controller, $42.
 * [NOBIS](https://www.amazon.com/dp/B0GHC4LMHP) 20000mAh/90W laptop portable
-  power bank $49.
-* 2 [HYS 2m/70cm](https://www.amazon.com/dp/B07V4S4Q6M) gooseneck 11.8" antenna
+  power bank, $49.
+* 2 [HYS 2m/70cm](https://www.amazon.com/dp/B07V4S4Q6M) gooseneck 11.8" antenna,
   2×$15.
 * [Apache 1800](https://www.harborfreight.com/1800-weatherproof-protective-case-small-black-64550.html)
-  weatherproof protective case $15.
+  weatherproof protective case, $15.
+* 2 BNC female/female bulkhead connectors, $11 for four, to mount the antenna.
+* 2 4" SMA to BNC cables, from spares bag, to connect the radios to the bulkhead
+  connectors.
+* Penglin USB C bulkhead thru-port with waterproof screw cap, $20 for two allows
+  me to charge the power bank without opening the case.
+* Short USB cable to connect the power bank to the external port, from spares
+  bag.
+* Short USB cables to connect the power bank to the Surecom controller and to
+  the two radios, from spares bag.
+* 2 short 90 degree USB C adapters, $9 for the pair, to fit the radios.
 
-To complete the repeater I used two BNC female/female bulkhead connectors (\\$11
-for four) to mount the antenna, and two 4" SMA to BNC cables (from spares bag)
-to connect the radios to the bulkhead connectors. A Penglin USB C bulkhead thru
-port with waterproof screw cap (\\$20 for two) allows me to charge the power bank
-without opening the case, and then a set of *as short as possible* USB cables
-(from spares bag) to connect the power bank to the external port, the Surecom
-controller, and both radios. The radios have their ports on the back which is a
-pain and so cable with 90 degreeb USB C connectors (\\$9) are very useful.
-
-I make the total around \\$236, with the only actual "work" being drilling three
+I make the total around $236, with the only actual "work" being drilling three
 holes in the case, applying some silicone around the ports just in case and then
 setting up the radios and the controller.
 
@@ -477,7 +481,7 @@ Cables
   high-visibility coax cable, with carry bag and reel.
 * 100 ft Chameleon [CHA COAX](https://chameleonantenna.com/products/cha-coax-with-integrated-rfi-choke?variant=46583992058102)
   with integrated RFI Choke.
-* 25 ft Chameleon [CHA RG-316(https://chameleonantenna.com/products/cha-rg-316?variant=46594486927606)
+* 25 ft Chameleon [CHA RG-316](https://chameleonantenna.com/products/cha-rg-316?variant=46594486927606)
   with integrated RFI Choke.
 
 -----
