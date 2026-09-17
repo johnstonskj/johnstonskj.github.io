@@ -3,8 +3,8 @@ title: Ham Radio -- K7SKJ
 layout: page
 ---
 
-Like many new hams my first radio was a hand-held (HT in the parlance) and these
-days that's most often a Chinese made radio such as a Baofend. For me it was the
+Like many new hams my first radio was a hand-held (or HT, in the parlance) and these
+days that's most often a Chinese made radio such as a Baofeng. For me it was the
 Boafeng [BF-F8HP PRO](https://baofengtech.com/product/bf-f8hp-pro) a 10W tri-
 band Ham (2, 1.25m, a and 70cm) radio, with GPS, 1,000 channels, supporting
 airband, NOAA, and FM receive, IP54, USB-C Charging, and Firmware Updatable.
@@ -63,23 +63,24 @@ My first *grown up* radio.
 
 * Icom [IC-705](https://www.icomamerica.com/lineup/products/IC-705/) 160m-70cm
   all-mode transceiver.
-* Icom [IC-SP3](https://www.universal-radio.com/catalog/hamhf/sp3b.html)
-  speaker from a ham fleamarket.
-* VE2DX Electronics [IM1-HDMI V2](https://www.dxengineering.com/parts/vex-im1-hdmiv2)
-  bluetooth CIV to HDMI meter display with [5.5" camera field monitor](https://www.amazon.com/dp/B0FN4G3NX6).
-  The monitor has fantastic resolution, but more importantly has HDMI inputs
-  and tripod mounts, **and** a detachable recharchable battery!
-* I Also have the VE2DX
-  [IM1-4BTPLUS V2](https://www.dxengineering.com/parts/vex-im14btplusv2)
-  Icom stand-alone digital meter and TrueCIV interface for mobile use,
-  and a [CT17B-7DM V2](https://www.dxengineering.com/parts/VEX-CT17B-7DMV2)
-  bluetooth and USB Icom interface 5-port TrueCIV data hub.
-* Icom [AH-705](https://www.icomjapan.com/lineup/options/AH-705/) antenna
+* Icom [AH-705](https://www.icomjapan.com/lineup/options/AH-705/) HF antenna
   tuner.
 * The Peovi® [carry cage](https://peovi.com/products/ic705-tatical-cage) with
   optional *back wrap*, *front cover*, and *nato rail*. I specifically use the
   nato rail and a small tripod adapter so I can mount the camera monitor
   directly on top of the radio when mobile.
+* Icom [IC-SP3](https://www.universal-radio.com/catalog/hamhf/sp3b.html)
+  speaker from a ham fleamarket.
+* VE2DX Electronics [IM1-HDMI V2](https://www.dxengineering.com/parts/vex-im1-hdmiv2)
+  bluetooth CIV to HDMI meter display and a
+  [5.5" camera field monitor](https://www.amazon.com/dp/B0FN4G3NX6).
+  The monitor has fantastic resolution, but more importantly has HDMI inputs,
+  tripod mounts, **and** a detachable recharcheable battery!
+* I Also have the VE2DX
+  [IM1-4BTPLUS V2](https://www.dxengineering.com/parts/vex-im14btplusv2)
+  Icom stand-alone digital meter and TrueCIV interface for mobile use,
+  and a [CT17B-7DM V2](https://www.dxengineering.com/parts/VEX-CT17B-7DMV2)
+  bluetooth and USB Icom interface 5-port TrueCIV data hub.
 * A Bencher [BY-1](https://www.vibroplex.com/contents/en-us/p199.html) Iambic
   Paddle, although my CW is not yet ready for for the airwaves.
 
@@ -115,7 +116,7 @@ KXPA100 connected to both antennas.
 * Mini microphone by G1JKS, from [Etsy](https://www.etsy.com/listing/4504479593/electraft-kx2-and-kx3-mini-microphone-by).
 * Vintage Heathkit [HS-24](https://www.radiomuseum.org/r/heath_hs_24_hs2.html) speaker.
 * QRPworks [SideKar Decoder Edition](https://www.qrpworks.com/sidekar-decoder-edition.html)
-  for CW, PSK, and RTTY with a standard keyboard!
+  for CW, PSK, and RTTY with a standard keyboard.
 * PX3 Panadapter
 * [KXPA100](https://elecraft.com/products/kxpa100-100w-amplifier-with-optional-internal-atu)
   100w power amplifier with the optional
@@ -140,6 +141,27 @@ RAM arms I have a really nice, stable setup.
 > and [PX3](https://gemsproducts.com/product/px3-end-panels/), as well as well
 > as the covers for the [KX3](https://gemsproducts.com/product/kx3-cover/)
 > and [PX3](https://gemsproducts.com/product/px3-cover/).
+
+```text
+                      ┌────────────────────────────┐
+                  ACC1│        ACC1                │
+                    PC│ ┌─────────────────┐ ACC2  ╭┴╮ CONTROL
+                      │ │ ┌─────────────┐ │ ┌─────┤ ├─────┐     ┌──── computer
+   ╔═════════╗      ╔═╧═╧═╧═╗ RX I/Q  ╔═╧═╧═╧═╗   ╰─╯   ╔═╧═════╧═╗
+   ║ SideKar ║      ║  PX3  ║         ║  KX3  ║         ║ KXPA100 ╟── DC 12V
+   ╚═╤═════╤═╝      ╚═══╤═══╝         ╚═══╤═╤═╝ antenna ╚═╤═╤═╤═╤═╝
+     │   DC│          DC│               DC│ └─────────────┘ │ │ └──── antenna 1
+     │     └────────────┴─────────────────┴─────────────────┘ └────── antenna 2
+     └─── keyboard
+```
+
+Notes:
+
+1. for the `ACC1` and `RX I/Q` connections, on the PX3 side use the ports
+   marked `ACC1 XCVR` and `RX I/Q XCVR`.
+2. The rounded box between the KXPA100 and KX3 is the multi-use small box on the
+   *KX3 to KXPA100 adapter cable* supplied with the amplifier.
+3. Power to the KX3, PX3, and SideKar is supplied (at present) by the KPA100.
 
 When I'm mobile I have a core setup in a
 [ES80](https://elecraft.com/products/es80_es80-kx3-carrying-case) with the KX3
@@ -242,7 +264,7 @@ is used for voice (the vertical) and one for data (the horizontal).
 |---|---------|---|--------------|---|----------------|
 | 1 | GMRS    | 1 | GMRS         | 1 |                |
 | 2 | Scanner | 2 | Scanner      | 2 |                |
-| 3 | IC-705  | 3 | 20/70 (v)    | 3 | *Blank*        |
+| 3 | IC-705  | 3 | 20/70 (v)    | 3 |                |
 | 4 | *Bench* | 4 | 20/70 (h)    | 4 | DG-503 HF in   |
 | 5 | KXPA #1 | 5 | 6m           | 5 | DG-503 HF out  |
 | 6 | KXPA #2 | 6 | 10m          | 6 | DG-503 VHF in  |
@@ -255,6 +277,22 @@ testing.
 ### Computer
 
 Hardware, TBD
+
+```text
+                               ┌────────────┐
+         ┌─────────────┬───────┤ LG Monitor │
+         │             │       └────────────┘
+   ╔═════╧═════╗   ╔═══╧═══╗   ╔═══════╗   ╔═══════╗
+   ║ Mac  Mini ║   ║ MBPro ║   ║ sBitx ║   ║ Other ║
+   ╚══╤════════╝   ╚═══╤═══╝   ╚═══╤═══╝   ╚═══╤═══╝
+    ┌─┴─┐            ┌─┴───────────┴─┐         │
+    │   ├────────────┤  USB  switch  ├─────────┘
+    │ H ├─ KXPA100   └─────────────┬─┘     
+    │ U ├─ IC-705                  ├─ Keyboard
+    │ B ├─ sBitx                   └─ Trackpad
+    │   ├─ 
+    └───┘  
+```
 
 Software
 
@@ -390,15 +428,15 @@ bought on sale ($60 for the pair!).
   radio repeater controller $42.
 * [NOBIS](https://www.amazon.com/dp/B0GHC4LMHP) 20000mAh/90W laptop portable
   power bank $49.
-* 2 [HYS 2m/70cm](https://www.amazon.com/dp/B07V4S4Q6M) gooseneck 11.8in antenna
+* 2 [HYS 2m/70cm](https://www.amazon.com/dp/B07V4S4Q6M) gooseneck 11.8" antenna
   2×$15.
 * [Apache 1800](https://www.harborfreight.com/1800-weatherproof-protective-case-small-black-64550.html)
   weatherproof protective case $15.
 
-To complete the repeater I used two BNC female/female bulkhead connectors ($11
+To complete the repeater I used two BNC female/female bulkhead connectors (\$11
 for four) to mount the antenna, and two 4" SMA to BNC cables (from spares bag)
 to connect the radios to the bulkhead connectors. A Penglin USB C bulkhead thru
-port with waterproof screw cap ($20 for two) allows me to charge the power bank
+port with waterproof screw cap (\$20 for two) allows me to charge the power bank
 without opening the case, and then a set of *as short as possible* USB cables
 (from spares bag) to connect the power bank to the external port, the Surecom
 controller, and both radios. The radios have their ports on the back which is a
@@ -414,7 +452,7 @@ setting up the radios and the controller.
 
 * Buddipole™ [Deluxe Package](https://www.buddipole.com/debupa.html), an awesome
   all-in-one tripod, mast, and dipole for 7 to 54MHz continuous, and 144 to
-  148MHz.
+  148MHz. This also comes in it's own bag along with 50 ft of coax.
 * Arrow Antennas [52-1BP Arrow II Dipole](https://www.arrowantennas.com/arrowii/52-1.html)
   with the *222 MHz 6 element set* to make this a 6m dipole. Alternatively I use
   the *146 MHz 4 element set*, *440 MHz 10 element set*, and the
@@ -424,13 +462,14 @@ setting up the radios and the controller.
 Masts
 
 * Intellitron [AM-2306K](https://www.gigaparts.com/intellitron-am-2306k-34ft-telescopic-fiberglass-mast-with-quick-release-clamps-7ft-sections.html)
-  34ft Telescopic Fiberglass Mast with Quick-Release Clamps.
-  * with Intellitron [AM-812FX](https://www.gigaparts.com/intellitron-am-812fx-guy-ring-set-fiberglass.html)
-    Fiberglass Guy Ring Set.
+  34ft Telescopic Fiberglass Mast with Quick-Release Clamps. Not terribly
+  portable, but I do have a drive-over mount if I want a stable base.
+  * I added the Intellitron [AM-812FX](https://www.gigaparts.com/intellitron-am-812fx-guy-ring-set-fiberglass.html)
+    Fiberglass guy ring set and home-made paracord guy ropes.
 * Chameleon [CHA CFM](https://chameleonantenna.com/products/cha-cfm?variant=49200385360118)
-  34 ft telescopic carbon fiber mast with steel base and 3/8×24 stud.
+  34 ft telescopic carbon fiber mast with steel base and 3/8"×24 stud.
 * Explorer [POTA33B](https://www.gigaparts.com/explorer-pota33b-33ft-portable-telescopic-carbon-fiber-mast.html)
-  33ft telescopic carbon fiber mast.
+  33ft telescopic carbon fiber mast - the smallest and lightest of the three.
 
 Cables
 
