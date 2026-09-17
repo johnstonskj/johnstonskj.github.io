@@ -1,5 +1,5 @@
 ---
-title: Ham Radio -- K7SKJ
+title: Ham Radio — K7SKJ
 layout: page
 ---
 
@@ -433,16 +433,16 @@ bought on sale ($60 for the pair!).
 * [Apache 1800](https://www.harborfreight.com/1800-weatherproof-protective-case-small-black-64550.html)
   weatherproof protective case $15.
 
-To complete the repeater I used two BNC female/female bulkhead connectors (\$11
+To complete the repeater I used two BNC female/female bulkhead connectors (\\$11
 for four) to mount the antenna, and two 4" SMA to BNC cables (from spares bag)
 to connect the radios to the bulkhead connectors. A Penglin USB C bulkhead thru
-port with waterproof screw cap (\$20 for two) allows me to charge the power bank
+port with waterproof screw cap (\\$20 for two) allows me to charge the power bank
 without opening the case, and then a set of *as short as possible* USB cables
 (from spares bag) to connect the power bank to the external port, the Surecom
 controller, and both radios. The radios have their ports on the back which is a
-pain and so cable with 90 degreeb USB C connectors ($9) are very useful.
+pain and so cable with 90 degreeb USB C connectors (\\$9) are very useful.
 
-I make the total around $236, with the only actual "work" being drilling three
+I make the total around \\$236, with the only actual "work" being drilling three
 holes in the case, applying some silicone around the ports just in case and then
 setting up the radios and the controller.
 
