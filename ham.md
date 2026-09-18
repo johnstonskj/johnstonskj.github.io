@@ -1,5 +1,5 @@
 ---
-title: Ham Radio — K7SKJ
+title: Ham Radio
 layout: catpage
 category: ham
 permalink: /ham/
