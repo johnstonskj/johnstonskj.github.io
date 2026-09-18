@@ -60,6 +60,8 @@ bench with the sides slightly assymmetrical and shown with the dashed line in
 the figure above. Each of the left bus is bonded to the right which is in turn
 bonded to the case of the WAudio W-5900.
 
+<!-- For more on my ham space, I posted {% post_url 2026-09-18-Ham-Shack-Tour %}. -->
+
 ### Icom IC-705
 
 My first *grown up* radio.
@@ -230,52 +232,8 @@ effective discone works very well.
 * RadioWavz [10M Bazooka](https://www.radiowavz.com/product/double-bazooka-antenna/65)
   built for 1500w SSB/PEP 200W CW!
 
-Each antenna is mounted in the garage attic and it's cable is fed to a fixed
-SO-239 mount attached to a horizontal beam. These consist of two 8" 90° angle
-brackets in 3/8" stainless steel with four SO-239 pass-thru connectors. These
-allow working in the attic space without having to have cables dangling to the
-floor. I use Messi and Paoloni
-[UltraFlex 10](https://messi.it/en/catalogue/50-ohm-coaxial-cables/standard-cables-list/ultraflex-10-400.htm)
-for antenna to connector,r for some of the lighter antenna the Messi and Paoloni
-[Airborne 5](https://messi.it/en/catalogue/50-ohm-cables-ham-radio/airborne-5.htm).
-I use the UltraFlex 10 exclusively for connector to patch rack and a mix of the
-UltraFlex 10 and Airborne 5 for rack to rig and rack to meter runs.
-
-```text
-   antennas ─┐ ┌─ antennas
-             ┴ ┴
-         connectors
-             ┬ ┬
-             ╱ ╱
-   meters    │ │
-    ┬ ┬   ┌──┴─┴──┐
-    │ └───┤ Patch ├┈┈┈ left ground bus
-    └─────┤  Rack │
-          └──┬─┬──┘
-             │ └───┤ Transceivers
-             └─────┤   Scanners
-```
-
-A 6U 10" wall mounted rack with (currently) two 1u inserts each with seven
-D-series connector blanks. I add good quality 50Ω D-series BNC connectors to
-these so there is one row for the fixed antenna above, and one row for the
-shack radios. Radios and antennas are matched with 30cm RG58 BNC cables. For
-example, the IC-705 is often switched between the two 2m/70cm antenna as one
-is used for voice (the vertical) and one for data (the horizontal).
-
-| # | Radio   | # | Antenna      | # | Meter          |
-|---|---------|---|--------------|---|----------------|
-| 1 | GMRS    | 1 | GMRS         | 1 |                |
-| 2 | Scanner | 2 | Scanner      | 2 |                |
-| 3 | IC-705  | 3 | 20/70 (v)    | 3 |                |
-| 4 | *Bench* | 4 | 20/70 (h)    | 4 | DG-503 HF in   |
-| 5 | KXPA #1 | 5 | 6m           | 5 | DG-503 HF out  |
-| 6 | KXPA #2 | 6 | 10m          | 6 | DG-503 VHF in  |
-| 7 | sBitz   | 7 | *100W Dummy* | 7 | DG-503 VHF out |
-
-Port 4 on the radio row connects to a BNC connector fixed to the shack bench so  
-that any mobile or HT can be connected on the bench to any of the antenna for
-testing.
+For details on how I connect radios, antenna, and accessories, see the post
+{% post_url 2026-09-18-Ham-Shack-Antenna-Patch-Rack %}.
 
 ### Computer
 
