@@ -25,44 +25,8 @@ but the Icom certain got way more use, and I guess I got really hooked.
 
 This is a little grandiose, my "shack" is actually a second-hand oak roll-top
 desk from Facebook Marketplace which is now living in the garage with antennas
-in the open attic above.
-
-```text
-  left ground bus ┈┈┈┈┈┈┈┈┈┈┈┈┊┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ right ground bus
-                             ┌────────────────┐
-       ┌─────────────────────┤   Main Power   ├───────────────────────┐
-       │              ┌──────┤    Filtered    ├────────┐              │
-       │              │      └────────┬───────┘        │              │
-       │              │       ┊       │                │              │
-  ┌────┴─────┐     ┌──┴──┐    ┊    ┌──┴──┐          ┌──┴──┐    ┌──────┴──────┐
-  │ Computer │     │ PSU │    ┊    │ PSU │          │ PSU │    │ HT charging │
-  └──────────┘     └──┬──┘    ┊    └──┬──┘          └──┬──┘    └─────────────┘
-                      ├──USB  ┊       ├──USB           ├──USB
-                ┌─────┴────┐  ┊  ┌────┴─────┐     ┌────┴─────┐
-                │  GMRS &  │  ┊  │ Elecraft │     │  IC-705  │
-                │ Scanner  │  ┊  │          │     │   sBitz  │
-                └──────────┘  ┊  └──────────┘     └──────────┘
-```
-
-The main power input is handled by a
-[WAudio W-5900](https://waudiohifi.com/products/waudio-ac-noise-power-conditioner-mains-purifier-audio-video-noise-filter-surge-protector-with-us-standard-sockets-black)
-providing 8 filtered and 4 unfiltered outlets. Three of the filtered outlets are
-used for [BTech RPS-30PRO](https://baofengtech.com/product/rps-30pro/) 30 Amp
-power supplies. The computer, monitors, and the chargers for various HTs and
-accessories are not using filtered outlets.
-
-I run everything off Anderson power pole connectors, so every RPS-30PRO feeds
-into a [Chunzehui F-1005 9 Port 40A Power Distributor](https://www.czh-labs.com/products/chunzehui-f-1005-9-port-40a-anderson-powerpole-connector-power-splitter-distributor-source-strip-1-input-and-8-output).
-Because so many small devices and tools use USB power these days I also have a
-[StarTech 10-Port Industrial USB 5Gbps Hub](https://www.startech.com/en-us/usb-hubs/st1030usbm)
-at each power position with a short Anderson power cable.
-
-There are two main ground busses, large copper & heavy duty, on either side of
-bench with the sides slightly assymmetrical and shown with the dashed line in
-the figure above. Each of the left bus is bonded to the right which is in turn
-bonded to the case of the WAudio W-5900.
-
-<!-- For more on my ham space, I posted { % post_url 2026-09-18-Ham-Shack-Tour % }. -->
+in the open attic above. For more on this cozy space itself, I posted a
+[*Ham shack tour*]({ % post_url 2026-09-18-Ham-Shack-Tour % }).
 
 ### Icom IC-705
 

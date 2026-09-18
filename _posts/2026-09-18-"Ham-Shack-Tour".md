@@ -94,7 +94,25 @@ sturdy enough to hold my Intellitron mast, in a corner.
 
 ## Radio and Cable Storage
 
+I like to keep things ready to go, so radios, antenna, accessories tend to be
+organized into bags I can grab as needed. Unfortunately the number of these grew
+beyond what the desk could hold, then beyond what I could stand to stack
+"neatly" next to it. But, just as I was wondering what to do I was *gifted* a
+small but damaged shopping wagon! Perfect as it will never need to leave the
+garage but can now be wheeled out of the way if I need to get around the shack
+desk.
+
 ![Other Storage](/assets/img/posts/ham-shack-roller.jpeg)
+
+On the top of this, on the left, you can see the Nestout
+[large gear case](https://nestout.com/products/gear-case-large) I use for the
+Lab599 [TX-500](https://lab599.com/products/tproduct/506522908-147130382471-tx-500-discovery)
+and accessories. To the right, at the back is the top of the Windcamp touring series
+[Field Pack](https://www.windcamp.cn/productinfo/1458116.html), my homemade
+2m/70cm repeater, and one of the Elecraft
+[ES80](https://elecraft.com/products/es80_es80-kx3-carrying-case) cases.
+Underneath all that there are cable bags, line bags, a LifePo4 battery box and
+more.
 
 ## Attic Antennas
 
@@ -103,4 +121,5 @@ but initially messy.
 
 Attached to desk just above the antenna and equipment rollers is the patch rack
 I built for connecting radios, antenna, and accessories, see the post
-{% post_url 2026-09-18-Ham-Shack-Antenna-Patch-Rack %} for details.
+[*Ham shack antenna patch rack*]({% post_url 2026-09-18-Ham-Shack-Antenna-Patch-Rack %})
+for details.
