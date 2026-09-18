@@ -165,3 +165,9 @@ div.post-content div>p>img+span.caption {
   font-size: 0.6em;
   text-align: center;
 }
+
+div.post-content div.language-text+span.caption {
+  display: block;
+  font-size: 0.6em;
+  text-align: center;
+}
