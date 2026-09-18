@@ -1,6 +1,8 @@
 ---
 title: Ham Radio — K7SKJ
-layout: page
+layout: catpage
+category: ham
+permalink: /ham/
 ---
 
 > Right now this page is a bit of a brain dump, I hope to turn some sections
