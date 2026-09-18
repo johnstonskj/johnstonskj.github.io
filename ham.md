@@ -60,7 +60,7 @@ bench with the sides slightly assymmetrical and shown with the dashed line in
 the figure above. Each of the left bus is bonded to the right which is in turn
 bonded to the case of the WAudio W-5900.
 
-<!-- For more on my ham space, I posted {% post_url 2026-09-18-Ham-Shack-Tour %}. -->
+<!-- For more on my ham space, I posted { % post_url 2026-09-18-Ham-Shack-Tour % }. -->
 
 ### Icom IC-705
 
