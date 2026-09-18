@@ -4,7 +4,7 @@ layout: postx
 category: ham
 ---
 
-As described in the top-level [ham](/ham.md) page I currently have five fixed
+As described in the top-level [ham](/ham) page I currently have five fixed
 antenna in the garage over the "shack". When I only had the single IC-705, and
 fewer antenna, I started with a **Comet** 2-way switch but
 quickly outgrew it. At a [Mike and Key club](https://www.mikeandkey.org/index.php)
