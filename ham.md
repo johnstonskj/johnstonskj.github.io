@@ -26,7 +26,7 @@ but the Icom certain got way more use, and I guess I got really hooked.
 This is a little grandiose, my "shack" is actually a second-hand oak roll-top
 desk from Facebook Marketplace which is now living in the garage with antennas
 in the open attic above. For more on this cozy space itself, I posted a
-[*Ham shack tour*]({ % post_url 2026-09-18-Ham-Shack-Tour % }).
+[*Ham shack tour*]({% post_url 2026-09-18-Ham-Shack-Tour %}).
 
 ### Icom IC-705
 
