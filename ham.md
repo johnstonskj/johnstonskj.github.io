@@ -233,7 +233,7 @@ effective discone works very well.
   built for 1500w SSB/PEP 200W CW!
 
 For details on how I connect radios, antenna, and accessories, see the post
-{% post_url 2026-09-18-Ham-Shack-Antenna-Patch-Rack %}.
+[*Ham shack antenna patch rack*]({% post_url 2026-09-18-Ham-Shack-Antenna-Patch-Rack %}).
 
 ### Computer
 
