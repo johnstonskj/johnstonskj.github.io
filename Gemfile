@@ -5,6 +5,11 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 
 # ----------------------------------------------------------------------------------------------
+# Required 'core' libraries.
+gem 'bigdecimal'
+gem 'csv'
+
+# ----------------------------------------------------------------------------------------------
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 #
 gem "minima"

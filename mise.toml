@@ -1,0 +1,19 @@
+[tools]
+ruby = "latest"
+"gem:bundler" = "latest"
+"gem:jekyll" = "latest"
+
+[tasks.setup]
+run = "mise exec -- bundle install"
+
+[tasks.build]
+run = "mise exec -- bundle exec jekyll build"
+
+[tasks.serve]
+run = "mise exec -- bundle exec jekyll serve"
+
+[tasks.doctor]
+run = "mise exec -- bundle exec jekyll doctor"
+
+[tasks.clean]
+run = "mise exec -- bundle exec jekyll clean"
